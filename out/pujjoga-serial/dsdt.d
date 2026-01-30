@@ -1,0 +1,82 @@
+/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/dsdt.aml: \
+ src/mainboard/google/brya/dsdt.asl src/include/kconfig.h \
+ /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/config.h \
+ src/include/rules.h src/commonlib/bsd/include/commonlib/bsd/compiler.h \
+ src/include/acpi/acpi.h \
+ src/mainboard/google/brya/variants/pujjoga/include/variant/ec.h \
+ src/mainboard/google/brya/variants/baseboard/nissa/include/baseboard/ec.h \
+ src/ec/ec.h src/ec/google/chromeec/ec_commands.h \
+ src/mainboard/google/brya/variants/baseboard/nissa/include/baseboard/gpio.h \
+ src/soc/intel/alderlake/include/soc/gpe.h \
+ src/soc/intel/common/pch/include/intelpch/gpe.h \
+ src/soc/intel/alderlake/include/soc/gpio.h \
+ src/soc/intel/alderlake/include/soc/gpio_defs.h \
+ src/soc/intel/alderlake/include/soc/gpio_soc_defs.h \
+ src/soc/intel/common/block/include/intelblocks/gpio.h \
+ src/soc/intel/common/block/include/intelblocks/gpio_defs.h \
+ src/acpi/dsdt_top.asl src/acpi/acpigen_extern.asl \
+ src/vendorcode/google/chromeos/acpi/chromeos.asl \
+ src/security/vboot/vbnv_layout.h \
+ src/vendorcode/google/chromeos/acpi/gnvs.asl \
+ src/vendorcode/google/chromeos/acpi/ramoops.asl \
+ src/soc/intel/common/acpi/platform.asl \
+ src/commonlib/include/commonlib/console/post_codes.h \
+ src/arch/x86/acpi/post.asl \
+ src/soc/intel/common/block/acpi/acpi/globalnvs.asl \
+ src/cpu/intel/common/acpi/cpu.asl \
+ src/mainboard/google/brya/wwan_power.asl \
+ src/mainboard/google/brya/variants/pujjoga/include/variant/gpio.h \
+ src/soc/intel/common/block/acpi/acpi/northbridge.asl \
+ src/arch/x86/include/arch/hpet.h \
+ src/commonlib/bsd/include/commonlib/bsd/helpers.h \
+ src/soc/intel/alderlake/include/soc/iomap.h \
+ src/drivers/intel/gma/acpi/gfx.asl \
+ src/soc/intel/alderlake/acpi/southbridge.asl \
+ src/soc/intel/common/block/include/intelblocks/itss.h \
+ src/soc/intel/common/block/include/intelblocks/pcr.h \
+ src/soc/intel/alderlake/include/soc/pcr_ids.h \
+ src/soc/intel/common/acpi/pch_pcr.asl \
+ src/soc/intel/common/acpi/pcrlib.asl \
+ src/soc/intel/alderlake/acpi/camera_clock_ctl.asl \
+ src/soc/intel/alderlake/acpi/gpio.asl src/include/gpio.h \
+ src/soc/intel/common/acpi/gpio.asl \
+ src/soc/intel/common/block/acpi/acpi/gpio_op.asl \
+ src/soc/intel/common/block/include/intelblocks/gpio_defs.h \
+ src/soc/intel/alderlake/include/soc/irq.h \
+ src/soc/intel/common/block/acpi/acpi/lpc.asl \
+ src/soc/intel/alderlake/acpi/pch_hda.asl \
+ src/soc/intel/alderlake/acpi/pcie.asl \
+ src/soc/intel/alderlake/acpi/serialio.asl \
+ src/soc/intel/alderlake/acpi/scs.asl \
+ src/soc/intel/common/block/acpi/acpi/ufs.asl \
+ src/soc/intel/alderlake/include/soc/ufs.h \
+ src/soc/intel/alderlake/include/soc/pci_devs.h \
+ src/include/device/pci_def.h \
+ src/soc/intel/common/block/acpi/acpi/smbus.asl \
+ src/soc/intel/common/block/acpi/acpi/ish.asl \
+ src/soc/intel/alderlake/acpi/xhci.asl \
+ src/soc/intel/common/block/include/intelblocks/xhci.h \
+ src/soc/intel/common/acpi/xhci_wake.asl \
+ src/soc/intel/common/block/acpi/acpi/sram.asl \
+ src/soc/intel/common/block/acpi/acpi/heci.asl \
+ src/soc/intel/common/acpi/pci_osc.asl \
+ src/soc/intel/common/block/acpi/acpi/pch_glan.asl \
+ src/soc/intel/alderlake/acpi/tcss.asl \
+ src/soc/intel/common/block/include/intelblocks/tcss.h \
+ src/soc/intel/alderlake/acpi/tcss_xhci.asl \
+ src/soc/intel/alderlake/acpi/tcss_dma.asl \
+ src/soc/intel/alderlake/acpi/tcss_pcierp.asl \
+ src/drivers/intel/gma/acpi/default_brightness_levels.asl \
+ src/drivers/intel/gma/acpi/gma.asl \
+ src/drivers/intel/gma/acpi/configure_brightness_levels.asl \
+ src/drivers/intel/gma/acpi/common.asl \
+ src/soc/intel/common/block/acpi/acpi/gna.asl \
+ src/southbridge/intel/common/acpi/sleepstates.asl \
+ src/ec/google/chromeec/acpi/superio.asl \
+ src/ec/google/chromeec/acpi/ec.asl src/ec/google/chromeec/acpi/emem.asl \
+ src/ec/google/chromeec/acpi/ac.asl \
+ src/ec/google/chromeec/acpi/battery.asl \
+ src/ec/google/chromeec/acpi/cros_ec.asl \
+ src/ec/google/chromeec/acpi/pd.asl \
+ src/ec/google/chromeec/acpi/keyboard_backlight.asl \
+ src/mainboard/google/brya/acpi/cnvi_bt_reset.asl

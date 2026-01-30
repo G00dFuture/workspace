@@ -1,0 +1,176 @@
+V "GNAT Lib v14"
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A -gnatwa
+A -gnatwe
+A --RTS=/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U gma.gfx_init%b	gma-gfx_init.adb	35339102 NE OO PK IU
+W gma%s			gma.adb			gma.ali
+W gma.mainboard%s	gma-mainboard.ads	gma-mainboard.ali
+W hw%s			hw.ads			hw.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.display_probing%s  hw-gfx-gma-display_probing.adb  hw-gfx-gma-display_probing.ali
+
+U gma.gfx_init%s	gma-gfx_init.ads	4d30c0c5 EE NE OO PK IU
+W gma%s			gma.adb			gma.ali
+W hw%s			hw.ads			hw.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+
+D gma.ads		20260129053551 f2d0dc2c gma%s
+D gma-gfx_init.ads	20260129053551 16ea04b2 gma.gfx_init%s
+D gma-gfx_init.adb	20260129053551 7bf15779 gma.gfx_init%b
+D gma-mainboard.ads	20260129053550 94ddc8dd gma.mainboard%s
+D hw.ads		20260129053550 349e873c hw%s
+D hw-config.ads		20260129053605 9c7de24d hw.config%s
+D hw-gfx.ads		20260129053551 0ef3118b hw.gfx%s
+D hw-gfx-edid.ads	20260129053551 99bc6e4c hw.gfx.edid%s
+D hw-gfx-framebuffer_filler.ads  20260129053551 a4b94408 hw.gfx.framebuffer_filler%s
+D hw-gfx-gma.ads	20260129053551 69ad3432 hw.gfx.gma%s
+D hw-gfx-gma-display_probing.ads  20260129053551 abab2fad hw.gfx.gma.display_probing%s
+D hw-pci.ads		20260129053550 d2a0aee8 hw.pci%s
+D hw-port_io.ads	20260129053550 42e65734 hw.port_io%s
+D hw-time.ads		20260129053550 9808c5a0 hw.time%s
+D interfac.ads		20260129053606 069b9bbd interfaces%s
+D i-c.ads		20260129053606 9d949f67 interfaces.c%s
+D system.ads		20260129053606 21923ced system%s
+D s-parame.ads		20260129053606 ab6ddd12 system.parameters%s
+D gnat.adc		20260129053550 00000000
+G a e
+G c Z s b [gfxinit gma__gfx_init 11 14 none]
+G c Z s b [gfxstop gma__gfx_init 14 14 none]
+G c Z s s [c_fb_add_framebuffer_info_simple gma__gfx_init 19 13 none]
+G r c none [gfxinit gma__gfx_init 11 14 none] [initialize hw__gfx__gma 130 14 none]
+G r c none [gfxinit gma__gfx_init 11 14 none] [scan_ports hw__gfx__gma__display_probing 36 14 none]
+G r c none [gfxinit gma__gfx_init 11 14 none] [power_up_vga hw__gfx__gma 145 14 none]
+G r c none [gfxinit gma__gfx_init 11 14 none] [update_outputs hw__gfx__gma 155 14 none]
+G r c none [gfxstop gma__gfx_init 14 14 none] [update_outputs hw__gfx__gma 155 14 none]
+X 1 gma.ads
+7K9*GMA 16e8 2|8r9 29r5 3|11r6 13r14 70r5
+X 2 gma-gfx_init.ads
+8K13*GFX_Init 1|7k9 2|29l9 29e17 3|13b18 70l9 70t17
+11U14*gfxinit 11<23 12i<c,gma_gfxinit>22 3|17b14 57l8 57t15
+11i23 lightup_ok{16|35I9} 3|17b23 29m7 54m13
+14U14*gfxstop 15i<c,gma_gfxstop>22 3|59b14 68l8 68t15
+19V13*C_Fb_Add_Framebuffer_Info_Simple{16|35I9} 20>7 21>7 22>7 23>7 24>7
+. 27b<c,fb_add_framebuffer_info_simple>22
+20m7 fb_addr{16|60M9}
+21m7 x_resolution{5|34M12}
+22m7 y_resolution{5|34M12}
+23m7 bytes_per_line{5|34M12}
+24m7 bits_per_pixel{5|22M12}
+X 3 gma-gfx_init.adb
+15a4 configs{10|122A9} 36m25 40r13 46m13 47m13 48m13 51r52 52r40 62r10 64m13
+. 66r37
+19a7 ports{11|21A9} 34m10 37r25
+21b7 success{boolean} 31m41 31r41 33r10
+24U17*vga_io_init 25b<c,vga_io_init>25 42s13
+26U17*vga_textmode_init 27b<c,vga_textmode_init>25 43s13
+63e14 i{10|121E9} 64r22
+X 4 gma-mainboard.ads
+9K21*Mainboard 3|11w10 34r19 4|15e18
+10a4*ports{11|21A9} 3|34r29
+X 5 hw.ads
+17K9*HW 2|5w6 6r5 3|3r6 4r6 5r6 7r5 8r5 9r5 31r7 35r10 41r13 51r27 52r13
+. 66r10 5|91e7
+21M12*Byte{15|60M9}
+22M12*Word8{21M12} 2|24r24
+34M12*Word32{15|66M9} 2|21r22 22r22 23r24
+53I12*Pos32{15|49I9}
+X 7 hw-gfx.ads
+16K12*GFX 3|3w9 4r9 5r9 7r8 8r8 9r8 31r10 35r13 41r16 51r30 52r16 66r13 7|212e11
+26I12*Width_Type{5|53I12}
+27I12*Height_Type{5|53I12}
+40i7*Width{26I12} 3|46m43
+41i7*Height{27I12} 3|47m43
+49m7*Offset{5|34M12} 3|48m43
+X 10 hw-gfx-gma.ads
+24K16*GMA 3|4w13 5r13 8r12 9r12 31r14 35r17 41r20 51r34 52r20 66r17 10|356e15
+67n7*Disabled{66E9} 3|40r39 62r36 64r33
+116e7*Port{66E9} 3|40r31 62r28 64m25
+117r7*Framebuffer{7|38R9} 3|46m31 47m31 48m31
+121E9*Pipe_Index 3|63r19 10|121e53
+121n24*Primary{121E9} 3|38r25 40r22 46r22 47r22 48r22 62r19
+122A9*Pipe_Configs(115R9)<121E9> 3|15r14
+126N4*VGA_PLANE_FRAMEBUFFER_OFFSET 3|49r16
+130U14*Initialize 3|31s18
+133b7 Success{boolean} 3|31r30
+145U14*Power_Up_VGA 3|41s24
+155U14*Update_Outputs 3|52s24 66s21
+253U14*Dump_Configs 3|51s38
+X 11 hw-gfx-gma-display_probing.ads
+17K20*Display_Probing 3|5w17 9r16 35r21 11|44e31
+21A9*Port_List(10|66E9)<20I9> 3|19r15
+36U14*Scan_Ports 3|35s37
+37a7 Configs{10|122A9} 3|36r13
+38a7 Ports{21A9} 3|37r13
+39e7 Max_Pipe{10|121E9} 3|38r13
+X 15 interfac.ads
+36K9*Interfaces 2|3r6 11r40 20r16 25r14 3|17r40 15|159e15
+49I9*Integer_32<integer>
+60M9*Unsigned_8
+66M9*Unsigned_32
+X 16 i-c.ads
+18K20*C 2|3w17 11r51 20r27 25r25 3|17r51 16|81e17
+35I9*int<integer> 2|11r53 25r27 3|17r53
+60M9*size_t 2|20r29
+

@@ -1,0 +1,137 @@
+V "GNAT Lib v14"
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A -gnatwa
+A -gnatwe
+A --RTS=/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.gfx.framebuffer_filler%b  hw-gfx-framebuffer_filler.adb  b9613e32 NE OO PK IU
+W hw%s			hw.ads			hw.ali
+W hw.config%s		hw-config.ads		hw-config.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.mmio_range%s	hw-mmio_range.adb	hw-mmio_range.ali  EA
+Z system%s		system.ads		system.ali
+
+U hw.gfx.framebuffer_filler%s  hw-gfx-framebuffer_filler.ads  8bd8696e EE NE OO PK IU
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W system%s		system.ads		system.ali
+
+D hw.ads		20260129053550 349e873c hw%s
+D hw-config.ads		20260129053605 9c7de24d hw.config%s
+D hw-gfx.ads		20260129053551 0ef3118b hw.gfx%s
+D hw-gfx-framebuffer_filler.ads  20260129053551 a4b94408 hw.gfx.framebuffer_filler%s
+D hw-gfx-framebuffer_filler.adb  20260129053551 5a3d0279 hw.gfx.framebuffer_filler%b
+D hw-mmio_range.ads	20260129053550 db989a0e hw.mmio_range%s
+D hw-mmio_range.adb	20260129053550 4bae8abb hw.mmio_range%b
+D interfac.ads		20260129053606 069b9bbd interfaces%s
+D system.ads		20260129053606 21923ced system%s
+D gnat.adc		20260129053550 00000000
+G a e
+G c b b b [b hw__gfx__framebuffer_filler 19 1 none]
+G c Z s b [fill hw__gfx__framebuffer_filler 23 14 none]
+G c Z b b [read hw__gfx__framebuffer_filler__fb 30 14 27_4]
+G c Z b b [write hw__gfx__framebuffer_filler__fb 32 14 27_4]
+G c Z b b [set_base_address hw__gfx__framebuffer_filler__fb 34 14 27_4]
+G r i none [b hw__gfx__framebuffer_filler 19 1 none] [mmio_range hw 22 12 none]
+X 1 hw.ads
+17K9*HW 91e7 4|17r9 28r5 5|15r6 16r6 19r14 33r14 50r5
+34M12*Word32{8|66M9} 5|26r41 27r37
+40M12*Word64{8|69M9} 4|23r32 5|29r32
+48I12*Int32{8|49I9} 5|31r20
+53I12*Pos32{8|49I9}
+X 2 hw-config.ads
+15K12*Config 26e14 5|15w9 33r17
+18b4*Dynamic_MMIO{boolean} 5|33r24
+X 3 hw-gfx.ads
+16K12*GFX 1|17k9 3|212e11 4|17r12 28r8 5|19r17 50r8
+26I12*Width_Type{1|53I12} 5|25r21
+27I12*Height_Type{1|53I12} 5|25r39
+38R9*Framebuffer_Type 50e14 4|23r54 5|29r54
+40i7*Width{26I12} 5|40r38
+41i7*Height{27I12} 5|38r36
+45i7*Stride{26I12} 5|46r49
+X 4 hw-gfx-framebuffer_filler.ads
+17K16*Framebuffer_Filler 3|16k12 4|28l12 28e30 5|19b21 50l12 50t30
+19@24*State 5|21r22
+19@46*Base_Address 20r19 5|21r41
+23U14*Fill 23>20 23>40 5|29b14 48l8 48t12
+23m20 Linear_FB{1|40M12} 5|29b20 37r28
+23r40 Framebuffer{3|38R9} 5|29b40 38r24 40r26 46r37
+X 5 hw-gfx-framebuffer_filler.adb
+24I9 FB_Index<integer> 26r28 27r45 44r23
+26A9 FB_Range(1|34M12)<24I9> 27r55
+27K12 FB[6|22] 21r31 21r57 37r7 44r13
+31i7 Line_Start{1|48I12} 44r33 46m10 46r24
+38i11 Line<integer>
+40i14 Col<integer> 44r46
+X 6 hw-mmio_range.ads
+22k12*MMIO_Range 5|16w9 17r26 27r22 6|36e18
+25@8*State 5|21r34[27]
+26@7*Base_Address 5|21r60[27]
+32U14 Write 5|44s16[27]
+34U14 Set_Base_Address 5|37s10[27]
+X 8 interfac.ads
+49I9*Integer_32<integer>
+66M9*Unsigned_32
+69M9*Unsigned_64
+X 9 system.ads
+43K9*System 4|15w6 9|175e11
+

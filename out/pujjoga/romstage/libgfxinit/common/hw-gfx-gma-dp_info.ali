@@ -1,0 +1,161 @@
+V "GNAT Lib v14"
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A -gnatwa
+A -gnatwe
+A --RTS=/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.gfx.gma.dp_info%b	hw-gfx-gma-dp_info.ads	38def494 NE OO PK IU
+W ada%s			ada.ads			ada.ali
+Z ada.unchecked_conversion%s
+W gnat%s		gnat.ads		gnat.ali
+Z gnat.source_info%s	g-souinf.ads		g-souinf.ali
+W hw%s			hw.ads			hw.ali
+Z hw.debug%s		hw-debug.adb		hw-debug.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+Z hw.gfx.dp_aux_ch%s	hw-gfx-dp_aux_ch.adb	hw-gfx-dp_aux_ch.ali
+Z hw.gfx.dp_defs%s	hw-gfx-dp_defs.ads	hw-gfx-dp_defs.ali
+W hw.gfx.dp_info%s	hw-gfx-dp_info.adb	hw-gfx-dp_info.ali  EA
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.dp_aux_ch%s  hw-gfx-gma-dp_aux_ch.ads  hw-gfx-gma-dp_aux_ch.ali
+Z hw.gfx.i2c%s		hw-gfx-i2c.ads		hw-gfx-i2c.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U hw.gfx.gma.dp_info%s	hw-gfx-gma-dp_info.ads	fb4e2b06 EB NE OO PK IU
+W hw%s			hw.ads			hw.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+Z hw.gfx.dp_aux_ch%s	hw-gfx-dp_aux_ch.adb	hw-gfx-dp_aux_ch.ali
+Z hw.gfx.dp_defs%s	hw-gfx-dp_defs.ads	hw-gfx-dp_defs.ali
+W hw.gfx.dp_info%s	hw-gfx-dp_info.adb	hw-gfx-dp_info.ali  EA
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.dp_aux_ch%s  hw-gfx-gma-dp_aux_ch.ads  hw-gfx-gma-dp_aux_ch.ali
+Z hw.gfx.i2c%s		hw-gfx-i2c.ads		hw-gfx-i2c.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20260129053606 3ffc8e18 ada%s
+D a-unccon.ads		20260129053606 f9eb8f06 ada.unchecked_conversion%s
+D gnat.ads		20260129053606 fd2ad2f1 gnat%s
+D g-souinf.ads		20260129053606 7fd67a54 gnat.source_info%s
+D hw.ads		20260129053550 349e873c hw%s
+D hw-config.ads		20260129053605 9c7de24d hw.config%s
+D hw-debug.ads		20260129053550 1328ccd5 hw.debug%s
+D hw-gfx.ads		20260129053551 0ef3118b hw.gfx%s
+D hw-gfx-dp_aux_ch.ads	20260129053551 52048a5d hw.gfx.dp_aux_ch%s
+D hw-gfx-dp_defs.ads	20260129053551 30f739dd hw.gfx.dp_defs%s
+D hw-gfx-dp_info.ads	20260129053551 f9a9ac31 hw.gfx.dp_info%s
+D hw-gfx-dp_info.adb	20260129053551 215d6e11 hw.gfx.dp_info%b
+D hw-gfx-framebuffer_filler.ads  20260129053551 a4b94408 hw.gfx.framebuffer_filler%s
+D hw-gfx-gma.ads	20260129053551 69ad3432 hw.gfx.gma%s
+D hw-gfx-gma-dp_aux_ch.ads  20260129053551 53944791 hw.gfx.gma.dp_aux_ch%s
+D hw-gfx-gma-dp_aux_request.ads  20260129053551 d673ea1e hw.gfx.gma.dp_aux_request%s
+D hw-gfx-gma-dp_info.ads  20260129053551 38def494 hw.gfx.gma.dp_info%s
+D hw-gfx-gma-dp_info.ads  20260129053551 38def494 hw.gfx.gma.dp_info%b
+D hw-gfx-i2c.ads	20260129053551 e54ab4f7 hw.gfx.i2c%s
+D hw-pci.ads		20260129053550 d2a0aee8 hw.pci%s
+D hw-port_io.ads	20260129053550 42e65734 hw.port_io%s
+D hw-time.ads		20260129053550 9808c5a0 hw.time%s
+D interfac.ads		20260129053606 069b9bbd interfaces%s
+D system.ads		20260129053606 21923ced system%s
+D s-unstyp.ads		20260129053606 bb502f34 system.unsigned_types%s
+D gnat.adc		20260129053550 00000000
+G a e
+G c s s s [s hw__gfx__gma__dp_info 19 9 none]
+G c Z s s [read_caps hw__gfx__gma__dp_info 84 14 19_9]
+G c Z s s [read_edp_rates hw__gfx__gma__dp_info 89 14 19_9]
+G c Z s s [preferred_link_setting hw__gfx__gma__dp_info 93 14 19_9]
+G c Z s s [next_link_setting hw__gfx__gma__dp_info 98 14 19_9]
+G c Z s s [dump_link_setting hw__gfx__gma__dp_info 106 14 19_9]
+G c Z s s [calculate_m_n hw__gfx__gma__dp_info 115 14 19_9]
+G c Z s s [read_link_status hw__gfx__gma__dp_info 125 14 19_9]
+G c Z s s [all_cr_done hw__gfx__gma__dp_info 130 13 19_9]
+G c Z s s [all_eq_done hw__gfx__gma__dp_info 135 13 19_9]
+G c Z s s [max_requested_vs hw__gfx__gma__dp_info 140 13 19_9]
+G c Z s s [max_requested_emph hw__gfx__gma__dp_info 145 13 19_9]
+G c Z s s [read_le16 hw__gfx__gma__dp_info 90 13 19_9]
+G c Z s s [minimum_lane_count hw__gfx__gma__dp_info 177 14 19_9]
+G r i none [s hw__gfx__gma__dp_info 19 9 none] [dp_info hw__gfx 23 16 none]
+G r c none [read_caps hw__gfx__gma__dp_info 84 14 19_9] [aux_read hw__gfx__gma__dp_aux_ch 32 14 19_9]
+G r c none [read_edp_rates hw__gfx__gma__dp_info 89 14 19_9] [aux_read hw__gfx__gma__dp_aux_ch 32 14 19_9]
+G r c none [preferred_link_setting hw__gfx__gma__dp_info 93 14 19_9] [div_round_up hw 81 13 none]
+G r c none [next_link_setting hw__gfx__gma__dp_info 98 14 19_9] [div_round_up hw 81 13 none]
+G r c none [dump_link_setting hw__gfx__gma__dp_info 106 14 19_9] [put hw__debug 18 14 none]
+G r c none [dump_link_setting hw__gfx__gma__dp_info 106 14 19_9] [put_int32 hw__debug 29 14 none]
+G r c none [dump_link_setting hw__gfx__gma__dp_info 106 14 19_9] [new_line hw__debug 20 14 none]
+G r c none [read_link_status hw__gfx__gma__dp_info 125 14 19_9] [aux_read hw__gfx__gma__dp_aux_ch 32 14 19_9]
+G r c none [minimum_lane_count hw__gfx__gma__dp_info 177 14 19_9] [div_round_up hw 81 13 none]
+X 5 hw.ads
+17K9*HW 91e7 18|15r6 17r6 19r17 20r11
+X 8 hw-gfx.ads
+16K12*GFX 5|17k9 8|212e11 18|15r9 17r9 19r20 20r14
+X 11 hw-gfx-dp_info.ads
+19+9 T 18|21r7
+21K17 Aux_Ch 18|22r7
+23k16*DP_Info 150e19 18|15w13 16r30 20r18
+X 14 hw-gfx-gma.ads
+24K16*GMA 8|16k12 14|356e15 18|17r13 19r24
+333E9 DP_Port 333e74 18|21r19
+X 15 hw-gfx-gma-dp_aux_ch.ads
+19K28*DP_Aux_Ch[9|30] 18|17w17 22r19
+X 18 hw-gfx-gma-dp_info.ads
+19K28*DP_Info[11|23] 14|24k16
+

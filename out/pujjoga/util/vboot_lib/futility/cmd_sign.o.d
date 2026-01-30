@@ -1,0 +1,29 @@
+/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga/util/vboot_lib/futility/cmd_sign.o: \
+  futility/cmd_sign.c firmware/2lib/include/2common.h \
+  firmware/2lib/include/2api.h firmware/2lib/include/2constants.h \
+  firmware/2lib/include/2context.h firmware/2lib/include/2crypto.h \
+  firmware/2lib/include/2sysincludes.h \
+  firmware/2lib/include/2fw_hash_tags.h \
+  firmware/2lib/include/2gbb_flags.h \
+  firmware/2lib/include/2return_codes.h firmware/2lib/include/2hmac.h \
+  firmware/2lib/include/2sha.h firmware/2lib/include/2id.h \
+  firmware/2lib/include/2info.h \
+  firmware/2lib/include/2recovery_reasons.h firmware/2lib/include/2rsa.h \
+  firmware/2lib/include/2secdata_struct.h firmware/2lib/include/2crc8.h \
+  firmware/include/gpt_misc.h firmware/include/gpt.h \
+  firmware/include/../2lib/include/2sysincludes.h \
+  firmware/include/../2lib/include/2constants.h \
+  firmware/2lib/include/2gbb.h firmware/2lib/include/2misc.h \
+  firmware/2lib/include/2struct.h firmware/2lib/include/2packed_key.h \
+  futility/file_type.h futility/file_type.inc futility/file_type_bios.h \
+  futility/futility.h host/lib/include/gsc_ro.h \
+  host/lib/include/host_key.h futility/futility_options.h \
+  host/lib/include/host_common.h host/lib21/include/host_key21.h \
+  host/lib/include/host_keyblock.h firmware/lib/include/vboot_struct.h \
+  host/lib/include/host_misc.h firmware/include/vboot_api.h \
+  firmware/include/../2lib/include/2return_codes.h \
+  firmware/include/vb2_gpt.h firmware/include/cgptlib.h \
+  host/lib/include/host_signature.h host/include/vboot_host.h \
+  host/include/cgpt_params.h host/lib21/include/host_common21.h \
+  host/lib21/include/host_struct21.h futility/kernel_blob.h \
+  host/lib/include/util_misc.h futility/vb1_helper.h

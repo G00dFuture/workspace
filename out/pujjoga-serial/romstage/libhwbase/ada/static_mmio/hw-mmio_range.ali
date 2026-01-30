@@ -1,0 +1,110 @@
+V "GNAT Lib v14"
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A -gnatwa
+A -gnatwe
+A --RTS=/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.mmio_range%b	hw-mmio_range.adb	903610b5 NE OO PK GE IU
+W hw%s			hw.ads			hw.ali
+Z system%s		system.ads		system.ali
+
+U hw.mmio_range%s	hw-mmio_range.ads	ce9421df BN EE NE OO PK GE IU
+W hw%s			hw.ads			hw.ali
+W system%s		system.ads		system.ali
+
+D hw.ads		20260129053550 349e873c hw%s
+D hw-mmio_range.ads	20260129053550 db989a0e hw.mmio_range%s
+D hw-mmio_range.adb	20260129053550 4bae8abb hw.mmio_range%b
+D interfac.ads		20260129053606 069b9bbd interfaces%s
+D system.ads		20260129053606 21923ced system%s
+D gnat.adc		20260129053550 00000000
+G a e
+G c Z s b [mmio_range hw 22 12 none]
+X 1 hw.ads
+17K9*HW 91e7 2|22r9 36r5 3|15r14 36r5
+40M12*Word64{4|69M9} 2|18r16 34r39 3|34r39
+X 2 hw-mmio_range.ads
+18m4 Base_Addr{1|40M12} 3|22r64
+19M9 Element_T 21r39 30r32 32r52 3|24r32 29r52
+20I9 Index_T 21r27 30r54 32r32 3|24r54 29r32
+21A9 Array_T(19M9)<20I9> 3|22r11
+22k12*MMIO_Range 1|17k9 2|18z4 19z9 20z9 21z9 36l8 36e18 3|15b17 36l8 36t18
+25@8*State 3|18r7
+26@7*Base_Address 27r19 3|19r7
+30U14*Read 30<20 30>43 3|24b14 27l8 27t12
+30*20 Value{19M9} 3|24b20 26m7
+30*43 Index{20I9} 3|24b43 26r22
+32U14*Write 32>21 32>41 3|29b14 32l8 32t13
+32*21 Index{20I9} 3|29b21 31r13
+32*41 Value{19M9} 3|29b41 31r23
+34U14*Set_Base_Address 34>32
+34m32 Base{1|40M12}
+X 3 hw-mmio_range.adb
+22*4 MMIO{2|21A9} 18r16 26r16 31m7
+34U14 Set_Base_Address
+34m32 Base{1|40M12}
+X 4 interfac.ads
+69M9*Unsigned_64
+X 5 system.ads
+43K9*System 2|15w6 3|22r45 5|175e11
+73M9*Address 3|22r45
+

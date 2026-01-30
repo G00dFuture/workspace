@@ -1,0 +1,436 @@
+V "GNAT Lib v14"
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A -gnatwa
+A -gnatwe
+A --RTS=/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.gfx.gma.power_and_clocks.tgl%b  hw-gfx-gma-power_and_clocks-tgl.adb  4ba2389a NE OO PK IU
+W gnat%s		gnat.ads		gnat.ali
+W gnat.source_info%s	g-souinf.ads		g-souinf.ali
+W hw%s			hw.ads			hw.ali
+W hw.debug%s		hw-debug.adb		hw-debug.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.config%s	hw-gfx-gma-config.adb	hw-gfx-gma-config.ali
+W hw.gfx.gma.connectors%s  hw-gfx-gma-connectors.adb  hw-gfx-gma-connectors.ali
+W hw.gfx.gma.connectors.tc%s  hw-gfx-gma-connectors-tc.adb  hw-gfx-gma-connectors-tc.ali
+W hw.gfx.gma.power_and_clocks%s  hw-gfx-gma-power_and_clocks.adb  hw-gfx-gma-power_and_clocks.ali
+W hw.gfx.gma.registers%s  hw-gfx-gma-registers.adb  hw-gfx-gma-registers.ali
+
+U hw.gfx.gma.power_and_clocks.tgl%s  hw-gfx-gma-power_and_clocks-tgl.ads  0f9ee837 EE NE OO PK IU
+W hw.gfx.gma.power_and_clocks%s  hw-gfx-gma-power_and_clocks.adb  hw-gfx-gma-power_and_clocks.ali
+
+D gnat.ads		20260129053606 fd2ad2f1 gnat%s
+D g-souinf.ads		20260129053606 7fd67a54 gnat.source_info%s
+D hw.ads		20260129053550 349e873c hw%s
+D hw-config.ads		20260129053605 9c7de24d hw.config%s
+D hw-debug.ads		20260129053550 1328ccd5 hw.debug%s
+D hw-gfx.ads		20260129053551 0ef3118b hw.gfx%s
+D hw-gfx-dp_aux_ch.ads	20260129053551 52048a5d hw.gfx.dp_aux_ch%s
+D hw-gfx-dp_defs.ads	20260129053551 30f739dd hw.gfx.dp_defs%s
+D hw-gfx-dp_info.ads	20260129053551 f9a9ac31 hw.gfx.dp_info%s
+D hw-gfx-framebuffer_filler.ads  20260129053551 a4b94408 hw.gfx.framebuffer_filler%s
+D hw-gfx-gma.ads	20260129053551 69ad3432 hw.gfx.gma%s
+D hw-gfx-gma-config.ads	20260129053605 61acc94b hw.gfx.gma.config%s
+D hw-gfx-gma-config_helpers.ads  20260129053551 c7364f0c hw.gfx.gma.config_helpers%s
+D hw-gfx-gma-connectors.ads  20260129053551 08429727 hw.gfx.gma.connectors%s
+D hw-gfx-gma-connectors-tc.ads  20260129053550 b8b47837 hw.gfx.gma.connectors.tc%s
+D hw-gfx-gma-dp_aux_ch.ads  20260129053551 53944791 hw.gfx.gma.dp_aux_ch%s
+D hw-gfx-gma-dp_aux_request.ads  20260129053551 d673ea1e hw.gfx.gma.dp_aux_request%s
+D hw-gfx-gma-dp_info.ads  20260129053551 38def494 hw.gfx.gma.dp_info%s
+D hw-gfx-gma-power_and_clocks.ads  20260129053550 1834b7cb hw.gfx.gma.power_and_clocks%s
+D hw-gfx-gma-power_and_clocks-tgl.ads  20260129053550 17aa5ffc hw.gfx.gma.power_and_clocks.tgl%s
+D hw-gfx-gma-power_and_clocks-tgl.adb  20260129053550 24b8b2dd hw.gfx.gma.power_and_clocks.tgl%b
+D hw-gfx-gma-registers.ads  20260129053550 cd56d246 hw.gfx.gma.registers%s
+D hw-gfx-i2c.ads	20260129053551 e54ab4f7 hw.gfx.i2c%s
+D hw-pci.ads		20260129053550 d2a0aee8 hw.pci%s
+D hw-port_io.ads	20260129053550 42e65734 hw.port_io%s
+D hw-time.ads		20260129053550 9808c5a0 hw.time%s
+D interfac.ads		20260129053606 069b9bbd interfaces%s
+D system.ads		20260129053606 21923ced system%s
+D s-unstyp.ads		20260129053606 bb502f34 system.unsigned_types%s
+D gnat.adc		20260129053550 00000000
+G a e
+G c Z s b [power_set_to hw__gfx__gma__power_and_clocks__tgl 23 14 none]
+G c Z s b [power_up hw__gfx__gma__power_and_clocks__tgl 24 14 none]
+G c Z s b [power_down hw__gfx__gma__power_and_clocks__tgl 25 14 none]
+G c Z s b [all_off hw__gfx__gma__power_and_clocks__tgl 26 14 none]
+G c Z s b [need_pd hw__gfx__gma__power_and_clocks__tgl 27 13 none]
+G c Z s b [init_power hw__gfx__gma__power_and_clocks__tgl 28 14 none]
+G c Z s b [aux_off hw__gfx__gma__power_and_clocks__tgl 29 14 none]
+G c Z b b [hip_index_reg hw__gfx__gma__power_and_clocks__tgl 32 13 none]
+G c Z b b [hip_index_val hw__gfx__gma__power_and_clocks__tgl 37 13 none]
+G c Z b b [power_domain_type hw__gfx__gma__power_and_clocks__tgl 53 13 none]
+G c Z b b [domain_range_length hw__gfx__gma__power_and_clocks__tgl 69 13 none]
+G c Z b b [domain_first hw__gfx__gma__power_and_clocks__tgl 75 13 none]
+G c Z b b [domain_index hw__gfx__gma__power_and_clocks__tgl 81 13 none]
+G c Z b b [power_request_mask hw__gfx__gma__power_and_clocks__tgl 90 13 none]
+G c Z b b [power_state_mask hw__gfx__gma__power_and_clocks__tgl 93 13 none]
+G c Z b b [aux_to_port hw__gfx__gma__power_and_clocks__tgl 119 13 none]
+G c Z b b [pre_on hw__gfx__gma__power_and_clocks__tgl 128 14 none]
+G c Z b b [pre_off hw__gfx__gma__power_and_clocks__tgl 144 14 none]
+G c Z b b [post_on hw__gfx__gma__power_and_clocks__tgl 151 14 none]
+G c Z b b [pd_on hw__gfx__gma__power_and_clocks__tgl 166 14 none]
+G c Z b b [pd_off hw__gfx__gma__power_and_clocks__tgl 200 14 none]
+G r c none [power_set_to hw__gfx__gma__power_and_clocks__tgl 23 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [power_set_to hw__gfx__gma__power_and_clocks__tgl 23 14 none] [wait_set_mask hw__gfx__gma__registers 2359 14 none]
+G r c none [power_set_to hw__gfx__gma__power_and_clocks__tgl 23 14 none] [disconnect hw__gfx__gma__connectors__tc 20 14 none]
+G r c none [power_set_to hw__gfx__gma__power_and_clocks__tgl 23 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [power_set_to hw__gfx__gma__power_and_clocks__tgl 23 14 none] [wait_unset_mask hw__gfx__gma__registers 2371 14 none]
+G r c none [power_set_to hw__gfx__gma__power_and_clocks__tgl 23 14 none] [set_mask hw__gfx__gma__registers 2378 14 none]
+G r c none [power_set_to hw__gfx__gma__power_and_clocks__tgl 23 14 none] [wait_set_mask hw__gfx__gma__registers 2353 14 none]
+G r c none [power_set_to hw__gfx__gma__power_and_clocks__tgl 23 14 none] [put_line hw__debug 19 14 none]
+G r c none [power_set_to hw__gfx__gma__power_and_clocks__tgl 23 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [power_up hw__gfx__gma__power_and_clocks__tgl 24 14 none] [tc_cold_request hw__gfx__gma__connectors__tc 34 14 none]
+G r c none [power_up hw__gfx__gma__power_and_clocks__tgl 24 14 none] [put_line hw__debug 19 14 none]
+G r c none [power_up hw__gfx__gma__power_and_clocks__tgl 24 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [power_up hw__gfx__gma__power_and_clocks__tgl 24 14 none] [wait_set_mask hw__gfx__gma__registers 2359 14 none]
+G r c none [power_up hw__gfx__gma__power_and_clocks__tgl 24 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [power_up hw__gfx__gma__power_and_clocks__tgl 24 14 none] [wait_unset_mask hw__gfx__gma__registers 2371 14 none]
+G r c none [power_up hw__gfx__gma__power_and_clocks__tgl 24 14 none] [set_mask hw__gfx__gma__registers 2378 14 none]
+G r c none [power_up hw__gfx__gma__power_and_clocks__tgl 24 14 none] [wait_set_mask hw__gfx__gma__registers 2353 14 none]
+G r c none [power_up hw__gfx__gma__power_and_clocks__tgl 24 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [power_down hw__gfx__gma__power_and_clocks__tgl 25 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [power_down hw__gfx__gma__power_and_clocks__tgl 25 14 none] [wait_set_mask hw__gfx__gma__registers 2359 14 none]
+G r c none [power_down hw__gfx__gma__power_and_clocks__tgl 25 14 none] [disconnect hw__gfx__gma__connectors__tc 20 14 none]
+G r c none [power_down hw__gfx__gma__power_and_clocks__tgl 25 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [all_off hw__gfx__gma__power_and_clocks__tgl 26 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [all_off hw__gfx__gma__power_and_clocks__tgl 26 14 none] [wait_set_mask hw__gfx__gma__registers 2359 14 none]
+G r c none [all_off hw__gfx__gma__power_and_clocks__tgl 26 14 none] [disconnect hw__gfx__gma__connectors__tc 20 14 none]
+G r c none [all_off hw__gfx__gma__power_and_clocks__tgl 26 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [init_power hw__gfx__gma__power_and_clocks__tgl 28 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [init_power hw__gfx__gma__power_and_clocks__tgl 28 14 none] [wait_set_mask hw__gfx__gma__registers 2359 14 none]
+G r c none [init_power hw__gfx__gma__power_and_clocks__tgl 28 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [init_power hw__gfx__gma__power_and_clocks__tgl 28 14 none] [wait_unset_mask hw__gfx__gma__registers 2371 14 none]
+G r c none [init_power hw__gfx__gma__power_and_clocks__tgl 28 14 none] [set_mask hw__gfx__gma__registers 2378 14 none]
+G r c none [init_power hw__gfx__gma__power_and_clocks__tgl 28 14 none] [wait_set_mask hw__gfx__gma__registers 2353 14 none]
+G r c none [init_power hw__gfx__gma__power_and_clocks__tgl 28 14 none] [put_line hw__debug 19 14 none]
+G r c none [init_power hw__gfx__gma__power_and_clocks__tgl 28 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [aux_off hw__gfx__gma__power_and_clocks__tgl 29 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [aux_off hw__gfx__gma__power_and_clocks__tgl 29 14 none] [wait_set_mask hw__gfx__gma__registers 2359 14 none]
+G r c none [aux_off hw__gfx__gma__power_and_clocks__tgl 29 14 none] [disconnect hw__gfx__gma__connectors__tc 20 14 none]
+G r c none [aux_off hw__gfx__gma__power_and_clocks__tgl 29 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [pre_on hw__gfx__gma__power_and_clocks__tgl 128 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [pre_on hw__gfx__gma__power_and_clocks__tgl 128 14 none] [wait_set_mask hw__gfx__gma__registers 2359 14 none]
+G r c none [pre_off hw__gfx__gma__power_and_clocks__tgl 144 14 none] [disconnect hw__gfx__gma__connectors__tc 20 14 none]
+G r c none [post_on hw__gfx__gma__power_and_clocks__tgl 151 14 none] [wait_set_mask hw__gfx__gma__registers 2359 14 none]
+G r c none [post_on hw__gfx__gma__power_and_clocks__tgl 151 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [pd_on hw__gfx__gma__power_and_clocks__tgl 166 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [pd_on hw__gfx__gma__power_and_clocks__tgl 166 14 none] [wait_set_mask hw__gfx__gma__registers 2359 14 none]
+G r c none [pd_on hw__gfx__gma__power_and_clocks__tgl 166 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [pd_on hw__gfx__gma__power_and_clocks__tgl 166 14 none] [wait_unset_mask hw__gfx__gma__registers 2371 14 none]
+G r c none [pd_on hw__gfx__gma__power_and_clocks__tgl 166 14 none] [set_mask hw__gfx__gma__registers 2378 14 none]
+G r c none [pd_on hw__gfx__gma__power_and_clocks__tgl 166 14 none] [wait_set_mask hw__gfx__gma__registers 2353 14 none]
+G r c none [pd_on hw__gfx__gma__power_and_clocks__tgl 166 14 none] [put_line hw__debug 19 14 none]
+G r c none [pd_on hw__gfx__gma__power_and_clocks__tgl 166 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [pd_off hw__gfx__gma__power_and_clocks__tgl 200 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [pd_off hw__gfx__gma__power_and_clocks__tgl 200 14 none] [wait_set_mask hw__gfx__gma__registers 2359 14 none]
+G r c none [pd_off hw__gfx__gma__power_and_clocks__tgl 200 14 none] [disconnect hw__gfx__gma__connectors__tc 20 14 none]
+G r c none [pd_off hw__gfx__gma__power_and_clocks__tgl 200 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+X 1 gnat.ads
+34K9*GNAT 37e9 21|15r6 205r37 315r37
+X 2 g-souinf.ads
+39K14*Source_Info 92e21 21|15w11 205r42 315r42
+68V13*Enclosing_Entity{string} 21|205s54 315s54
+X 3 hw.ads
+17K9*HW 91e7 20|14r17 31r5 21|16r6 17r6 18r6 19r6 21r10 23r14 356r5
+34M12*Word32{27|66M9} 21|37r55 37r70 69r60 90r59 93r57 99r51 168r20 202r20
+40M12*Word64{27|69M9} 21|21r13
+X 5 hw-debug.ads
+16K12*Debug 41e13 21|16w9 192r13 205r21 315r21 319r10
+19U14*Put_Line 21|192s19 205s27 315s27 319s16
+X 6 hw-gfx.ads
+16K12*GFX 3|17k9 6|212e11 20|14r20 31r8 21|17r9 18r9 19r9 23r17 356r8
+X 11 hw-gfx-gma.ads
+24K16*GMA 6|16k12 11|356e15 20|14r24 31r12 21|17r13 18r13 19r13 23r21 356r12
+66E9*Port_Type 88e18 21|231r24 232r18 232r31 233r18 233r31 262r58
+67n7*Disabled{66E9} 21|247r36
+69n7*eDP{66E9} 21|264r65
+70n7*DP1{66E9} 21|264r51
+71n7*DP2{66E9} 21|265r51
+72n7*DP3{66E9} 21|266r51
+73n7*HDMI1{66E9} 21|264r57
+74n7*HDMI2{66E9} 21|265r57
+75n7*HDMI3{66E9} 21|266r57
+77n7*USBC1_DP{66E9} 21|267r51
+78n7*USBC2_DP{66E9} 21|268r51
+79n7*USBC3_DP{66E9} 21|269r51
+80n7*USBC4_DP{66E9} 21|270r51
+81n7*USBC5_DP{66E9} 21|271r51
+82n7*USBC6_DP{66E9} 21|272r51
+83n7*USBC1_HDMI{66E9} 21|267r62
+84n7*USBC2_HDMI{66E9} 21|268r62
+85n7*USBC3_HDMI{66E9} 21|269r62
+86n7*USBC4_HDMI{66E9} 21|270r62
+87n7*USBC5_HDMI{66E9} 21|271r62
+88n7*USBC6_HDMI{66E9} 21|272r62
+92E12*Combo_Port_Type{66E9} 21|240r56
+93E12*USBC_Port_Type{66E9} 21|241r57
+116e7*Port{66E9} 21|236r28 237r30 238r29 247r28 275r46 276r48 277r47
+121E9*Pipe_Index 121e53 21|246r19
+121n24*Primary{121E9} 21|236r19 275r37
+121n33*Secondary{121E9} 21|237r19 276r37
+121n44*Tertiary{121E9} 21|238r19 277r37
+122A9*Pipe_Configs(115R9)<121E9> 20|23r38 24r51 25r66 27r51 21|228r51 296r38
+. 311r51 329r66
+290n7 DDI_TC1{288E9} 21|121r25
+290n16 DDI_TC2{288E9} 21|122r25
+290n25 DDI_TC3{288E9} 21|123r25
+290n34 DDI_TC4{288E9} 21|124r25
+290n43 DDI_TC5{288E9} 21|125r25
+290n52 DDI_TC6{288E9} 21|126r25
+297E12 USBC_Port{288E9} 21|119r55
+X 12 hw-gfx-gma-config.ads
+15K28*Config 679e22 21|17w17
+X 14 hw-gfx-gma-connectors.ads
+15K28*Connectors 44e26 21|19r17 147r10 317r7 317r38
+X 15 hw-gfx-gma-connectors-tc.ads
+17K31*TC 38e29 21|19w28 147r21 317r18 317r49
+20U14*Disconnect 21|147s24
+33n34*Block{33E9} 21|317r52
+34U14*TC_Cold_Request 21|317s21
+X 19 hw-gfx-gma-power_and_clocks.ads
+17K28*Power_And_Clocks 11|24k16 19|47e32 20|14r28 31r16 21|23r25 356r16
+X 20 hw-gfx-gma-power_and_clocks-tgl.ads
+14K45*TGL 19|17k28 20|31l33 31e36 21|23b42 356l33 356t36
+16E8*Power_Domain 21e72 27r27 21|26r25 27r26 28r26 29r31 30r30 53r37 69r39
+. 75r32 75r53 81r32 87r13 87r37 90r38 93r36 128r27 144r28 151r28 166r26 200r27
+. 228r27 298r25 304r17 322r17 332r25
+17n7*PW1{16E8} 21|26r44 101r7 137r18 210r15 256r18 293r14 351r25
+17n12*PW2{16E8} 21|102r7 257r18
+17n17*PW3{16E8} 21|103r7 258r18
+17n22*PW4{16E8} 21|104r7 259r18
+17n27*PW5{16E8} 21|26r51 105r7 260r18 351r32
+18n7*AUX_A{16E8} 21|28r45 30r49 264r26 343r26
+18n14*AUX_B{16E8} 21|265r26
+18n21*AUX_C{16E8} 21|266r26
+19n7*AUX_USBC1{16E8} 21|29r50 39r12 44r7 112r7 121r12 267r30 286r26
+19n18*AUX_USBC2{16E8} 21|40r12 45r7 113r7 122r12 268r30
+19n29*AUX_USBC3{16E8} 21|39r24 46r7 114r7 123r12 269r30
+19n40*AUX_USBC4{16E8} 21|33r16 40r24 47r7 115r7 124r12 270r30
+19n51*AUX_USBC5{16E8} 21|39r36 48r7 116r7 125r12 271r30
+19n62*AUX_USBC6{16E8} 21|28r54 29r63 40r36 49r7 117r7 126r12 272r30 286r39
+. 343r35
+20n7*DDI_A{16E8} 21|27r45 264r18 347r26
+20n14*DDI_B{16E8} 21|265r18
+20n21*DDI_C{16E8} 21|266r18
+21n7*DDI_USBC1{16E8} 21|267r18
+21n18*DDI_USBC2{16E8} 21|268r18
+21n29*DDI_USBC3{16E8} 21|269r18
+21n40*DDI_USBC4{16E8} 21|270r18
+21n51*DDI_USBC5{16E8} 21|271r18
+21n62*DDI_USBC6{16E8} 21|27r54 30r58 272r18 347r35
+23U14*Power_Set_To 23>28 21|296b14 309l8 309t20
+23a28 Configs{11|122A9} 21|296b28 299r30 305r26
+24U14*Power_Up 24>24 24>37 21|311b14 327l8 327t16
+24a24 Old_Configs{11|122A9} 21|311b24 323r29
+24a37 New_Configs{11|122A9} 21|311b37 323r59
+25U14*Power_Down 25>26 25>39 25>52 21|329b14 339l8 339t18
+25a26 Old_Configs{11|122A9} 21|329b26 333r26
+25a39 Tmp_Configs{11|122A9} 21|329b39 333r55
+25a52 New_Configs{11|122A9} 21|329b52 334r29
+26U14*All_Off 21|341b14 354l8 354t15
+27V13*Need_PD{boolean} 27>22 27>41 21|228b13 282l8 282t15 299s17 305s13 323s16
+. 323s46 333s13 333s42 334s16
+27e22 PD{16E8} 21|228b22 279r20 280r45 281r50
+27a41 Configs{11|122A9} 21|228b41 236r10 237r10 238r10 247r16 275r28 276r28
+. 277r28
+28U14*Init_Power 21|291b14 294l8 294t18
+29U14*Aux_Off 21|284b14 289l8 289t15
+X 21 hw-gfx-gma-power_and_clocks-tgl.adb
+25E9 Power_Domain_Types 25e65 53r58 59r35 169r26 203r26
+25n32 Power_Well{25E9} 55r32 61r7 65r7
+25n44 Power_DDI{25E9} 56r32 62r7 66r7
+25n55 Power_AUX{25E9} 57r32 63r7 67r7
+26E12 PW_Domain{20|16E8} 55r13 71r13 71r33 77r13 77r33 99r37 155r16 254r33
+. 280r15
+27E12 DDI_Domain{20|16E8} 56r12 72r12 72r32 78r12 78r32
+28E12 AUX_Domain{20|16E8} 57r12 73r12 73r32 79r12 79r32
+29E12 AUX_USBC_Domain{20|16E8} 32r32 37r32 42r28 109r33 119r31 132r16 146r16
+. 158r19
+30E12 Display_Domain{20|16E8} 262r35 274r38 281r15
+32V13 HIP_INDEX_REG{22|2235E12} 32>28 159s27
+32e28 A{29E12} 33r11
+37V13 HIP_INDEX_VAL{3|34M12} 37>28 37>49 159s47
+37e28 A{29E12} 38r12
+37m49 Val{3|34M12} 39r49 40r49
+42A9 DKL_Regs(22|2235E12)<20|16E8> 43r32 43r44
+43a4 DKL_CMN_UC_DW_27{42A9} 161r26
+53V13 Power_Domain_Type{25E9} 53>32 169s48 203s48
+53e32 PD{20|16E8} 54r12
+59A9 Power_Well_Regs(22|2235E12)<25E9> 60r28 64r30
+60a4 PWR_CTL_BIOS{59A9} 175r23 206r23 224r32
+64a4 PWR_CTL_DRIVER{59A9} 176r23 180r25 185r30 187r25 207r23 216r25 223r32
+69V13 Domain_Range_Length{3|34M12} 69>34
+69e34 PD{20|16E8} 70r12
+75V13 Domain_First{20|16E8} 75>27 87s55
+75e27 PD{20|16E8} 76r12
+81V13 Domain_Index{natural} 81b13 81>27 88l8 88t20 91s20 94s21
+81e27 PD{20|16E8} 87r31 87r69
+90V13 Power_Request_Mask{3|34M12} 90>33 178s30 184s20 185s56 214s30 222s20
+. 223s58 224s56
+90e33 PD{20|16E8} 91r34
+93V13 Power_State_Mask{3|34M12} 93>31 181s25 188s21 217s25
+93e31 PD{20|16E8} 94r35
+98N4 FUSE_STATUS_PG0_DIST_STATUS 140r25
+99A9 Power_Well_Values(3|34M12)<20|16E8> 100r43
+100a4 FUSE_STATUS_PGx_DIST_STATUS{99A9} 157r35
+109A9 AUX_CTL_Array(22|2235E12)<20|16E8> 110r28 111r7
+110a4 AUX_CTL_Regs{109A9} 135r25
+119V13 Aux_To_Port{11|297E12} 119>26 147s36
+119e26 PD{29E12} 120r12
+128U14 Pre_On 128b14 128>22 142l8 142t14 173s7
+128e22 PD{20|16E8} 132r10 135r39 137r13
+130N7 DP_AUX_CH_CTL_TBT_IO 136r25
+144U14 Pre_Off 144b14 144>23 149l8 149t15 220s7
+144e23 PD{20|16E8} 146r10 147r49
+151U14 Post_On 151b14 151>23 164l8 164t15 197s7
+151e23 PD{20|16E8} 155r10 157r64 158r13 159r42 159r62 161r44
+153N7 DKL_CMN_UC_DW_27_UC_HEALTH 162r26
+166U14 PD_On 166b14 166>21 198l8 198t13 293s7 306s13 324s12
+166e21 PD{20|16E8} 169r67 173r15 178r50 181r43 184r40 185r76 188r39 197r16
+168m7 Ctl1{3|34M12} 175m47 178r12
+168m13 Ctl2{3|34M12} 176m49 178r20 184r11
+169e7 PD_Type{25E9} 175r37 176r39 180r41 185r46 187r41
+170b7 Success{boolean} 189m24 189r24 191r17
+171N7 DP_AUX_CH_CTL_TBT_IO
+200U14 PD_Off 200b14 200>22 226l8 226t14 287s10 300s13 336s12 344s10 348s10
+. 352s10
+200e22 PD{20|16E8} 203r67 210r10 214r50 217r43 220r16 222r40 223r78 224r76
+202m7 Ctl1{3|34M12} 206m47 214r12
+202m13 Ctl2{3|34M12} 207m49 214r20 222r11
+203e7 PD_Type{25E9} 206r37 207r39 216r41 223r48 224r46
+231E15 T<11|66E9> 232r42 233r42 240r51 241r51
+232e10 First{11|66E9} 236r38 237r38 238r38
+233e10 Last{11|66E9} 236r47 237r47 238r47
+234v16 Any_Port_Of 240r38 241r38
+240V16 Any_Port_Combo[234]{boolean} 235b16
+241V16 Any_Port_USBC[234]{boolean} 235b16 257s55 258s55
+243V16 Num_Active_Pipes{natural} 243b16 252l11 252t27 257s25 258s25 259s25
+244i10 Count{natural} 248m16 248r25 251r17
+246e14 I{11|121E9} 247r25
+254V16 PW_Need_PD{boolean} 254>28 280s33
+254e28 PD{26E12} 255r15
+262V16 Port_Need_PD{boolean} 262>30 262>51 275s10 276s10 277s10
+262e30 PD{30E12} 263r15
+262e51 Port{11|66E9} 264r43 265r43 266r43 267r43 268r43 269r43 270r43 271r43
+. 272r43
+274V16 Display_Need_PD{boolean} 274>33 281s33
+274e33 PD{30E12} 275r24 276r24 277r24
+286e11 AUX{20|16E8} 287r18
+298e11 PD{20|16E8} 299r26 300r21
+304e11 PD{20|16E8} 305r22 306r20
+313b7 Success{boolean} 317m59 318r14
+322e11 PD{20|16E8} 323r25 323r55 324r19
+332e11 PD{20|16E8} 333r22 333r51 334r25 336r20
+343e11 AUX{20|16E8} 344r18
+347e11 DDI{20|16E8} 348r18
+351e11 PW{20|16E8} 352r18
+X 22 hw-gfx-gma-registers.ads
+18K28*Registers 21|18w17 32r56 34r13 35r13 42r48 44r20 45r20 46r20 47r20
+. 48r20 49r20 59r58 61r21 62r21 63r21 65r21 66r21 67r21 109r53 112r20 113r20
+. 114r20 115r20 116r20 117r20 134r10 138r10 139r25 156r10 156r35 159r10 160r10
+. 175r7 176r7 179r10 185r10 186r10 206r7 207r7 215r10 223r10 224r10 22|2443e25
+92n7*FUSE_STATUS{35E9} 21|139r35 156r45
+134n7*PWR_WELL_CTL_BIOS{35E9} 21|61r31
+135n7*PWR_WELL_CTL_DRIVER{35E9} 21|65r31
+140n7*PWR_AUX_CTL_BIOS{35E9} 21|63r31
+141n7*PWR_AUX_CTL_DRIVER{35E9} 21|67r31
+142n7*PWR_DDI_CTL_BIOS{35E9} 21|62r31
+143n7*PWR_DDI_CTL_DRIVER{35E9} 21|66r31
+295n7*DDI_AUX_CTL_USBC2{35E9} 21|113r30
+304n7*DDI_AUX_CTL_USBC3{35E9} 21|114r30
+311n7*DDI_AUX_CTL_USBC4{35E9} 21|115r30
+318n7*DDI_AUX_CTL_USBC5{35E9} 21|116r30
+325n7*DDI_AUX_CTL_USBC6{35E9} 21|117r30
+834n7*HIP_INDEX_REG0{35E9} 21|34r23
+835n7*HIP_INDEX_REG1{35E9} 21|35r23
+944n7*DKL_CMN_UC_DW_27_1{35E9} 21|44r30
+959n7*DKL_CMN_UC_DW_27_2{35E9} 21|45r30
+974n7*DKL_CMN_UC_DW_27_3{35E9} 21|46r30
+989n7*DKL_CMN_UC_DW_27_4{35E9} 21|47r30
+1003n7*DKL_CMN_UC_DW_27_5{35E9} 21|48r30
+1017n7*DKL_CMN_UC_DW_27_6{35E9} 21|49r30
+2235E12*Registers_Index{35E9} 21|32r66 42r58 59r68 109r63
+2273e4*DDI_AUX_CTL_USBC1{2235E12} 21|112r30
+2311U14*Read 21|175s17 176s17 206s17 207s17
+2323U14*Write 21|159s20
+2353U14*Wait_Set_Mask 21|186s20
+2354e7 Register{2235E12} 21|187r13
+2355m7 Mask{3|34M12} 21|188r13
+2358b7 Success{boolean} 21|189r13
+2359U14*Wait_Set_Mask 21|138s20 156s20 160s20 215s20
+2360e7 Register{2235E12} 21|139r13 161r14 216r13
+2361m7 Mask{3|34M12} 21|140r13 162r14 217r13
+2371U14*Wait_Unset_Mask 21|179s20
+2372e7 Register{2235E12} 21|180r13
+2373m7 Mask{3|34M12} 21|181r13
+2378U14*Set_Mask 21|185s20
+2382U14*Unset_Mask 21|134s20 223s20 224s20
+2383e8 Register{2235E12} 21|135r13
+2384m8 Mask{3|34M12} 21|136r13
+X 27 interfac.ads
+66M9*Unsigned_32
+69M9*Unsigned_64
+

@@ -1,0 +1,143 @@
+V "GNAT Lib v14"
+A -Werror
+A -gnatwe
+A --RTS=/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/libgnat-x86_32/
+A -gnatg
+A -gnatp
+A -gnatg
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -fno-pie
+A -mtune=i386
+A -march=i386
+P
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RV NO_LONG_LONG_INTEGERS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U interfaces%s		interfac.ads		069b9bbd NE OL PU PK
+
+D interfac.ads		20260129053550 069b9bbd interfaces%s
+D system.ads		20260129053550 21923ced system%s
+D gnat.adc		20260129053550 00000000
+G a e
+G c Z s s [shift_left interfaces 73 13 none]
+G c Z s s [shift_right interfaces 77 13 none]
+G c Z s s [shift_right_arithmetic interfaces 81 13 none]
+G c Z s s [rotate_left interfaces 85 13 none]
+G c Z s s [rotate_right interfaces 89 13 none]
+G c Z s s [shift_left interfaces 93 13 none]
+G c Z s s [shift_right interfaces 97 13 none]
+G c Z s s [shift_right_arithmetic interfaces 101 13 none]
+G c Z s s [rotate_left interfaces 105 13 none]
+G c Z s s [rotate_right interfaces 109 13 none]
+G c Z s s [shift_left interfaces 113 13 none]
+G c Z s s [shift_right interfaces 117 13 none]
+G c Z s s [shift_right_arithmetic interfaces 121 13 none]
+G c Z s s [rotate_left interfaces 125 13 none]
+G c Z s s [rotate_right interfaces 129 13 none]
+G c Z s s [shift_left interfaces 133 13 none]
+G c Z s s [shift_right interfaces 137 13 none]
+G c Z s s [shift_right_arithmetic interfaces 141 13 none]
+G c Z s s [rotate_left interfaces 145 13 none]
+G c Z s s [rotate_right interfaces 149 13 none]
+X 1 interfac.ads
+36K9*Interfaces 159l5 159e15
+43I9*Integer_8<short_short_integer> 44r8
+46I9*Integer_16<short_integer> 47r8
+49I9*Integer_32<integer> 50r8
+52I9*Integer_64<long_long_integer> 53r8
+60M9*Unsigned_8 61r8 74r16 75r32 78r16 79r32 82r16 83r32 86r16 87r32 90r16
+. 91r32
+63M9*Unsigned_16 64r8 94r16 95r32 98r16 99r32 102r16 103r32 106r16 107r32
+. 110r16 111r32
+66M9*Unsigned_32 67r8 114r16 115r32 118r16 119r32 122r16 123r32 126r16 127r32
+. 130r16 131r32
+69M9*Unsigned_64 70r8 134r16 135r32 138r16 139r32 142r16 143r32 146r16 147r32
+. 150r16 151r32
+73V13*Shift_Left{60M9} 74>7 75>7 153b30
+74m7 Value{60M9}
+75i7 Amount{natural}
+77V13*Shift_Right{60M9} 78>7 79>7 154b30
+78m7 Value{60M9}
+79i7 Amount{natural}
+81V13*Shift_Right_Arithmetic{60M9} 82>7 83>7 155b30
+82m7 Value{60M9}
+83i7 Amount{natural}
+85V13*Rotate_Left{60M9} 86>7 87>7 156b30
+86m7 Value{60M9}
+87i7 Amount{natural}
+89V13*Rotate_Right{60M9} 90>7 91>7 157b30
+90m7 Value{60M9}
+91i7 Amount{natural}
+93V13*Shift_Left{63M9} 94>7 95>7 153b30
+94m7 Value{63M9}
+95i7 Amount{natural}
+97V13*Shift_Right{63M9} 98>7 99>7 154b30
+98m7 Value{63M9}
+99i7 Amount{natural}
+101V13*Shift_Right_Arithmetic{63M9} 102>7 103>7 155b30
+102m7 Value{63M9}
+103i7 Amount{natural}
+105V13*Rotate_Left{63M9} 106>7 107>7 156b30
+106m7 Value{63M9}
+107i7 Amount{natural}
+109V13*Rotate_Right{63M9} 110>7 111>7 157b30
+110m7 Value{63M9}
+111i7 Amount{natural}
+113V13*Shift_Left{66M9} 114>7 115>7 153b30
+114m7 Value{66M9}
+115i7 Amount{natural}
+117V13*Shift_Right{66M9} 118>7 119>7 154b30
+118m7 Value{66M9}
+119i7 Amount{natural}
+121V13*Shift_Right_Arithmetic{66M9} 122>7 123>7 155b30
+122m7 Value{66M9}
+123i7 Amount{natural}
+125V13*Rotate_Left{66M9} 126>7 127>7 156b30
+126m7 Value{66M9}
+127i7 Amount{natural}
+129V13*Rotate_Right{66M9} 130>7 131>7 157b30
+130m7 Value{66M9}
+131i7 Amount{natural}
+133V13*Shift_Left{69M9} 134>7 135>7 153b30
+134m7 Value{69M9}
+135i7 Amount{natural}
+137V13*Shift_Right{69M9} 138>7 139>7 154b30
+138m7 Value{69M9}
+139i7 Amount{natural}
+141V13*Shift_Right_Arithmetic{69M9} 142>7 143>7 155b30
+142m7 Value{69M9}
+143i7 Amount{natural}
+145V13*Rotate_Left{69M9} 146>7 147>7 156b30
+146m7 Value{69M9}
+147i7 Amount{natural}
+149V13*Rotate_Right{69M9} 150>7 151>7 157b30
+150m7 Value{69M9}
+151i7 Amount{natural}
+

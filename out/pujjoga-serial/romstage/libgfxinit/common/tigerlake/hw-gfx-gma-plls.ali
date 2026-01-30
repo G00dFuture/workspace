@@ -1,0 +1,218 @@
+V "GNAT Lib v14"
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A -gnatwa
+A -gnatwe
+A --RTS=/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.gfx.gma.plls%b	hw-gfx-gma-plls.adb	3ddfb70f NE OO PK IU
+W gnat%s		gnat.ads		gnat.ali
+W gnat.source_info%s	g-souinf.ads		g-souinf.ali
+W hw%s			hw.ads			hw.ali
+W hw.debug%s		hw-debug.adb		hw-debug.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.config%s	hw-gfx-gma-config.adb	hw-gfx-gma-config.ali
+W hw.gfx.gma.plls%s	hw-gfx-gma-plls.adb	hw-gfx-gma-plls.ali
+W hw.gfx.gma.plls.combo_phy%s  hw-gfx-gma-plls-combo_phy.adb  hw-gfx-gma-plls-combo_phy.ali
+W hw.gfx.gma.plls.dekel_phy%s  hw-gfx-gma-plls-dekel_phy.adb  hw-gfx-gma-plls-dekel_phy.ali
+
+U hw.gfx.gma.plls%s	hw-gfx-gma-plls.ads	147a6f7b EE NE OO PK IU
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+
+D gnat.ads		20260129053606 fd2ad2f1 gnat%s
+D g-souinf.ads		20260129053606 7fd67a54 gnat.source_info%s
+D hw.ads		20260129053550 349e873c hw%s
+D hw-config.ads		20260129053605 9c7de24d hw.config%s
+D hw-debug.ads		20260129053550 1328ccd5 hw.debug%s
+D hw-gfx.ads		20260129053551 0ef3118b hw.gfx%s
+D hw-gfx-framebuffer_filler.ads  20260129053551 a4b94408 hw.gfx.framebuffer_filler%s
+D hw-gfx-gma.ads	20260129053551 69ad3432 hw.gfx.gma%s
+D hw-gfx-gma-config.ads	20260129053605 61acc94b hw.gfx.gma.config%s
+D hw-gfx-gma-plls.ads	20260129053550 7dd75b49 hw.gfx.gma.plls%s
+D hw-gfx-gma-plls.adb	20260129053550 5cfb5b3f hw.gfx.gma.plls%b
+D hw-gfx-gma-plls-combo_phy.ads  20260129053550 1f3a0ffb hw.gfx.gma.plls.combo_phy%s
+D hw-gfx-gma-plls-dekel_phy.ads  20260129053550 0e9bc748 hw.gfx.gma.plls.dekel_phy%s
+D hw-pci.ads		20260129053550 d2a0aee8 hw.pci%s
+D hw-port_io.ads	20260129053550 42e65734 hw.port_io%s
+D hw-time.ads		20260129053550 9808c5a0 hw.time%s
+D interfac.ads		20260129053606 069b9bbd interfaces%s
+D system.ads		20260129053606 21923ced system%s
+D gnat.adc		20260129053550 00000000
+G a e
+G c Z s b [initialize hw__gfx__gma__plls 27 14 none]
+G c Z s b [alloc hw__gfx__gma__plls 31 14 none]
+G c Z s b [free hw__gfx__gma__plls 36 14 none]
+G c Z s b [all_off hw__gfx__gma__plls 38 14 none]
+G c Z s b [register_value hw__gfx__gma__plls 40 13 none]
+G c Z b b [port_pll_type hw__gfx__gma__plls 27 13 none]
+G r c none [alloc hw__gfx__gma__plls 31 14 none] [on hw__gfx__gma__plls__combo_phy 20 14 none]
+G r c none [alloc hw__gfx__gma__plls 31 14 none] [on hw__gfx__gma__plls__dekel_phy 20 14 none]
+G r c none [free hw__gfx__gma__plls 36 14 none] [free hw__gfx__gma__plls__combo_phy 25 14 none]
+G r c none [free hw__gfx__gma__plls 36 14 none] [free hw__gfx__gma__plls__dekel_phy 25 14 none]
+G r c none [all_off hw__gfx__gma__plls 38 14 none] [all_off hw__gfx__gma__plls__combo_phy 27 14 none]
+G r c none [all_off hw__gfx__gma__plls 38 14 none] [all_off hw__gfx__gma__plls__dekel_phy 27 14 none]
+X 1 gnat.ads
+34K9*GNAT 37e9 11|16r6 53r37 87r37 125r37 140r37 148r37
+X 2 g-souinf.ads
+39K14*Source_Info 92e21 11|16w11 53r42 87r42 125r42 140r42 148r42
+68V13*Enclosing_Entity{string} 11|53s54 87s54 125s54 140s54 148s54
+X 3 hw.ads
+17K9*HW 91e7 10|15r17 42r5 11|15r6 17r6 18r6 19r6 21r14 78r37 157r5
+34M12*Word32{17|66M9} 10|40r45 11|145r45
+X 5 hw-debug.ads
+16K12*Debug 41e13 11|15w9 53r21 87r21 125r21 140r21 148r21
+19U14*Put_Line 11|53s27 87s27 125s27 140s27 148s27
+X 6 hw-gfx.ads
+16K12*GFX 3|17k9 6|212e11 10|15r20 42r8 11|17r9 18r9 19r9 21r17 78r40 157r8
+73E9*DP_Bandwidth 73e80 11|37r21 58r28
+98e10*Bandwidth{73E9} 11|83r61 112r46
+116n38*DP{116E9} 11|82r50 111r53
+119R9*Mode_Type 133e14 11|38r21
+175r4*Invalid_Mode{119R9} 11|59r28
+X 8 hw-gfx-gma.ads
+24K16*GMA 6|16k12 8|356e15 10|15r24 17r45 42r12 11|17r13 18r13 19r13 21r21
+. 78r44 157r12
+27@7*State 10|17r49
+288E9 GPU_Port 291e17 11|27r35 67r39
+290n7 DDI_TC1{288E9} 11|70r18
+290n16 DDI_TC2{288E9} 11|71r18
+290n25 DDI_TC3{288E9} 11|72r18
+290n34 DDI_TC4{288E9} 11|73r18
+290n43 DDI_TC5{288E9} 11|74r18
+290n52 DDI_TC6{288E9} 11|75r18
+296E12 Combo_Port{288E9} 11|29r15 69r18
+297E12 USBC_Port{288E9} 11|30r15
+316R9 Port_Config 327e17 10|32r25 11|63r25
+318e10*Port{288E9} 11|92r47 102r65
+320e10*Display{6|116E9} 11|82r40 111r43
+322r10*Mode{6|119R9} 11|84r57 113r43
+326r10*DP{6|94R9} 11|83r58 112r43
+X 9 hw-gfx-gma-config.ads
+15K28*Config 679e22 11|19w17
+X 10 hw-gfx-gma-plls.ads
+15K28*PLLs 8|24k16 10|42l16 42e20 11|17r17 18r17 21b25 78r48 157l16 157t20
+17@23*State 29r28 11|23r22
+21E9*T 21e89 22r34 22r42 22r66 23r27 24r25 25r23 33r25 36r26 40r35 11|64r25
+. 67r55 123r26 145r35
+21n15*Invalid_PLL{21E9} 22r50 25r28 11|127r17 134r15
+21n28*DPLL0{21E9} 23r35
+21n35*DPLL1{21E9} 23r44
+21n42*TCPLL1{21E9} 24r33 11|70r38
+21n50*TCPLL2{21E9} 11|71r38
+21n58*TCPLL3{21E9} 11|72r38
+21n66*TCPLL4{21E9} 11|73r38
+21n74*TCPLL5{21E9} 11|74r38
+21n82*TCPLL6{21E9} 24r43 11|75r38
+22E12*Configurable_DPLLs{21E9} 11|41r35 55r10 89r16 101r16
+23E12*Combo_DPLLs{21E9} 11|69r39 105r21 132r15 151r17
+24E12*DKL_DPLLs{21E9} 11|106r21 133r15
+25e4*Invalid{21E9} 11|119r14
+27U14*Initialize 11|51b14 60l8 60t18
+31U14*Alloc 32>7 33<7 34<7 11|62b14 121l8 121t13
+32r7 Port_Cfg{8|316R9} 11|63b7 82r31 83r49 84r48 92r38 102r56 105r55 106r55
+. 111r34 112r34 113r34
+33e7 PLL{21E9} 11|64b7 95m13 96r19 96r43 103m13 105r50 106r50 109r22 119m7
+34b7 Success{boolean} 11|65b7 90m10 94r13 105m65 106m65 108r16 120m7
+36U14*Free 36>20 11|123b14 136l8 136t12
+36e20 PLL{21E9} 11|123b20 127r10 128r16 131r12 132r46 133r46
+38U14*All_Off 11|138b14 143l8 143t15
+40V13*Register_Value{3|34M12} 40>29 11|145b13 156l8 156t22
+40e29 PLL{21E9} 11|145b29 151r10 152r43
+X 11 hw-gfx-gma-plls.adb
+26E9 PLL_Type 26e58 27r52
+26n22 PLL_Unknown{26E9} 31r25
+26n35 PLL_Combo_Phy{26E9} 29r29
+26n50 PLL_DKL{26E9} 30r28
+27V13 Port_PLL_Type{26E9} 27>28
+27e28 Port{8|288E9} 28r12
+33I9 Count_Range<integer> 35r20 91r44
+34R9 PLL_State 39e14 41r58 78r53
+35i7*Use_Count{33I9} 56m13 90r30 91r31 96m24 96r48 102r22 110m19 128m21
+36b7*Used_For_DP{boolean} 57m13 82r16 83r18 84r22 111m19
+37e7*Link_Rate{6|73E9} 58m13 83r37 112m19
+38r7*Mode{6|119R9} 59m13 84r41 113m19
+41A9 PLL_State_Array(34R9)<10|21E9> 47r11
+47a4 PLLs{41A9} 23r31 54m7 90r21 91r22 93r38 96m13 96r37 102r13 109m16 128m10
+67V16 Port_PLL_Match{boolean} 67>32 67>49 92s22 102s40
+67e32 Port{8|288E9} 68r15
+67e49 PLL{10|21E9} 69r32 70r32 71r32 72r32 73r32 74r32 75r32
+78V16 Config_Matches{boolean} 78b16 78>32 85l11 85t25 93s22
+78r32 PE{34R9} 82r13 83r15 83r34 84r19 84r38
+89e11 P{10|22E12} 90r27 91r28 92r53 93r44 95r20
+101e11 P{10|22E12} 102r19 102r71 103r20 104r18
+X 12 hw-gfx-gma-plls-combo_phy.ads
+18K33*Combo_Phy 11|17w22 105r36 132r30 141r7 152r17 12|33e30
+20U14*On 11|105s46
+25U14*Free 11|132s40
+27U14*All_Off 11|141s17
+29A9*Value_Array(3|34M12)<10|21E9>
+30a4*Register_Value{29A9} 11|152r27
+X 13 hw-gfx-gma-plls-dekel_phy.ads
+18K33*Dekel_Phy 11|18w22 106r36 133r30 142r7 13|29e30
+20U14*On 11|106s46
+25U14*Free 11|133s40
+27U14*All_Off 11|142s17
+X 17 interfac.ads
+66M9*Unsigned_32
+

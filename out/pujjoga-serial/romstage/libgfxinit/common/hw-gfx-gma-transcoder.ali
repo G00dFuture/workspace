@@ -1,0 +1,528 @@
+V "GNAT Lib v14"
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A -gnatwa
+A -gnatwe
+A --RTS=/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.gfx.gma.transcoder%b  hw-gfx-gma-transcoder.adb  18f7feec NE OO PK IU
+W gnat%s		gnat.ads		gnat.ali
+W gnat.source_info%s	g-souinf.ads		g-souinf.ali
+W hw%s			hw.ads			hw.ali
+W hw.debug%s		hw-debug.adb		hw-debug.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.config_helpers%s  hw-gfx-gma-config_helpers.adb  hw-gfx-gma-config_helpers.ali
+W hw.gfx.gma.dp_info%s	hw-gfx-gma-dp_info.ads	hw-gfx-gma-dp_info.ali
+
+U hw.gfx.gma.transcoder%s  hw-gfx-gma-transcoder.ads  875f9516 EE OO PK IU
+W hw%s			hw.ads			hw.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.config%s	hw-gfx-gma-config.adb	hw-gfx-gma-config.ali
+W hw.gfx.gma.registers%s  hw-gfx-gma-registers.adb  hw-gfx-gma-registers.ali
+
+D gnat.ads		20260129053606 fd2ad2f1 gnat%s
+D g-souinf.ads		20260129053606 7fd67a54 gnat.source_info%s
+D hw.ads		20260129053550 349e873c hw%s
+D hw-config.ads		20260129053605 9c7de24d hw.config%s
+D hw-debug.ads		20260129053550 1328ccd5 hw.debug%s
+D hw-gfx.ads		20260129053551 0ef3118b hw.gfx%s
+D hw-gfx-dp_aux_ch.ads	20260129053551 52048a5d hw.gfx.dp_aux_ch%s
+D hw-gfx-dp_defs.ads	20260129053551 30f739dd hw.gfx.dp_defs%s
+D hw-gfx-dp_info.ads	20260129053551 f9a9ac31 hw.gfx.dp_info%s
+D hw-gfx-framebuffer_filler.ads  20260129053551 a4b94408 hw.gfx.framebuffer_filler%s
+D hw-gfx-gma.ads	20260129053551 69ad3432 hw.gfx.gma%s
+D hw-gfx-gma-config.ads	20260129053605 61acc94b hw.gfx.gma.config%s
+D hw-gfx-gma-config_helpers.ads  20260129053551 c7364f0c hw.gfx.gma.config_helpers%s
+D hw-gfx-gma-dp_aux_ch.ads  20260129053551 53944791 hw.gfx.gma.dp_aux_ch%s
+D hw-gfx-gma-dp_aux_request.ads  20260129053551 d673ea1e hw.gfx.gma.dp_aux_request%s
+D hw-gfx-gma-dp_info.ads  20260129053551 38def494 hw.gfx.gma.dp_info%s
+D hw-gfx-gma-registers.ads  20260129053550 cd56d246 hw.gfx.gma.registers%s
+D hw-gfx-gma-transcoder.ads  20260129053551 4208ba29 hw.gfx.gma.transcoder%s
+D hw-gfx-gma-transcoder.adb  20260129053551 c9e949dc hw.gfx.gma.transcoder%b
+D hw-gfx-i2c.ads	20260129053551 e54ab4f7 hw.gfx.i2c%s
+D hw-pci.ads		20260129053550 d2a0aee8 hw.pci%s
+D hw-port_io.ads	20260129053550 42e65734 hw.port_io%s
+D hw-time.ads		20260129053550 9808c5a0 hw.time%s
+D interfac.ads		20260129053606 069b9bbd interfaces%s
+D system.ads		20260129053606 21923ced system%s
+D s-unstyp.ads		20260129053606 bb502f34 system.unsigned_types%s
+D gnat.adc		20260129053550 00000000
+G a e
+G c Z s b [enable_pipe_clock hw__gfx__gma__transcoder 21 14 none]
+G c Z s b [configure hw__gfx__gma__transcoder 22 14 none]
+G c Z s b [setup hw__gfx__gma__transcoder 23 14 none]
+G c Z s b [on hw__gfx__gma__transcoder 24 14 none]
+G c Z s b [off hw__gfx__gma__transcoder 30 14 none]
+G c Z s b [clk_off hw__gfx__gma__transcoder 31 14 none]
+G c Z s b [psr_off hw__gfx__gma__transcoder 33 14 none]
+G c Z s b [bpc_conf hw__gfx__gma__transcoder 35 13 none]
+G c Z b b [get_idx hw__gfx__gma__transcoder 29 13 none]
+G c Z b b [tgl_trans_clk_sel_port hw__gfx__gma__transcoder 53 13 none]
+G c Z b b [tgl_ddi_func_ctl_ddi_select hw__gfx__gma__transcoder 103 13 none]
+G c Z b b [trans_data_m_tu hw__gfx__gma__transcoder 164 13 none]
+G c Z b b [encode hw__gfx__gma__transcoder 171 13 none]
+G c Z b b [setup_link hw__gfx__gma__transcoder 178 14 none]
+G c Z b b [trans_off hw__gfx__gma__transcoder 365 14 none]
+G r c none [enable_pipe_clock hw__gfx__gma__transcoder 21 14 none] [unset_and_set_mask hw__gfx__gma__registers 2386 14 none]
+G r c none [configure hw__gfx__gma__transcoder 22 14 none] [is_digital_port hw__gfx__gma 300 13 none]
+G r c none [configure hw__gfx__gma__transcoder 22 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [setup hw__gfx__gma__transcoder 23 14 none] [calculate_m_n hw__gfx__gma__dp_info 115 14 19_9]
+G r c none [setup hw__gfx__gma__transcoder 23 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [on hw__gfx__gma__transcoder 24 14 none] [is_digital_port hw__gfx__gma 300 13 none]
+G r c none [on hw__gfx__gma__transcoder 24 14 none] [set_mask hw__gfx__gma__registers 2378 14 none]
+G r c none [on hw__gfx__gma__transcoder 24 14 none] [need_pipe_arb_slots hw__gfx__gma__config 234 13 none]
+G r c none [on hw__gfx__gma__transcoder 24 14 none] [has_pipeconf_misc hw__gfx__gma__config 216 13 none]
+G r c none [on hw__gfx__gma__transcoder 24 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [on hw__gfx__gma__transcoder 24 14 none] [has_pipeconf_bpc hw__gfx__gma__config 218 13 none]
+G r c none [on hw__gfx__gma__transcoder 24 14 none] [posting_read hw__gfx__gma__registers 2301 14 none]
+G r c none [off hw__gfx__gma__transcoder 30 14 none] [is_set_mask hw__gfx__gma__registers 2332 14 none]
+G r c none [off hw__gfx__gma__transcoder 30 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [off hw__gfx__gma__transcoder 30 14 none] [pipe_enabled_workaround hw__gfx__gma__config 208 13 none]
+G r c none [off hw__gfx__gma__transcoder 30 14 none] [wait_unset_mask hw__gfx__gma__registers 2371 14 none]
+G r c none [off hw__gfx__gma__transcoder 30 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [clk_off hw__gfx__gma__transcoder 31 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [psr_off hw__gfx__gma__transcoder 33 14 none] [has_per_pipe_srd hw__gfx__gma__config 337 13 none]
+G r c none [psr_off hw__gfx__gma__transcoder 33 14 none] [is_set_mask hw__gfx__gma__registers 2332 14 none]
+G r c none [psr_off hw__gfx__gma__transcoder 33 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [psr_off hw__gfx__gma__transcoder 33 14 none] [wait_unset_mask hw__gfx__gma__registers 2371 14 none]
+G r c none [bpc_conf hw__gfx__gma__transcoder 35 13 none] [has_pipeconf_bpc hw__gfx__gma__config 218 13 none]
+G r c none [setup_link hw__gfx__gma__transcoder 178 14 none] [calculate_m_n hw__gfx__gma__dp_info 115 14 19_9]
+G r c none [setup_link hw__gfx__gma__transcoder 178 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [trans_off hw__gfx__gma__transcoder 365 14 none] [is_set_mask hw__gfx__gma__registers 2332 14 none]
+G r c none [trans_off hw__gfx__gma__transcoder 365 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [trans_off hw__gfx__gma__transcoder 365 14 none] [pipe_enabled_workaround hw__gfx__gma__config 208 13 none]
+G r c none [trans_off hw__gfx__gma__transcoder 365 14 none] [wait_unset_mask hw__gfx__gma__registers 2371 14 none]
+G r c none [trans_off hw__gfx__gma__transcoder 365 14 none] [write hw__gfx__gma__registers 2323 14 none]
+X 1 gnat.ads
+34K9*GNAT 37e9 19|16r6 189r37 234r37 307r37 336r37 453r37
+X 2 g-souinf.ads
+39K14*Source_Info 92e21 19|16w11 189r42 234r42 307r42 336r42 453r42
+68V13*Enclosing_Entity{string} 19|189s54 234s54 307s54 336s54 453s54
+X 3 hw.ads
+17K9*HW 91e7 18|15r6 16r6 18r17 157r5 19|15r6 18r6 19r6 21r14 228r16 264r16
+. 331r16 483r5
+34M12*Word32{24|66M9} 18|35r64 19|45r31 53r69 70r42 78r64 95r53 104r14 118r51
+. 125r45 135r61 140r54 164r63 166r26 171r46 173r26 173r51 202r22 205r22 209r22
+. 212r22 288r29 298r29 392r22
+35V13*Shift_Left=36:26{24|66M9} 19|166s14 173s14
+49I12*Int64{24|52I9}
+53I12*Pos32{24|49I9} 19|171r32
+X 5 hw-debug.ads
+16K12*Debug 41e13 19|15w9 189r21 234r21 307r21 336r21 453r21 466r33 476r27
+19U14*Put_Line 19|189s27 234s27 307s27 336s27 453s27 466s39 476s33
+X 6 hw-gfx.ads
+16K12*GFX 3|17k9 6|212e11 18|15r9 16r9 18r20 157r8 19|18r9 19r9 21r17 228r19
+. 264r19 331r19 483r8
+26I12*Width_Type{3|53I12}
+27I12*Height_Type{3|53I12}
+31I12*BPC_Type{3|49I12} 18|35r29 19|70r29 78r29
+66E9*DP_Lane_Count 66e77 19|140r36 286r29
+66n27*DP_Lane_Count_1{66E9} 19|142r7
+66n44*DP_Lane_Count_2{66E9} 19|143r7
+66n61*DP_Lane_Count_4{66E9} 19|144r7
+94R9*DP_Link 101e17 19|180r15
+97e10*Lane_Count{66E9} 19|287r47 287r75
+116E9*Display_Type 116e52 19|118r34
+116n38*DP{116E9} 19|122r7 248r32
+116n42*HDMI{116E9} 19|121r7
+116n48*VGA{116E9} 19|120r7
+119R9*Mode_Type 133e14 19|181r15 232r20
+122i7*H_Visible{26I12} 19|252r50 253r50
+123i7*H_Sync_Begin{26I12} 19|254r50
+124i7*H_Sync_End{26I12} 19|254r66
+125i7*H_Total{26I12} 19|252r66 253r66
+126i7*V_Visible{27I12} 19|255r50 256r50
+127i7*V_Sync_Begin{27I12} 19|257r50
+128i7*V_Sync_End{27I12} 19|257r66
+129i7*V_Total{27I12} 19|255r66 256r66
+130b7*H_Sync_Active_High{boolean} 19|316r59
+131b7*V_Sync_Active_High{boolean} 19|315r59
+132i7*BPC{31I12} 19|218r50 314r57 359r49
+X 9 hw-gfx-dp_info.ads
+112I12*M_Type{3|49I12} 19|186r32[16|19]
+113I12*N_Type{3|49I12} 19|187r32[16|19]
+115U14*Calculate_M_N 19|191s15[16|19]
+116r7 Link{6|94R9} 19|192r10[16|19]
+117r7 Mode{6|119R9} 19|193r10[16|19]
+118i7 Data_M{112I12[16|19]} 19|194r10[16|19]
+119i7 Data_N{113I12[16|19]} 19|195r10[16|19]
+120i7 Link_M{112I12[16|19]} 19|196r10[16|19]
+121i7 Link_N{113I12[16|19]} 19|197r10[16|19]
+X 11 hw-gfx-gma.ads
+24K16*GMA 6|16k12 11|356e15 18|15r13 16r13 18r24 157r12 19|18r13 19r13 21r21
+. 228r23 264r23 331r23 483r12
+121E9*Pipe_Index 121e53 18|21r40 22r32 23r28 25r18 30r26 31r30 19|23r44 29r29
+. 135r46 225r18 262r40 282r32 326r18 390r26 409r30
+121n24*Primary{121E9} 19|25r7 136r7 292r23 398r21
+121n33*Secondary{121E9} 19|26r7 137r7
+121n44*Tertiary{121E9} 19|27r7 138r7
+288E9 GPU_Port 291e17 19|29r48
+289n7 DIGI_A{288E9} 19|33r55 47r7 55r12 97r7 107r12
+289n15 DIGI_B{288E9} 19|48r7 56r12 98r7 108r12
+289n23 DIGI_C{288E9} 19|49r7 57r12 99r7 109r12
+289n31 DIGI_D{288E9} 19|50r7 100r7
+289n39 DIGI_E{288E9} 19|51r7 101r7
+290n7 DDI_TC1{288E9} 19|58r12 110r12
+290n16 DDI_TC2{288E9} 19|59r12 111r12
+290n25 DDI_TC3{288E9} 19|60r12 112r12
+290n34 DDI_TC4{288E9} 19|61r12 113r12
+290n43 DDI_TC5{288E9} 19|62r12 114r12
+290n52 DDI_TC6{288E9} 19|63r12 115r12
+293E12 Digital_Port{288E9} 19|45r14 95r36 239r27 302r34
+298E12 TGL_Digital_Port{288E9} 19|53r44 103r49 271r27 299r60
+300V13 Is_Digital_Port{boolean} 19|309s13 341s39
+316R9 Port_Config 327e17 18|21r63 22r55 23r51 26r18 19|226r18 262r63 282r55
+. 327r18
+318e10*Port{288E9} 19|231r53 239r19 243r54 267r53 271r19 276r63 285r53 299r52
+. 300r51 302r26 304r51 309r39 333r53 341r65
+320e10*Display{6|116E9} 19|248r22 313r60
+322r10*Mode{6|119R9} 19|232r42 247r52 249r51 314r52 315r54 316r54 359r44
+323b10*Is_FDI{boolean} 19|246r19 287r22
+325r10*FDI{6|94R9} 19|247r38 287r43
+326r10*DP{6|94R9} 19|249r38 287r72
+X 12 hw-gfx-gma-config.ads
+15K28*Config 679e22 18|16w17 63r10 70r10 77r10 84r10 19|33r13 81r13 214r10
+. 236r10 237r14 269r10 289r13 293r18 299r13 308r10 337r14 341r10 347r10 358r30
+. 377r14 385r10 394r10 415r10 455r10 458r19
+208V13*Pipe_Enabled_Workaround{boolean} 19|377s21
+210b4*Has_EDP_Transcoder{boolean} 19|33r20 394r17 458r26
+211V13*Use_PDW_For_EDP_Scaling{boolean} 19|293s25
+213b4*Has_Pipe_DDI_Func{boolean} 19|308r17 341r17 385r17
+214b4*Has_Trans_Clk_Sel{boolean} 19|236r17 415r17
+215b4*Has_Pipe_MSA_Misc{boolean} 19|214r17
+216V13*Has_Pipeconf_Misc{boolean} 19|358s37
+218V13*Has_Pipeconf_BPC{boolean} 19|81s20
+228b4*Has_GMCH_DP_Transcoder{boolean} 18|63r17 70r17 77r17 84r17
+233b4*Need_Early_Transcoder_Setup{boolean} 19|237r21 269r17 337r21
+234V13*Need_Pipe_Arb_Slots{boolean} 19|347s17
+311b4*Has_TGL_DDI_Select{boolean} 19|289r20 299r20
+337V13*Has_Per_Pipe_SRD{boolean} 19|455s17
+X 13 hw-gfx-gma-config_helpers.ads
+17K28*Config_Helpers 90e30 19|18w17
+X 16 hw-gfx-gma-dp_info.ads
+19K28*DP_Info[9|23] 19|19w17 186r24 187r24 191r7
+X 17 hw-gfx-gma-registers.ads
+18K28*Registers 2443e25 18|15w17 43r27 44r27 45r27 46r27 47r27 48r27 49r27
+. 50r27 51r27 52r27 53r27 54r27 55r27 56r27 57r27 62r46 64r15 65r15 67r15
+. 68r15 69r46 71r15 72r15 74r15 75r15 76r46 78r15 79r15 81r15 82r15 83r46
+. 85r15 86r15 88r15 89r15 93r28 94r28 95r28 96r28 97r28 98r28 99r28 100r28
+. 101r28 102r28 103r28 104r28 105r28 106r28 107r28 109r28 110r28 111r28 112r28
+. 113r28 114r28 115r28 120r28 121r28 122r28 123r28 125r28 126r28 127r28 128r28
+. 129r28 130r28 131r28 136r28 137r28 138r28 139r28 141r28 142r28 143r28 144r28
+. 145r28 146r28 147r28 148r28 149r28 150r28 151r28 152r28 153r28 154r28 155r28
+. 19|183r28 184r19 199r7 203r7 207r7 210r7 215r10 228r27 238r27 241r10 252r7
+. 253r7 254r7 255r7 256r7 257r7 264r27 270r27 273r13 310r13 331r27 342r10
+. 348r32 350r10 355r7 360r7 369r7 372r10 379r10 386r10 395r10 395r26 411r16
+. 416r27 418r10 428r17 429r17 435r22 436r22 438r22 439r22 441r22 442r22 444r22
+. 445r22 461r16 463r19 464r19 471r10 471r33 473r13 473r35 474r13 474r40
+22@7*Register_State 19|183r38 184r29
+35E9*Registers_Invalid_Index 1028e32 18|56r37 57r37 19|228r37 264r37 331r37
+. 411r26
+36n7*Invalid_Register{35E9} 18|106r38 107r38 19|238r37 270r37 348r42 416r37
+172n7*TRANSA_CLK_SEL{35E9} 18|122r38
+173n7*TRANSB_CLK_SEL{35E9} 18|138r38
+174n7*TRANSC_CLK_SEL{35E9} 18|154r38
+186n7*HTOTAL_A{35E9} 18|109r38
+187n7*HBLANK_A{35E9} 18|110r38
+188n7*HSYNC_A{35E9} 18|111r38
+189n7*VTOTAL_A{35E9} 18|112r38
+190n7*VBLANK_A{35E9} 18|113r38
+191n7*VSYNC_A{35E9} 18|114r38
+194n7*PIPEA_DATA_M1{35E9} 18|67r25
+195n7*PIPEA_DATA_N1{35E9} 18|74r25
+196n7*PIPEA_LINK_M1{35E9} 18|81r25
+197n7*PIPEA_LINK_N1{35E9} 18|88r25
+199n7*PIPEA_DDI_FUNC_CTL{35E9} 18|120r38
+200n7*PIPEA_MSA_MISC{35E9} 18|121r38
+203n7*SRD_CTL_A{35E9} 19|438r32
+204n7*SRD_STATUS_A{35E9} 19|439r32
+205n7*HTOTAL_B{35E9} 18|125r38
+206n7*HBLANK_B{35E9} 18|126r38
+207n7*HSYNC_B{35E9} 18|127r38
+208n7*VTOTAL_B{35E9} 18|128r38
+209n7*VBLANK_B{35E9} 18|129r38
+210n7*VSYNC_B{35E9} 18|130r38
+213n7*PIPEB_DATA_M1{35E9} 18|68r25
+214n7*PIPEB_DATA_N1{35E9} 18|75r25
+215n7*PIPEB_LINK_M1{35E9} 18|82r25
+216n7*PIPEB_LINK_N1{35E9} 18|89r25
+229n7*PIPEB_DDI_FUNC_CTL{35E9} 18|136r38
+230n7*PIPEB_MSA_MISC{35E9} 18|137r38
+233n7*SRD_CTL_B{35E9} 19|441r32
+234n7*SRD_STATUS_B{35E9} 19|442r32
+235n7*HTOTAL_C{35E9} 18|141r38
+236n7*HBLANK_C{35E9} 18|142r38
+237n7*HSYNC_C{35E9} 18|143r38
+238n7*VTOTAL_C{35E9} 18|144r38
+239n7*VBLANK_C{35E9} 18|145r38
+240n7*VSYNC_C{35E9} 18|146r38
+244n7*PIPEC_DATA_M1{35E9} 18|148r38
+245n7*PIPEC_DATA_N1{35E9} 18|149r38
+246n7*PIPEC_LINK_M1{35E9} 18|150r38
+247n7*PIPEC_LINK_N1{35E9} 18|151r38
+249n7*PIPEC_DDI_FUNC_CTL{35E9} 18|152r38
+250n7*PIPEC_MSA_MISC{35E9} 18|153r38
+253n7*SRD_CTL_C{35E9} 19|444r32
+254n7*SRD_STATUS_C{35E9} 19|445r32
+324n7*SRD_CTL{35E9} 19|471r43 473r45
+331n7*SRD_STATUS{35E9} 19|474r50
+548n7*HTOTAL_EDP{35E9} 18|93r38
+549n7*HBLANK_EDP{35E9} 18|94r38
+550n7*HSYNC_EDP{35E9} 18|95r38
+551n7*VTOTAL_EDP{35E9} 18|96r38
+552n7*VBLANK_EDP{35E9} 18|97r38
+553n7*VSYNC_EDP{35E9} 18|98r38
+554n7*PIPE_EDP_DATA_M1{35E9} 18|100r38
+555n7*PIPE_EDP_DATA_N1{35E9} 18|101r38
+556n7*PIPE_EDP_LINK_M1{35E9} 18|102r38
+557n7*PIPE_EDP_LINK_N1{35E9} 18|103r38
+558n7*PIPE_EDP_DDI_FUNC_CTL{35E9} 18|104r38 19|395r36
+559n7*PIPE_EDP_MSA_MISC{35E9} 18|105r38
+560n7*SRD_CTL_EDP{35E9} 19|435r32
+561n7*SRD_STATUS_EDP{35E9} 19|436r32
+563n7*PIPEACONF{35E9} 18|115r38
+564n7*PIPEA_ARB_CTL{35E9} 18|123r38
+569n7*PIPEA_GMCH_DATA_M{35E9} 18|64r25
+570n7*PIPEA_GMCH_DATA_N{35E9} 18|71r25
+571n7*PIPEA_GMCH_LINK_M{35E9} 18|78r25
+572n7*PIPEA_GMCH_LINK_N{35E9} 18|85r25
+609n7*PIPEBCONF{35E9} 18|131r38
+610n7*PIPEB_ARB_CTL{35E9} 18|139r38
+615n7*PIPEB_GMCH_DATA_M{35E9} 18|65r25
+616n7*PIPEB_GMCH_DATA_N{35E9} 18|72r25
+617n7*PIPEB_GMCH_LINK_M{35E9} 18|79r25
+618n7*PIPEB_GMCH_LINK_N{35E9} 18|86r25
+653n7*PIPECCONF{35E9} 18|147r38
+654n7*PIPEC_ARB_CTL{35E9} 18|155r38
+691n7*PIPE_EDP_CONF{35E9} 18|99r38
+2235E12*Registers_Index{35E9} 18|43r37 44r37 45r37 46r37 47r37 48r37 49r37
+. 50r37 51r37 52r37 53r37 54r37 55r37 62r56 69r56 76r56 83r56 19|428r27 429r27
+2301U14*Posting_Read 19|360s17
+2311U14*Read 19|395s20
+2323U14*Write 19|199s17 203s17 207s17 210s17 215s20 241s20 252s17 253s17
+. 254s17 255s17 256s17 257s17 310s23 355s17 386s20 418s20
+2324e8 Register{2235E12} 19|200r10 204r10 208r10 211r10 216r13 242r13 311r16
+. 356r10
+2325m8 Value{3|34M12} 19|201r10 205r10 209r10 212r10 217r13 243r13 312r16
+. 357r10
+2332U14*Is_Set_Mask 19|369s17 461s26 471s20
+2371U14*Wait_Unset_Mask 19|379s20 464s29 474s23
+2372e7 Register{2235E12} 19|380r13
+2373m7 Mask{3|34M12} 19|381r13
+2374i7 TOut_MS{natural} 19|382r13
+2378U14*Set_Mask 19|342s20 350s20
+2379e8 Register{2235E12} 19|343r13 351r13
+2380m8 Mask{3|34M12} 19|344r13 352r13
+2382U14*Unset_Mask 19|372s20 463s29 473s23
+2386U14*Unset_And_Set_Mask 19|273s23
+2387e8 Register{2235E12} 19|274r16
+2388m8 Mask_Unset{3|34M12} 19|275r16
+2389m8 Mask_Set{3|34M12} 19|276r16
+X 18 hw-gfx-gma-transcoder.ads
+18K28*Transcoder 11|24k16 18|39E9 157l16 157e26 19|21b25 483l16 483t26
+21U14*Enable_Pipe_Clock 21>33 21>52 19|262b14 278l8 278t25
+21e33 Pipe{11|121E9} 19|262b33 267r38
+21r52 Port_Cfg{11|316R9} 19|262b52 267r44 271r10 276r54
+22U14*Configure 22>25 22>44 22>68 19|282b14 321l8 321t17 338s10
+22e25 Pipe{11|121E9} 19|282b25 285r38 292r16 297r41
+22r44 Port_Cfg{11|316R9} 19|282b44 285r44 287r13 287r34 287r63 299r43 300r42
+. 302r17 304r42 309r30 313r51 314r43 315r45 316r45
+22b68 Scale{boolean} 19|282b68 293r61
+23U14*Setup 23>21 23>40 19|224b14 258l8 258t13
+23e21 Pipe{11|121E9} 19|225b7 231r38
+23r40 Port_Cfg{11|316R9} 19|226b7 231r44 232r33 239r10 243r45 246r10 247r29
+. 247r43 248r13 249r29 249r42
+24U14*On 25>7 26>7 27>7 28>7 19|325b14 361l8 361t10
+25e7 Pipe{11|121E9} 19|326b7 333r38 338r21
+26r7 Port_Cfg{11|316R9} 19|327b7 333r44 338r27 341r56 359r35
+27b7 Dither{boolean} 19|328b7 359r54
+28b7 Scale{boolean} 19|329b7 338r37
+30U14*Off 30>19 19|390b14 407l8 407t11
+30e19 Pipe{11|121E9} 19|390b19 398r14 400r53 406r51
+31U14*Clk_Off 31>23 19|409b14 420l8 420t15
+31e23 Pipe{11|121E9} 19|409b23 413r72
+33U14*PSR_Off 19|449b14 479l8 479t15
+35V13*BPC_Conf{3|34M12} 35>23 35>39 19|78b13 83l8 83t16 359s25
+35i23 BPC{6|31I12} 19|78b23 81r58
+35b39 Dither{boolean} 19|78b39 82r13
+39E9 Transcoder_Index 39e67 60r36 19|23r59 29r65 431r37 457r41 460r22 460r65
+39n30 Trans_EDP{39E9} 92r7 19|34r13 402r37 434r7 458r50
+39n41 Trans_A{39E9} 108r7 19|25r22 437r7 458r65
+39n50 Trans_B{39E9} 124r7 19|26r22 440r7
+39n59 Trans_C{39E9} 140r7 19|27r22 443r7
+41R9 Transcoder_Regs 58e17 60r57 19|179r15 230r15 266r15 284r15 332r15 365r33
+. 413r15
+43e10*HTOTAL{17|2235E12} 93m10 109m10 125m10 141m10 19|252r30
+44e10*HBLANK{17|2235E12} 94m10 110m10 126m10 142m10 19|253r30
+45e10*HSYNC{17|2235E12} 95m10 111m10 127m10 143m10 19|254r30
+46e10*VTOTAL{17|2235E12} 96m10 112m10 128m10 144m10 19|255r30
+47e10*VBLANK{17|2235E12} 97m10 113m10 129m10 145m10 19|256r30
+48e10*VSYNC{17|2235E12} 98m10 114m10 130m10 146m10 19|257r30
+49e10*CONF{17|2235E12} 99m10 115m10 131m10 147m10 19|356r28 360r37 369r36
+. 372r38 380r31
+50e10*DATA_M1{17|2235E12} 100m10 116m10 132m10 148m10 19|200r28
+51e10*DATA_N1{17|2235E12} 101m10 117m10 133m10 149m10 19|204r28
+52e10*LINK_M1{17|2235E12} 102m10 118m10 134m10 150m10 19|208r28
+53e10*LINK_N1{17|2235E12} 103m10 119m10 135m10 151m10 19|211r28
+54e10*DDI_FUNC_CTL{17|2235E12} 104m10 120m10 136m10 152m10 19|311r34 343r31
+. 386r33
+55e10*MSA_MISC{17|2235E12} 105m10 121m10 137m10 153m10 19|216r31
+56e10*CLK_SEL{17|35E9} 106m10 122m10 138m10 154m10 19|238r16 242r31 270r16
+. 274r36 416r16 418r33
+57e10*PIPE_ARB_CTL{17|35E9} 107m10 123m10 139m10 155m10 19|348r16 351r31
+60A9 Transcoder_Array(41R9)<39E9> 91r27
+62a4 PIPE_DATA_M1(17|2235E12) 116r28 132r28
+69a4 PIPE_DATA_N1(17|2235E12) 117r28 133r28
+76a4 PIPE_LINK_M1(17|2235E12) 118r28 134r28
+83a4 PIPE_LINK_N1(17|2235E12) 119r28 135r28
+91a4 Transcoders{60A9} 19|231r16 267r16 285r16 333r16 402r24 406r18 413r39
+X 19 hw-gfx-gma-transcoder.adb
+23A9 Default_Transcoder_Array(18|39E9)<11|121E9> 24r34
+24a4 Default_Transcoder{23A9} 36r13 406r31 413r52
+29V13 Get_Idx{18|39E9} 29b13 29>22 29>41 37l8 37t15 231s29 267s29 285s29
+. 333s29
+29e22 Pipe{11|121E9} 36r33
+29e41 Port{11|288E9} 33r48
+41N4 TRANS_CLK_SEL_PORT_NONE 418r42
+42N4 TRANS_CLK_SEL_MASK 275r30
+44A9 TRANS_CLK_SEL_PORT_Array(3|34M12)<11|288E9> 46r34
+46a4 TRANS_CLK_SEL_PORT{44A9} 243r25
+53V13 TGL_TRANS_CLK_SEL_PORT{3|34M12} 53>37 276s30
+53e37 Port{11|298E12} 54r10
+66N4 TRANS_CONF_ENABLE 357r22 369r42 372r44
+67N4 TRANS_CONF_ENABLED_STATUS 381r25
+68N4 TRANS_CONF_ENABLE_DITHER 82r42
+70A9 BPC_Array(3|34M12)<24|52I9> 71r30 146r32 156r39
+71a4 TRANS_CONF_BPC{70A9} 81r42
+87N4 DDI_FUNC_CTL_ENABLE 344r25
+88N4 DDI_FUNC_CTL_MODE_SELECT_MASK
+89N4 DDI_FUNC_CTL_MODE_SELECT_HDMI
+90N4 DDI_FUNC_CTL_MODE_SELECT_DVI 121r19
+91N4 DDI_FUNC_CTL_MODE_SELECT_DP_SST 122r19
+92N4 DDI_FUNC_CTL_MODE_SELECT_DP_MST
+93N4 DDI_FUNC_CTL_MODE_SELECT_FDI 120r19
+95A9 DDI_Select_Array(3|34M12)<11|288E9> 96r39
+96a4 DDI_FUNC_CTL_DDI_SELECT{95A9} 304r17
+103V13 TGL_DDI_FUNC_CTL_DDI_SELECT{3|34M12} 103>42 300s13
+103e42 Port{11|298E12} 106r12
+118A9 DDI_Mode_Array(3|34M12)<6|116E9> 119r40
+119a4 DDI_FUNC_CTL_MODE_SELECT{118A9} 313r25
+125A9 HV_Sync_Array(3|34M12)<boolean> 126r34 129r34
+126a4 DDI_FUNC_CTL_VSYNC{125A9} 315r25
+129a4 DDI_FUNC_CTL_HSYNC{125A9} 316r25
+133N4 DDI_FUNC_CTL_EDP_SELECT_MASK 396r43
+134N4 DDI_FUNC_CTL_EDP_SELECT_ALWAYS_ON 295r16 399r29
+135a4 DDI_FUNC_CTL_EDP_SELECT(3|34M12) 297r16 400r28
+140A9 Port_Width_Array(3|34M12)<6|66E9> 141r39
+141a4 DDI_FUNC_CTL_PORT_WIDTH{140A9} 318r25
+146a4 DDI_FUNC_CTL_BPC{70A9} 314r25
+155N4 TRANS_MSA_MISC_SYNC_CLK 217r25
+156a4 TRANS_MSA_MISC_BPC{70A9} 218r25
+164V13 TRANS_DATA_M_TU{3|34M12} 164b13 164>30 167l8 167t23 201s22
+164i30 Transfer_Unit{positive} 166r34
+171V13 Encode{3|34M12} 171b13 171>21 171>26 174l8 174t14 252s40 253s40 254s40
+. 255s40 256s40 257s40
+171i21 LSW{3|53I12} 173r59
+171i26 MSW{3|53I12} 173r34
+178U14 Setup_Link 178b14 179>7 180>7 181>7 220l8 220t18 247s10 249s10
+179r7 Trans{18|41R9} 184r49 200r22 204r22 208r22 211r22 216r25
+180r7 Link{6|94R9} 184r56 192r22
+181r7 Mode{6|119R9} 184r62 193r22 218r45
+186i7 Data_M{9|112I12[16|19]} 194m22 202r30
+186i15 Link_M{9|112I12[16|19]} 196m22 209r30
+187i7 Data_N{9|113I12[16|19]} 195m22 205r30
+187i15 Link_N{9|113I12[16|19]} 197m22 212r30
+230r7 Trans=231:16{18|41R9} 238r10 242r25 247r22 249r22 252r24 253r24 254r24
+. 255r24 256r24 257r24
+232r7 M{6|119R9} 252r48 252r64 253r48 253r64 254r48 254r64 255r48 255r64
+. 256r48 256r64 257r48 257r64
+266r7 Trans=267:16{18|41R9} 270r10 274r30
+284r7 Trans=285:16{18|41R9} 311r28
+286e7 Lane_Count{6|66E9} 318r50
+288m7 EDP_Select{3|34M12} 317r25
+298m7 DDI_Select{3|34M12} 312r28
+332r7 Trans=333:16{18|41R9} 343r25 348r10 351r25 356r22 360r31
+334N7 PIPE_ARB_USE_PROG_SLOTS 352r25
+365U14 Trans_Off 365b14 365>25 388l8 388t17 402s13 406s7
+365r25 Trans{18|41R9} 369r30 372r32 380r25 386r27
+367b7 Enabled{boolean} 369m61 371r10 377r53
+392m7 DDI_Func_Ctl{3|34M12} 395m59 396m10 396r26 399r14 400r13
+413r7 Trans=413:39{18|41R9} 416r10 418r27
+424N4 SRD_CTL_ENABLE 461r52 463r54 471r52 473r54
+425N4 SRD_STATUS_STATE_MASK 464r62 474r62
+427R9 SRD_Regs 430e14 431r58 434r22 437r22 440r22 443r22
+428e7*CTL{17|2235E12} 435m10 438m10 441m10 444m10 461r47 463r49
+429e7*STATUS{17|2235E12} 436m10 439m10 442m10 445m10 464r54
+431A9 SRD_Per_Pipe_Regs(427R9)<18|39E9> 433r19 433r40
+433a4 SRD{431A9} 461r39 463r41 464r46
+451b7 Enabled{boolean} 461m68 462r19 471m68 472r13
+457e13 First_Transcoder{18|39E9} 460r45
+460e17 P{18|39E9} 461r44 463r46 464r51
+X 24 interfac.ads
+49I9*Integer_32<integer>
+52I9*Integer_64<long_long_integer>
+66M9*Unsigned_32
+

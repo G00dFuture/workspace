@@ -1,0 +1,262 @@
+V "GNAT Lib v14"
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A -gnatwa
+A -gnatwe
+A --RTS=/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.debug%b		hw-debug.adb		5ea65f21 NE OO PK IU
+W hw%s			hw.ads			hw.ali
+W hw.debug_sink%s	hw-debug_sink.adb	hw-debug_sink.ali
+W hw.time%s		hw-time.adb		hw-time.ali
+
+U hw.debug%s		hw-debug.ads		27b64be9 EE NE OO PK IU
+W hw%s			hw.ads			hw.ali
+
+D hw.ads		20260129053550 349e873c hw%s
+D hw-debug.ads		20260129053550 1328ccd5 hw.debug%s
+D hw-debug.adb		20260129053550 fa6ad6c6 hw.debug%b
+D hw-debug_sink.ads	20260129053550 2fec8092 hw.debug_sink%s
+D hw-time.ads		20260129053550 9808c5a0 hw.time%s
+D interfac.ads		20260129053606 069b9bbd interfaces%s
+D system.ads		20260129053606 21923ced system%s
+D gnat.adc		20260129053550 00000000
+G a e
+G c Z s b [put hw__debug 18 14 none]
+G c Z s b [put_line hw__debug 19 14 none]
+G c Z s b [new_line hw__debug 20 14 none]
+G c Z s b [put_word8 hw__debug 22 14 none]
+G c Z s b [put_word16 hw__debug 23 14 none]
+G c Z s b [put_word32 hw__debug 24 14 none]
+G c Z s b [put_word64 hw__debug 25 14 none]
+G c Z s b [put_int8 hw__debug 27 14 none]
+G c Z s b [put_int16 hw__debug 28 14 none]
+G c Z s b [put_int32 hw__debug 29 14 none]
+G c Z s b [put_int64 hw__debug 30 14 none]
+G c Z s b [put_reg8 hw__debug 32 14 none]
+G c Z s b [put_reg16 hw__debug 33 14 none]
+G c Z s b [put_reg32 hw__debug 34 14 none]
+G c Z s b [put_reg64 hw__debug 35 14 none]
+G c Z s b [put_buffer hw__debug 37 14 none]
+G c Z s b [set_register_write_delay hw__debug 39 14 none]
+G c Z s b [register_write_wait hw__debug 40 14 none]
+G r c none [put hw__debug 18 14 none] [now_us hw__time 38 13 none]
+G r c none [put hw__debug 18 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put hw__debug 18 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_line hw__debug 19 14 none] [now_us hw__time 38 13 none]
+G r c none [put_line hw__debug 19 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put_line hw__debug 19 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_line hw__debug 19 14 none] [new_line hw__debug_sink 9 14 none]
+G r c none [new_line hw__debug 20 14 none] [new_line hw__debug_sink 9 14 none]
+G r c none [put_word8 hw__debug 22 14 none] [now_us hw__time 38 13 none]
+G r c none [put_word8 hw__debug 22 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put_word8 hw__debug 22 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_word16 hw__debug 23 14 none] [now_us hw__time 38 13 none]
+G r c none [put_word16 hw__debug 23 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put_word16 hw__debug 23 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_word32 hw__debug 24 14 none] [now_us hw__time 38 13 none]
+G r c none [put_word32 hw__debug 24 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put_word32 hw__debug 24 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_word64 hw__debug 25 14 none] [now_us hw__time 38 13 none]
+G r c none [put_word64 hw__debug 25 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put_word64 hw__debug 25 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_int8 hw__debug 27 14 none] [now_us hw__time 38 13 none]
+G r c none [put_int8 hw__debug 27 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put_int8 hw__debug 27 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_int16 hw__debug 28 14 none] [now_us hw__time 38 13 none]
+G r c none [put_int16 hw__debug 28 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put_int16 hw__debug 28 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_int32 hw__debug 29 14 none] [now_us hw__time 38 13 none]
+G r c none [put_int32 hw__debug 29 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put_int32 hw__debug 29 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_int64 hw__debug 30 14 none] [now_us hw__time 38 13 none]
+G r c none [put_int64 hw__debug 30 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put_int64 hw__debug 30 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_reg8 hw__debug 32 14 none] [now_us hw__time 38 13 none]
+G r c none [put_reg8 hw__debug 32 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put_reg8 hw__debug 32 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_reg8 hw__debug 32 14 none] [new_line hw__debug_sink 9 14 none]
+G r c none [put_reg16 hw__debug 33 14 none] [now_us hw__time 38 13 none]
+G r c none [put_reg16 hw__debug 33 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put_reg16 hw__debug 33 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_reg16 hw__debug 33 14 none] [new_line hw__debug_sink 9 14 none]
+G r c none [put_reg32 hw__debug 34 14 none] [now_us hw__time 38 13 none]
+G r c none [put_reg32 hw__debug 34 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put_reg32 hw__debug 34 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_reg32 hw__debug 34 14 none] [new_line hw__debug_sink 9 14 none]
+G r c none [put_reg64 hw__debug 35 14 none] [now_us hw__time 38 13 none]
+G r c none [put_reg64 hw__debug 35 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put_reg64 hw__debug 35 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_reg64 hw__debug 35 14 none] [new_line hw__debug_sink 9 14 none]
+G r c none [put_buffer hw__debug 37 14 none] [now_us hw__time 38 13 none]
+G r c none [put_buffer hw__debug 37 14 none] [put_char hw__debug_sink 7 14 none]
+G r c none [put_buffer hw__debug 37 14 none] [put hw__debug_sink 5 14 none]
+G r c none [put_buffer hw__debug 37 14 none] [new_line hw__debug_sink 9 14 none]
+G r c none [register_write_wait hw__debug 40 14 none] [u_delay hw__time 54 14 none]
+X 1 hw.ads
+17K9*HW 91e7 2|16r9 41r5 3|15r6 16r6 18r10 20r14 67r7 78r7 113r10 287r5
+21M12*Byte{6|60M9}
+22M12*Word8{21M12} 2|22r32 32r46 3|131r32 190r46
+28M12*Word16{6|63M9} 2|23r33 33r47 3|136r33 198r47 246r28
+34M12*Word32{6|66M9} 2|24r33 34r47 3|141r33 207r47
+40M12*Word64{6|69M9} 2|25r33 35r47 39r48 3|18r13 31r39 38r21 57r23 85r21
+. 89r14 100r37 106r25 120r21 133r17 138r17 143r17 146r33 155r14 159r18 161r18
+. 216r47 251r26 258r26 271r48
+46I12*Int8{6|43I9} 2|27r31 3|173r31
+47I12*Int16{6|46I9} 2|28r32 3|178r32
+48I12*Int32{6|49I9} 2|29r32 3|183r32
+49I12*Int64{6|52I9} 2|30r32 3|43r21 49r16 153r35 166r32 175r18 180r18 185r18
+88I12*Buffer_Range{natural} 2|37r67 3|230r15
+89A9*Buffer(21M12)<integer> 2|37r50 3|229r15
+X 2 hw-debug.ads
+16K12*Debug 1|17k9 2|41l8 41e13 3|20b17 287l8 287t13
+18U14*Put 18>19 3|64b14 68l8 68t11 72s7 126s10 192s7 193s7 201s7 202s7 210s7
+. 211s7 219s7 220s7 236s13 244s16 247s16
+18a19 Item{string} 3|64b19 67r26
+19U14*Put_Line 19>24 3|70b14 74l8 74t16 237s13
+19a24 Item{string} 3|70b24 72r12
+20U14*New_Line 3|73s7 76b14 80l8 80t16 195s7 204s7 213s7 222s7 261s13
+22U14*Put_Word8 22>25 3|131b14 134l8 134t17 194s7
+22m25 Item{1|22M12} 3|131b25 133r25
+23U14*Put_Word16 23>26 3|136b14 139l8 139t18 203s7 246s16
+23m26 Item{1|28M12} 3|136b26 138r25
+24U14*Put_Word32 24>26 3|141b14 144l8 144t18 212s7
+24m26 Item{1|34M12} 3|141b26 143r25
+25U14*Put_Word64 25>26 3|146b14 149l8 149t18 221s7
+25m26 Item{1|40M12} 3|146b26 148r17
+27U14*Put_Int8 27>24 3|173b14 176l8 176t16
+27i24 Item{1|46I12} 3|173b24 175r25
+28U14*Put_Int16 28>25 3|178b14 181l8 181t17
+28i25 Item{1|47I12} 3|178b25 180r25
+29U14*Put_Int32 29>25 3|183b14 186l8 186t17
+29i25 Item{1|48I12} 3|183b25 185r25
+30U14*Put_Int64 30>25 3|166b14 171l8 171t17 175s7 180s7 185s7
+30i25 Item{1|49I12} 3|166b25 170r21
+32U14*Put_Reg8 32>24 32>39 3|190b14 196l8 196t16
+32a24 Name{string} 3|190b24 192r12
+32m39 Item{1|22M12} 3|190b39 194r18
+33U14*Put_Reg16 33>25 33>40 3|198b14 205l8 205t17
+33a25 Name{string} 3|198b25 201r12
+33m40 Item{1|28M12} 3|198b40 203r19
+34U14*Put_Reg32 34>25 34>40 3|207b14 214l8 214t17
+34a25 Name{string} 3|207b25 210r12
+34m40 Item{1|34M12} 3|207b40 212r19
+35U14*Put_Reg64 35>25 35>40 3|216b14 223l8 223t17
+35a25 Name{string} 3|216b25 219r12
+35m40 Item{1|40M12} 3|216b40 221r19
+37U14*Put_Buffer 37>26 37>41 37>58 3|227b14 267l8 267t18
+37a26 Name{string} 3|228b7 235r13 236r18 243r16 244r21
+37a41 Buf{1|89A9} 3|229b7 251r34 258r34
+37i58 Len{1|88I12} 3|230b7 234r10 241r25 242r40
+39U14*Set_Register_Write_Delay 39>40 3|271b14 275l8 275t32
+39m40 Value{1|40M12} 3|271b40 274r43
+40U14*Register_Write_Wait 3|279b14 285l8 285t27
+X 3 hw-debug.adb
+29b4 Middle_Of_Line{boolean} 30r27 51r14 52m10 79m7
+31m4 Register_Write_Delay_Nanoseconds{1|40M12} 32r27 274m7 282r10 283r34
+34I9 Base_Range<integer> 40r21 87r21
+35I9 Width_Range<integer> 39r21 86r21 91r30 92r15 112r24 121r21
+37U14 Put_By_Base 38>7 39>7 40>7 57s10 84b14 115l8 115t19 128s7 163s7
+38m7 Item{1|40M12} 85b7 89r24
+39i7 Min_Width{35I9} 86b7 109r18 110r19
+40i7 Base{34I9} 87b7 100r45 106r33
+42U14 Do_Put_Int64 43>7 55s10 153b14 164l8 164t20 170s7
+43i7 Item{1|49I12} 153b28 157r10 159r27 161r26
+47U14 Put_Time 47b14 60l8 60t16 66s7 124s7 169s7
+49i7 Now_US{1|49I12} 53m10 55r25 57r31
+89m7 Temp{1|40M12} 99r13 100r28 106m10 106r18
+91I15 Chars_Range{35I9} 94r34
+92i7 Index{35I9} 102r20 104r20 107m10 107r19 109r10 110m10 112r47
+94A12 Chars_Array(character)<35I9> 95r15
+95a7 Chars{94A12} 102m13 104m13 113r34
+97i7 Digit{natural} 100m10 101r13 102r67 104r67
+112i11 I<integer> 113r41
+119U14 Put_Word 119b14 120>7 121>7 122>7 129l8 129t16 133s7 138s7 143s7 148s7
+. 251s16 258s16
+120m7 Item{1|40M12} 128r20
+121i7 Min_Width{35I9} 128r26
+122b7 Print_Ox{boolean} 125r10
+155m7 Temp{1|40M12} 159m10 161m10 163r20
+232i7 Line_Start{natural} 240m10 246r36 251r39 258r39 263m13 263r28
+232i19 Left{natural} 241m10 249r57 256r58 264m13 264r28 264r48
+242i14 I{integer}
+249i17 J{integer} 251r52
+256i17 J{integer} 258r52
+X 4 hw-debug_sink.ads
+3K12*Debug_Sink 3|16w9 54r10 56r10 58r10 67r10 78r10 113r13 158r10 245r16
+. 252r16 255r13 259r16 4|11e18
+5U14*Put 3|58s21 67s21
+7U14*Put_Char 3|54s21 56s21 113s24 158s21 245s27 252s27 255s24 259s27
+9U14*New_Line 3|78s21
+X 5 hw-time.ads
+15K12*Time 3|15w9 53r20 283r10 5|78e12
+38V13*Now_US{1|49I12} 3|53s25
+54U14*U_Delay 3|283s15
+X 6 interfac.ads
+43I9*Integer_8<short_short_integer>
+46I9*Integer_16<short_integer>
+49I9*Integer_32<integer>
+52I9*Integer_64<long_long_integer>
+60M9*Unsigned_8
+63M9*Unsigned_16
+66M9*Unsigned_32
+69M9*Unsigned_64
+

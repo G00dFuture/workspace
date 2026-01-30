@@ -1,0 +1,1789 @@
+make[1]: Entering directory '/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/coreboot'
+    MAKE       
+    MAKE       
+    MAKE       
+    MAKE       
+    GCC        libgnat-x86_32/lib/gnat/a-unccon.o
+    GCC        libgnat-x86_32/lib/gnat/g-souinf.o
+    GCC        libgnat-x86_32/lib/gnat/ada.o
+    GCC        libgnat-x86_32/lib/gnat/gnat.o
+    GCC        libgnat-x86_32/lib/gnat/i-c.o
+    GCC        libgnat-x86_32/lib/gnat/interfac.o
+    GCC        libgnat-x86_32/lib/gnat/s-atacco.o
+    GCC        libgnat-x86_32/lib/gnat/s-imenne.o
+    GCC        libgnat-x86_32/lib/gnat/s-maccod.o
+    GCC        libgnat-x86_32/lib/gnat/s-parame.o
+    GCC        libgnat-x86_32/lib/gnat/s-stoele.o
+    GCC        libgnat-x86_32/lib/gnat/system.o
+    GENERATE   libhwbase/common/hw-config.ads
+    GCC        libgnat-x86_32/lib/gnat/s-unstyp.o
+    GENERATE   libgfxinit/common/hw-gfx-gma-config.ads
+    HOSTCC     cbfstool/fmaptool.o
+    HOSTCC     cbfstool/cbfs_sections.o
+    HOSTCC     cbfstool/fmap_from_fmd.o
+    HOSTCC     cbfstool/fmd.o
+    HOSTCC     cbfstool/fmap.o
+    HOSTCC     cbfstool/kv_pair.o
+    HOSTCC     cbfstool/valstr.o
+    HOSTCC     util/sconfig/lex.yy.o
+    HOSTCC     util/sconfig/sconfig.tab.o
+    HOSTCC     cbfstool/fmd_parser.o
+    AR         libgnat-x86_32/libgnat.a
+    HOSTCC     cbfstool/fmd_scanner.o
+    HOSTCC     util/sconfig/main.o
+    CC         romstage/arch/x86/assembly_entry.o
+    CC         romstage/arch/x86/gdt_init.o
+    CC         romstage/arch/x86/idt.o
+    GEN        build.h
+    CC         smm/arch/x86/idt.o
+    HOSTCC     cbfstool/rmodtool.o
+    HOSTCC     cbfstool/rmodule.o
+    HOSTCC     cbfstool/common.o
+    HOSTCC     cbfstool/elfheaders.o
+vboot SHA256 built with tight loops (slower, smaller code size)
+vboot SHA256 built with tight loops (slower, smaller code size)
+    CC            firmware/2lib/2api.o
+vboot SHA256 built with tight loops (slower, smaller code size)
+    CC            firmware/2lib/2auxfw_sync.o
+    HOSTCC     cbfstool/xdr.o
+    CC            firmware/2lib/2api.o
+    CC            firmware/2lib/2auxfw_sync.o
+vboot SHA256 built with tight loops (slower, smaller code size)
+    CC            firmware/2lib/2api.o
+    CC            firmware/2lib/2api.o
+    CC            firmware/2lib/2common.o
+    CC            firmware/2lib/2auxfw_sync.o
+    CC            firmware/2lib/2common.o
+    CC            firmware/2lib/2context.o
+    CC         smmstub/cpu/x86/smm/smm_stub.o
+    CC            firmware/2lib/2auxfw_sync.o
+    CC            firmware/2lib/2context.o
+    CC            firmware/2lib/2common.o
+    HOSTCC     cbfstool/fmaptool (link)
+    HOSTCC     cbfstool/rmodtool (link)
+    CC            firmware/2lib/2common.o
+    CC            firmware/2lib/2crc8.o
+    CC            firmware/2lib/2crc8.o
+    CC            firmware/2lib/2context.o
+    CC            firmware/2lib/2crypto.o
+    CC            firmware/2lib/2crypto.o
+    CC            firmware/2lib/2crc8.o
+    CC            firmware/2lib/2context.o
+    HOSTCC     util/sconfig/sconfig (link)
+    CC            firmware/2lib/2ec_sync.o
+    FMAP       /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/fmaptool -h /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/fmap_config.h /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/fmap.fmd /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/fmap.fmap
+SUCCESS: Wrote 1316 bytes to file '/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/fmap.fmap' (and generated header)
+The sections containing CBFSes are: COREBOOT,FW_MAIN_A,RW_LEGACY,FW_MAIN_B
+    CC            firmware/2lib/2ec_sync.o
+    CC            firmware/2lib/2firmware.o
+    CC            firmware/2lib/2gbb.o
+    CC            firmware/2lib/2crypto.o
+    CC            firmware/2lib/2ec_sync.o
+    CC            firmware/2lib/2firmware.o
+    CC            firmware/2lib/2crc8.o
+    CC            firmware/2lib/2crypto.o
+    CC            firmware/2lib/2gbb.o
+    CC            firmware/2lib/2firmware.o
+    CC         rmodules_x86_32/cpu/x86/sipi_vector.o
+    CC            firmware/2lib/2ec_sync.o
+    CC            firmware/2lib/2gbb.o
+    CC            firmware/2lib/2hmac.o
+    CC            firmware/2lib/2firmware.o
+    CC            firmware/2lib/2hmac.o
+    CC            firmware/2lib/2hmac.o
+    CC            firmware/2lib/2kernel.o
+    SCONFIG    mainboard/google/brya/variants/baseboard/nissa/devicetree.cb
+    CP         rmodules_x86_32/lib/rmodule.ld
+    CC            firmware/2lib/2gbb.o
+    CC            firmware/2lib/2hmac.o
+    CC            firmware/2lib/2kernel.o
+    CC            firmware/2lib/2load_kernel.o
+    CC            firmware/2lib/2kernel.o
+    CC            firmware/2lib/2kernel.o
+    CC            firmware/2lib/2misc.o
+    CC         ramstage/arch/x86/c_start.o
+    CC            firmware/2lib/2load_kernel.o
+    CC            firmware/2lib/2misc.o
+    CC            firmware/2lib/2nvstorage.o
+    CC            firmware/2lib/2load_kernel.o
+    CC            firmware/2lib/2nvstorage.o
+    CC            firmware/2lib/2load_kernel.o
+    CC            firmware/2lib/2misc.o
+    CC            firmware/2lib/2packed_key.o
+    CC            firmware/2lib/2misc.o
+    CC            firmware/2lib/2nvstorage.o
+    CC            firmware/2lib/2packed_key.o
+    CC            firmware/2lib/2recovery_reasons.o
+    CC         ramstage/arch/x86/idt.o
+    CC            firmware/2lib/2recovery_reasons.o
+    CC            firmware/2lib/2nvstorage.o
+    CC            firmware/2lib/2rsa.o
+    CC         ramstage/arch/x86/ioapic.o
+    CC            firmware/2lib/2rsa.o
+    CC            firmware/2lib/2packed_key.o
+    CC            firmware/2lib/2secdata_firmware.o
+    CC         ramstage/arch/x86/memcpy.o
+    CC            firmware/2lib/2packed_key.o
+    CC            firmware/2lib/2secdata_firmware.o
+    CC            firmware/2lib/2recovery_reasons.o
+    CC            firmware/2lib/2secdata_fwmp.o
+    CC            firmware/2lib/2secdata_kernel.o
+    CC            firmware/2lib/2recovery_reasons.o
+    CC            firmware/2lib/2rsa.o
+    CC            firmware/2lib/2secdata_fwmp.o
+    CC            firmware/2lib/2rsa.o
+    CC            firmware/2lib/2secdata_firmware.o
+    CC            firmware/2lib/2sha1.o
+    CC         ramstage/arch/x86/memmove_32.o
+    CC            firmware/2lib/2secdata_kernel.o
+    CC            firmware/2lib/2sha1.o
+    CC            firmware/2lib/2secdata_fwmp.o
+    CC            firmware/2lib/2sha256.o
+    CC            firmware/2lib/2sha512.o
+    CC            firmware/2lib/2sha256.o
+    CC         ramstage/arch/x86/memset.o
+    CC            firmware/2lib/2secdata_firmware.o
+    CC            firmware/2lib/2sha512.o
+    CC            firmware/2lib/2secdata_kernel.o
+    CC         ramstage/arch/x86/null_breakpoint.o
+    CC            firmware/2lib/2sha_utility.o
+    CC            firmware/2lib/2secdata_fwmp.o
+    CC            firmware/2lib/2sha_utility.o
+    CC            firmware/2lib/2sha1.o
+    CC            firmware/2lib/2struct.o
+    CC            firmware/2lib/2stub_hwcrypto.o
+    CC            firmware/2lib/2sha256.o
+    CC            firmware/2lib/2secdata_kernel.o
+    CC            firmware/2lib/2sha1.o
+    CC         ramstage/arch/x86/post.o
+    CC            firmware/2lib/2sha512.o
+    CC            firmware/2lib/2struct.o
+    CC         ramstage/arch/x86/rdrand.o
+    CC            firmware/2lib/2stub_hwcrypto.o
+    CC            firmware/2lib/2sha256.o
+    CC            firmware/2lib/2tpm_bootmode.o
+    CC            firmware/2lib/2sha512.o
+    CC         ramstage/arch/x86/smbios.o
+    CC            firmware/lib/cgptlib/cgptlib.o
+    CC            firmware/2lib/2tpm_bootmode.o
+    CC            firmware/2lib/2sha_utility.o
+    CC         ramstage/arch/x86/stack_canary_breakpoint.o
+    CC            firmware/2lib/2sha_utility.o
+    CC            firmware/lib/cgptlib/cgptlib.o
+    CC            firmware/2lib/2struct.o
+    CC         ramstage/arch/x86/tables.o
+    CC            firmware/lib/cgptlib/cgptlib_internal.o
+    CC            firmware/2lib/2struct.o
+    CC            firmware/lib/cgptlib/cgptlib_internal.o
+    CC         ramstage/arch/x86/timestamp.o
+    CC            firmware/2lib/2stub_hwcrypto.o
+    CC            firmware/lib/cgptlib/crc32.o
+    CC            firmware/2lib/2stub_hwcrypto.o
+    CC         ramstage/arch/x86/wakeup.o
+    CC            firmware/2lib/2tpm_bootmode.o
+    CC            firmware/2lib/2tpm_bootmode.o
+    CC            firmware/lib/gpt_misc.o
+    CC            firmware/lib/cgptlib/crc32.o
+    CC         ramstage/acpi/acpi.o
+    CC            firmware/lib/cgptlib/cgptlib.o
+    CC            firmware/lib/cgptlib/cgptlib_internal.o
+    CC            firmware/lib/cgptlib/crc32.o
+    CC            firmware/2lib/2hwcrypto.o
+    CC            firmware/lib/gpt_misc.o
+    CC            firmware/lib/gpt_misc.o
+    CC            firmware/lib/cgptlib/cgptlib.o
+    CC            firmware/2lib/2hwcrypto.o
+    CC            firmware/2lib/2hwcrypto.o
+    CC         ramstage/acpi/acpi_apic.o
+    CC            firmware/2lib/2sha256_x86.o
+    CC            firmware/2lib/2sha256_x86.o
+    CC            firmware/2lib/2sha256_x86.o
+    CC            firmware/lib/cgptlib/cgptlib_internal.o
+    CC            firmware/lib/cgptlib/crc32.o
+    RM            vboot_fw.a
+    AR            vboot_fw.a
+    RM            vboot_fw.a
+    AR            vboot_fw.a
+    CC            firmware/lib/gpt_misc.o
+    CC            firmware/2lib/2hwcrypto.o
+    RM            vboot_fw.a
+    AR            vboot_fw.a
+    CC            firmware/2lib/2sha256_x86.o
+    CC         ramstage/acpi/acpi_dmar.o
+    CC         ramstage/acpi/acpi_hpet.o
+    CC         ramstage/acpi/acpi_pm.o
+    CC         ramstage/acpi/acpigen.o
+    CC         ramstage/acpi/acpigen_dptf.o
+    CC         ramstage/acpi/acpigen_dsm.o
+    CC         ramstage/acpi/acpigen_pci.o
+    CC         ramstage/acpi/acpigen_pci_root_resource_producer.o
+    RM            vboot_fw.a
+    AR            vboot_fw.a
+    CC         ramstage/acpi/acpigen_ps2_keybd.o
+    CC         ramstage/acpi/acpigen_usb.o
+    CC         ramstage/acpi/device.o
+    CC         ramstage/acpi/fadt_filler.o
+    CC         ramstage/acpi/gnvs.o
+    CC         ramstage/acpi/pld.o
+    CC         ramstage/acpi/sata.o
+    CC         ramstage/acpi/soundwire.o
+    CP         ramstage/arch/x86/memlayout.ld
+    CP         ramstage/lib/program.ld
+    CREATE     /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/mainboard/google/brya/cbfs-file.VovJhl.out (from /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial.config)
+    CC+STRIP   src/lib/cbfs_master_header.c
+    IASL       /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/dsdt.aml
+    MICROCODE  cpu_microcode_blob.bin
+3rdparty/blobs/mainboard/google/nissa/ucode-pujjoga.bin
+    AR         postcar/external/vboot_reference-postcar/vboot_fw.a
+    CC         postcar/mainboard/google/brya/static.o
+    CC         postcar/acpi/acpi_pm.o
+    CC         postcar/arch/x86/boot.o
+    CC         postcar/arch/x86/breakpoint.o
+    CC         postcar/arch/x86/cf9_reset.o
+In file included from src/soc/intel/common/block/acpi/acpi/northbridge.asl:4,
+                 from src/mainboard/google/brya/dsdt.asl:26:
+src/commonlib/bsd/include/commonlib/bsd/helpers.h:58:9: warning: "GENMASK" redefined
+   58 | #define GENMASK(high, low) (((~0ULL) << (low)) & (~0ULL >> (63 - (high))))
+      |         ^~~~~~~
+In file included from src/mainboard/google/brya/variants/baseboard/nissa/include/baseboard/ec.h:7,
+                 from src/mainboard/google/brya/variants/pujjoga/include/variant/ec.h:6,
+                 from src/mainboard/google/brya/dsdt.asl:4:
+src/ec/google/chromeec/ec_commands.h:62:9: note: this is the location of the previous definition
+   62 | #define GENMASK(h, l) (((BIT(h) << 1) - 1) ^ (BIT(l) - 1))
+      |         ^~~~~~~
+    CC         postcar/arch/x86/cpu_common.o
+    CC         postcar/arch/x86/exception.o
+    CC         postcar/arch/x86/exit_car.o
+    CC         postcar/arch/x86/gdt_init.o
+    CC         postcar/arch/x86/idt.o
+    CC         postcar/arch/x86/memcpy.o
+    CP         postcar/arch/x86/memlayout.ld
+    CC         postcar/arch/x86/memmove_32.o
+    CC         postcar/arch/x86/memset.o
+    CC         postcar/arch/x86/null_breakpoint.o
+    CC         postcar/arch/x86/post.o
+    CC         postcar/arch/x86/postcar.o
+    CC         postcar/arch/x86/timestamp.o
+    CC         postcar/commonlib/bsd/cbfs_mcache.o
+    CC         postcar/commonlib/bsd/cbfs_private.o
+    CC         postcar/commonlib/bsd/gcd.o
+    CC         postcar/commonlib/bsd/ipchksum.o
+    CC         postcar/commonlib/bsd/lz4_wrapper.o
+    CC         postcar/commonlib/bsd/string.o
+    CC         postcar/commonlib/bsd/xxhash.o
+    CC         postcar/commonlib/bsd/zstd_wrapper.o
+    CC         postcar/commonlib/iobuf.o
+    CC         postcar/commonlib/list.o
+dsdt.asl     23:   Name (WSHC, Package() { VBT3 })
+Remark   2173 -            ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\CRHW.CHSW)
+
+dsdt.asl     28:   Name (DIW1, "")
+Remark   2173 -            ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\CRHW.FWID)
+
+dsdt.asl     30:   Name (DIWF, Package() { DIW1 })
+Remark   2173 -            ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\CRHW.FWID)
+
+dsdt.asl     35:   Name (DIR1, "")
+Remark   2173 -            ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\CRHW.FRID)
+
+dsdt.asl     37:   Name (DIRF, Package() { DIR1 })
+Remark   2173 -            ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\CRHW.FRID)
+
+dsdt.asl     42:   Name (DIW0, "")
+Remark   2173 -            ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\CRHW.HWID)
+
+dsdt.asl     44:   Name (DIWH, Package() { DIW0 })
+Remark   2173 -            ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\CRHW.HWID)
+
+dsdt.asl     49:   Name (FNIB, Package() { VBT0, VBT1, VBT2, VBT7, VBT8 })
+Remark   2173 -            ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\CRHW.BINF)
+
+dsdt.asl     58:   Name(VNBV, Package() {
+Remark   2173 -           ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\CRHW.VBNV)
+
+dsdt.asl     66:   Name(TAD0,"")
+Remark   2173 -           ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\CRHW.VDAT)
+
+dsdt.asl     68:   Name (TADV, Package() { TAD0 })
+Remark   2173 -            ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\CRHW.VDAT)
+
+dsdt.asl     73:   Name(PAMF, Package() { VBT9 })
+Remark   2173 -           ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\CRHW.FMAP)
+
+dsdt.asl     78:   Name(HASH, Package() { MEHH })
+Remark   2173 -           ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\CRHW.MECK)
+
+dsdt.asl     83:   Name(TSLM, Package() { "CHSW", "FWID", "HWID", "FRID", "BINF",
+Remark   2173 -           ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\CRHW.MLST)
+
+dsdt.asl    153:    Name (RBUF, ResourceTemplate ()
+Remark   2173 -             ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PERC._CRS)
+
+dsdt.asl    253: Method (MPTS, 1)
+Remark   2146 -            ^ Method Argument is never used (Arg0)
+
+dsdt.asl    299:  Name (MCRS, ResourceTemplate ()
+Remark   2173 -           ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0._CRS)
+
+dsdt.asl    441:   Name (BUF0, ResourceTemplate ()
+Remark   2173 -            ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.PDRC._CRS)
+
+dsdt.asl    497:  OperationRegion (PCRD, SystemMemory, GPCR (Arg0, Arg1) + Arg2, 4)
+Remark   2173 -                      ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.RPCR)
+
+dsdt.asl    506:  OperationRegion (PCRD, SystemMemory, GPCR (Arg0, Arg1) + Arg2, 4)
+Remark   2173 -                      ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.APCR)
+
+dsdt.asl    516:  OperationRegion (PCRD, SystemMemory, GPCR (Arg0, Arg1) + Arg2, 4)
+Remark   2173 -                      ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.OPCR)
+
+dsdt.asl    526:  OperationRegion (PCRD, SystemMemory, GPCR (Arg0, Arg1) + Arg2, 4)
+Remark   2173 -                      ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.WPCR)
+
+dsdt.asl    559:   OperationRegion (ICLK, SystemMemory, (ICKB + (Arg0 * 0xC)), 4)
+Remark   2173 -                       ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.RAOW)
+
+dsdt.asl    587:  OperationRegion (PREG, SystemMemory, GADD (Arg0), 4)
+Remark   2173 -                      ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.GRXS)
+
+dsdt.asl    597:  OperationRegion (PREG, SystemMemory, GADD (Arg0), 4)
+Remark   2173 -                      ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.GTXS)
+
+dsdt.asl    606:  OperationRegion (PREG, SystemMemory, GADD (Arg0), 4)
+Remark   2173 -                      ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.STXS)
+
+    CC         postcar/commonlib/mem_pool.o
+dsdt.asl    615:  OperationRegion (PREG, SystemMemory, GADD (Arg0), 4)
+Remark   2173 -                      ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.CTXS)
+
+dsdt.asl    624:  OperationRegion (PREG, SystemMemory, GADD (Arg0), 4)
+Remark   2173 -                      ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.GPMO)
+
+dsdt.asl    634:  OperationRegion (PREG, SystemMemory, GADD (Arg0), 4)
+Remark   2173 -                      ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.GTXE)
+
+dsdt.asl    644:  OperationRegion (PREG, SystemMemory, GADD (Arg0), 4)
+Remark   2173 -                      ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.GRXE)
+
+dsdt.asl    654:  OperationRegion (PREG, SystemMemory, GADD (Arg0), 4)
+Remark   2173 -                      ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.GSCI)
+
+dsdt.asl    920:  Name (UUID, ToUUID ("A69F886E-6CEB-4594-A41F-7B5DCE24C553"))
+Remark   2184 -                                       Unknown UUID string ^ 
+
+dsdt.asl    951:  Name (IQAA, Package () {
+Remark   2173 -           ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.IRQM)
+
+dsdt.asl    956:  Name (IQAP, Package () {
+Remark   2173 -           ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.IRQM)
+
+dsdt.asl    961:  Name (IQBA, Package () {
+Remark   2173 -           ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.IRQM)
+
+dsdt.asl    966:  Name (IQBP, Package () {
+Remark   2173 -           ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.IRQM)
+
+dsdt.asl    971:  Name (IQCA, Package () {
+Remark   2173 -           ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.IRQM)
+
+dsdt.asl    976:  Name (IQCP, Package () {
+Remark   2173 -           ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.IRQM)
+
+dsdt.asl    981:  Name (IQDA, Package () {
+Remark   2173 -           ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.IRQM)
+
+dsdt.asl    986:  Name (IQDP, Package () {
+Remark   2173 -           ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.IRQM)
+
+dsdt.asl   1401:  OperationRegion (PSCR, SystemMemory, (Arg2 << 16) + Local0, 0x10)
+Remark   2173 -                      ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.UPWE)
+
+dsdt.asl   3636:   Name (ECMD, ResourceTemplate()
+Remark   2173 -            ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.LPCB.EC0._CRS)
+
+dsdt.asl   4134:  Method (_CRS, 0x0, NotSerialized)
+Remark   2120 -             ^ Control Method should be made Serialized due to creation of named objects within (\_SB.PCI0.LPCB.EC0.CREC._CRS)
+
+dsdt.asl   4136:   Name (RBUF, ResourceTemplate()
+Remark   2173 -            ^ Creation of named objects within a method is highly inefficient, use globals or method local variables instead (\_SB.PCI0.LPCB.EC0.CREC._CRS)
+
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20250807
+Copyright (c) 2000 - 2025 Intel Corporation
+
+coreboot toolchain v_
+ASL Input:     dsdt.asl -  110783 bytes   7429 keywords      0 source lines
+AML Output:    dsdt.aml -   23344 bytes   6574 opcodes     855 named objects
+
+Compilation successful. 0 Errors, 0 Warnings, 44 Remarks, 10902 Optimizations, 5010 Constants Folded
+    IASL       3150 warning types were ignored!
+    IASL       /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/dsdt.aml disassembled correctly.
+    CC         postcar/commonlib/region.o
+    CC         postcar/console/console.o
+    CC         postcar/console/die.o
+    CC         postcar/console/init.o
+    CC         postcar/console/post.o
+    CC         postcar/console/printk.o
+    CC         postcar/console/vsprintf.o
+    CC         postcar/console/vtxprintf.o
+    CC         postcar/cpu/intel/common/common_init.o
+    CC         postcar/cpu/x86/lapic/boot_cpu.o
+    CC         postcar/cpu/x86/lapic/lapic.o
+    CC         postcar/cpu/x86/mtrr/debug.o
+    CC         postcar/cpu/x86/mtrr/earlymtrr.o
+    CC         postcar/cpu/x86/mtrr/mtrrlib.o
+    CC         postcar/cpu/x86/pae/pgtbl.o
+    CC         postcar/cpu/x86/smm/tseg_region.o
+    CC         postcar/cpu/x86/tsc/delay_tsc.o
+    CC         postcar/device/device_const.o
+    CC         postcar/device/pci_early.o
+    CC         postcar/device/pci_ops.o
+    CC         postcar/drivers/elog/elog.o
+    CC         postcar/drivers/i2c/designware/dw_i2c.o
+    CC         postcar/drivers/i2c/tpm/cr50.o
+    CC         postcar/drivers/i2c/tpm/tis.o
+    CC         postcar/drivers/intel/fsp2_0/hand_off_block.o
+    CC         postcar/drivers/option/cbfs_file_option.o
+    CC         postcar/drivers/pc80/pc/i8254.o
+    CC         postcar/drivers/pc80/rtc/mc146818rtc.o
+    CC         postcar/drivers/pc80/rtc/mc146818rtc_boot.o
+    CC         postcar/drivers/spi/bitbang.o
+    CC         postcar/drivers/spi/boot_device_rw_nommap.o
+    CC         postcar/drivers/spi/spi-generic.o
+    CC         postcar/drivers/spi/spi_flash.o
+    CC         postcar/drivers/tpm/cr50.o
+    CC         postcar/drivers/uart/uart8250mem.o
+    CC         postcar/drivers/uart/util.o
+    CC         postcar/drivers/vpd/vpd.o
+    CC         postcar/drivers/vpd/vpd_decode.o
+    CC         postcar/lib/boot_device.o
+    CC         postcar/lib/bootmode.o
+    CC         postcar/lib/cbfs.o
+    CC         postcar/lib/cbmem_common.o
+    CC         postcar/lib/cbmem_console.o
+    CC         postcar/lib/crc_byte.o
+    CC         postcar/lib/delay.o
+    CC         postcar/lib/fmap.o
+    CC         postcar/lib/gcc.o
+    CC         postcar/lib/halt.o
+    CC         postcar/lib/hexdump.o
+    CC         postcar/lib/identity.o
+    CC         postcar/lib/imd.o
+    CC         postcar/lib/imd_cbmem.o
+    CC         postcar/lib/libgcc.o
+    CC         postcar/lib/lzma.o
+    CC         postcar/lib/lzmadecode.o
+    CC         postcar/lib/memchr.o
+    CC         postcar/lib/memcmp.o
+    CC         postcar/lib/prog_loaders.o
+    CC         postcar/lib/prog_ops.o
+    CP         postcar/lib/program.ld
+    CC         postcar/lib/reset.o
+    CC         postcar/lib/rmodule.o
+    CC         postcar/lib/romstage_handoff.o
+    CC         postcar/lib/string.o
+    CC         postcar/lib/timestamp.o
+    CC         postcar/lib/version.o
+    CC         postcar/security/memory/memory.o
+    CC         postcar/security/tpm/tspi/tspi.o
+    CC         postcar/security/tpm/tss/tcg-2.0/tss.o
+    CC         postcar/security/tpm/tss/tcg-2.0/tss_marshaling.o
+    CC         postcar/security/tpm/tss/tss.o
+    CC         postcar/security/tpm/tss/vendor/cr50/cr50.o
+    CC         postcar/security/vboot/bootmode.o
+    CC         postcar/security/vboot/common.o
+    CC         postcar/security/vboot/vbnv.o
+    CC         postcar/security/vboot/vbnv_flash.o
+    CC         postcar/security/vboot/vbnv_cmos.o
+    CC         postcar/security/vboot/vboot_common.o
+    CC         postcar/security/vboot/vboot_lib.o
+    CC         postcar/security/vboot/vboot_loader.o
+    CC         postcar/soc/intel/alderlake/gspi.o
+    CC         postcar/soc/intel/alderlake/i2c.o
+    CC         postcar/soc/intel/alderlake/pmutil.o
+    CC         postcar/soc/intel/alderlake/spi.o
+    CC         postcar/soc/intel/alderlake/uart.o
+    CC         postcar/soc/intel/common/block/chip/chip.o
+    CC         postcar/soc/intel/common/block/cpu/car/exit_car.o
+    CC         postcar/soc/intel/common/block/fast_spi/fast_spi.o
+    CC         postcar/soc/intel/common/block/fast_spi/fast_spi_flash.o
+    CC         postcar/soc/intel/common/block/fast_spi/mmap_boot.o
+    CC         postcar/soc/intel/common/block/gspi/gspi.o
+    CC         postcar/soc/intel/common/block/i2c/i2c.o
+    CC         postcar/soc/intel/common/block/lpss/lpss.o
+    CC         postcar/soc/intel/common/block/oc_wdt/oc_wdt.o
+    CC         postcar/soc/intel/common/block/pmc/pmclib.o
+    CC         postcar/soc/intel/common/block/smbus/tco.o
+    CC         postcar/soc/intel/common/block/smm/smm.o
+    CC         postcar/soc/intel/common/block/spi/spi.o
+    CC         postcar/soc/intel/common/block/systemagent/memmap.o
+    CC         postcar/soc/intel/common/block/systemagent/systemagent_early.o
+    CC         postcar/soc/intel/common/block/timer/timer.o
+    CC         postcar/soc/intel/common/block/uart/uart.o
+    CC         postcar/soc/intel/common/reset.o
+    CC         postcar/soc/intel/common/tpm_tis.o
+    CC+STRIP   src/cpu/intel/fit/fit_table.c
+    HOSTCC     cbfstool/cbfstool.o
+    HOSTCC     cbfstool/cbfs_image.o
+    HOSTCC     cbfstool/cbfs-mkstage.o
+    HOSTCC     cbfstool/cbfs-mkpayload.o
+    HOSTCC     cbfstool/partitioned_file.o
+    HOSTCC     cbfstool/platform_fixups.o
+    HOSTCC     cbfstool/cbfs_private.o
+    HOSTCC     cbfstool/fsp_relocate.o
+    HOSTCC     cbfstool/linux_trampoline.o
+    HOSTCC     cbfstool/cbfs-payload-linux.o
+    HOSTCC     cbfstool/compress.o
+    HOSTCC     cbfstool/lz4.o
+    HOSTCC     cbfstool/lz4hc.o
+    HOSTCC     cbfstool/lz4frame.o
+    HOSTCC     cbfstool/xxhash.o
+    HOSTCC     cbfstool/lz4_wrapper.o
+    HOSTCC     cbfstool/lzma.o
+    HOSTCC     cbfstool/LzFind.o
+    HOSTCC     cbfstool/LzmaDec.o
+    HOSTCC     cbfstool/debug.o
+    HOSTCC     cbfstool/LzmaEnc.o
+    HOSTCC     cbfstool/entropy_common.o
+    HOSTCC     cbfstool/error_private.o
+    HOSTCC     cbfstool/fse_decompress.o
+    HOSTCC     cbfstool/zstd_common.o
+    HOSTCC     cbfstool/fse_compress.o
+    HOSTCC     cbfstool/hist.o
+    HOSTCC     cbfstool/huf_compress.o
+    HOSTCC     cbfstool/zstd_compress.o
+    HOSTCC     cbfstool/zstd_compress_literals.o
+    HOSTCC     cbfstool/zstd_compress_sequences.o
+    HOSTCC     cbfstool/zstd_compress_superblock.o
+    HOSTCC     cbfstool/zstd_double_fast.o
+    HOSTCC     cbfstool/zstd_fast.o
+    HOSTCC     cbfstool/zstd_lazy.o
+    HOSTCC     cbfstool/zstd_ldm.o
+    HOSTCC     cbfstool/zstd_preSplit.o
+    HOSTCC     cbfstool/zstd_opt.o
+    HOSTCC     cbfstool/huf_decompress.o
+    HOSTCC     cbfstool/zstd_ddict.o
+    HOSTCC     cbfstool/zstd_decompress_block.o
+    HOSTCC     cbfstool/zstd_decompress.o
+    MAKE       vboot_lib/libvboot_host.a
+    AR         bootblock/external/vboot_reference-bootblock/vboot_fw.a
+    CC         bootblock/mainboard/google/brya/static.o
+    CC         bootblock/acpi/acpi_pm.o
+    CC         bootblock/arch/x86/boot.o
+    CP         bootblock/arch/x86/bootblock.ld
+    CC         bootblock/arch/x86/breakpoint.o
+    CP         bootblock/arch/x86/car.ld
+    CC         bootblock/arch/x86/cf9_reset.o
+    CC         bootblock/arch/x86/cpu_common.o
+    CC         bootblock/arch/x86/exception.o
+vboot SHA256 built with tight loops (slower, smaller code size)
+    CC         bootblock/arch/x86/gdt_init.o
+    CC            cgpt/cgpt_add.o
+    CC         bootblock/arch/x86/id.o
+    CC            cgpt/cgpt_boot.o
+    CC            cgpt/cgpt_common.o
+    CC         bootblock/arch/x86/idt.o
+    CC            cgpt/cgpt_create.o
+    CC            cgpt/cgpt_edit.o
+    CC         bootblock/arch/x86/memcpy.o
+    CP         bootblock/arch/x86/memlayout.ld
+    CC            cgpt/cgpt_find.o
+    CC            cgpt/cgpt_prioritize.o
+    CC            cgpt/cgpt_repair.o
+    CC         bootblock/arch/x86/memmove_32.o
+    CC            cgpt/cgpt_show.o
+    CC            firmware/2lib/2common.o
+    CC         bootblock/arch/x86/memset.o
+    CC         bootblock/arch/x86/null_breakpoint.o
+    CC            firmware/2lib/2context.o
+    CC            firmware/2lib/2crc8.o
+    CC            firmware/2lib/2crypto.o
+    CC         bootblock/arch/x86/post.o
+    CC         bootblock/arch/x86/timestamp.o
+    CC         bootblock/commonlib/bsd/cbfs_mcache.o
+    CC            firmware/2lib/2hmac.o
+    CC            firmware/2lib/2nvstorage.o
+    CC         bootblock/commonlib/bsd/cbfs_private.o
+    CC         bootblock/commonlib/bsd/gcd.o
+    CC         bootblock/commonlib/bsd/ipchksum.o
+    CC            firmware/2lib/2recovery_reasons.o
+    CC         bootblock/commonlib/bsd/lz4_wrapper.o
+    CC            firmware/2lib/2rsa.o
+    CC            firmware/2lib/2sha1.o
+    CC         bootblock/commonlib/bsd/string.o
+    CC         bootblock/commonlib/bsd/xxhash.o
+    CC            firmware/2lib/2sha256.o
+    CC            firmware/2lib/2sha512.o
+    CC            firmware/2lib/2sha_utility.o
+    CC         bootblock/commonlib/bsd/zstd_wrapper.o
+    CC            firmware/2lib/2stub.o
+    CC            firmware/2lib/2struct.o
+    CC            firmware/2lib/2stub_hwcrypto.o
+    CC         bootblock/commonlib/iobuf.o
+    CC         bootblock/commonlib/list.o
+    CC            firmware/lib/cgptlib/cgptlib_internal.o
+    CC            firmware/lib/cgptlib/crc32.o
+    CC            firmware/lib/gpt_misc.o
+    CC         bootblock/commonlib/mem_pool.o
+    CC            firmware/stub/tpm_lite_stub.o
+    CC            firmware/stub/vboot_api_stub_disk.o
+    CC         bootblock/commonlib/region.o
+    CC         bootblock/console/console.o
+    CC            futility/dump_kernel_config_lib.o
+    CC         bootblock/console/die.o
+    CC            host/arch/x86/lib/crossystem_arch.o
+    CC            host/lib/chromeos_config.o
+    CC         bootblock/console/init.o
+    CC            host/lib/crossystem.o
+    CC         bootblock/console/post.o
+    CC            host/lib/crypto.o
+    CC         bootblock/console/printk.o
+    CC         bootblock/console/vsprintf.o
+    CC         bootblock/console/vtxprintf.o
+    CC            host/lib/extract_vmlinuz.o
+    CC            host/lib/flashrom.o
+    CC         bootblock/cpu/intel/common/common_init.o
+    CC         bootblock/cpu/intel/fit/fit.o
+    CC            host/lib/subprocess.o
+    CC            host/lib/cbfstool.o
+    CC         bootblock/cpu/intel/microcode/microcode.o
+    CC            host/lib/fmap.o
+    CC         bootblock/cpu/x86/early_reset.o
+    CC            host/lib/gpio_uapi.o
+    CC         bootblock/cpu/x86/entry16.o
+    CC         bootblock/cpu/x86/entry32.o
+    CC            host/lib/host_misc.o
+    CC         bootblock/cpu/x86/lapic/boot_cpu.o
+    CC         bootblock/cpu/x86/lapic/lapic.o
+    CC            host/lib21/host_misc.o
+    CC         bootblock/cpu/x86/mtrr/debug.o
+    CC            firmware/lib/tpm_lite/tlcl.o
+    CC         bootblock/cpu/x86/mtrr/earlymtrr.o
+    CC         bootblock/cpu/x86/mtrr/mtrrlib.o
+    CC         bootblock/cpu/x86/name/name.o
+    CC         bootblock/cpu/x86/pae/pgtbl.o
+    CC         bootblock/cpu/x86/tsc/delay_tsc.o
+    CC         bootblock/device/device_const.o
+    RM            libvboot_host.so
+    LD            libvboot_host.so
+    CC         bootblock/device/i2c.o
+    RM            libvboot_host.a
+    AR            libvboot_host.a
+    CC         bootblock/device/mmio.o
+    CC         bootblock/device/pci_early.o
+    CC         bootblock/device/pci_ops.o
+    CC         bootblock/drivers/elog/elog.o
+    CC         bootblock/drivers/i2c/designware/dw_i2c.o
+    CC         bootblock/drivers/i2c/tpm/cr50.o
+    CC         bootblock/drivers/i2c/tpm/tis.o
+    CC         bootblock/drivers/option/cbfs_file_option.o
+    CC         bootblock/drivers/pc80/pc/i8254.o
+    CC         bootblock/drivers/pc80/rtc/mc146818rtc.o
+    CC         bootblock/drivers/pc80/rtc/mc146818rtc_boot.o
+    CC         bootblock/drivers/spi/bitbang.o
+    CC         bootblock/drivers/spi/boot_device_rw_nommap.o
+    CC         bootblock/drivers/spi/spi-generic.o
+    CC         bootblock/drivers/spi/spi_flash.o
+    CC         bootblock/drivers/uart/uart8250mem.o
+    CC         bootblock/drivers/tpm/cr50.o
+    CC         bootblock/drivers/uart/util.o
+    CC         bootblock/drivers/vpd/vpd.o
+    CC         bootblock/drivers/vpd/vpd_decode.o
+    CC         bootblock/ec/google/chromeec/crosec_proto.o
+    CC         bootblock/ec/google/chromeec/ec.o
+    CC         bootblock/ec/google/chromeec/ec_boardid.o
+    CC         bootblock/ec/google/chromeec/ec_lpc.o
+    CC         bootblock/ec/google/chromeec/switches.o
+    CC         bootblock/ec/google/chromeec/vboot_storage.o
+    CC         bootblock/ec/google/chromeec/vstore.o
+    CC         bootblock/lib/boot_device.o
+    CC         bootblock/lib/bootblock.o
+    CC         bootblock/lib/bootmode.o
+    CC         bootblock/lib/cbfs.o
+    CC         bootblock/lib/cbmem_console.o
+    CC         bootblock/lib/crc_byte.o
+    CC         bootblock/lib/delay.o
+    CC         bootblock/lib/fmap.o
+    CC         bootblock/lib/fw_config.o
+    CC         bootblock/lib/gcc.o
+    CC         bootblock/lib/gpio.o
+    CC         bootblock/lib/halt.o
+    CC         bootblock/lib/hexdump.o
+    CC         bootblock/lib/identity.o
+    CC         bootblock/lib/libgcc.o
+    CC         bootblock/lib/master_header_pointer.o
+    CC         bootblock/lib/memchr.o
+    CC         bootblock/lib/memcmp.o
+    CC         bootblock/lib/prog_loaders.o
+    CC         bootblock/lib/metadata_hash.o
+    CC         bootblock/lib/prog_ops.o
+    CP         bootblock/lib/program.ld
+    CC         bootblock/lib/reset.o
+    CC         bootblock/lib/string.o
+    CC         bootblock/lib/timestamp.o
+    CC         bootblock/lib/version.o
+    CC         bootblock/mainboard/google/brya/bootblock.o
+    CC         bootblock/mainboard/google/brya/chromeos.o
+    CC         bootblock/mainboard/google/brya/variants/baseboard/nissa/gpio.o
+    CC         bootblock/mainboard/google/brya/variants/pujjoga/gpio.o
+    CC         bootblock/security/tpm/tspi/tspi.o
+    CC         bootblock/security/tpm/tss/tcg-2.0/tss.o
+    CC         bootblock/security/tpm/tss/tcg-2.0/tss_marshaling.o
+    CC         bootblock/security/tpm/tss/tss.o
+    CC         bootblock/security/tpm/tss/vendor/cr50/cr50.o
+    CC         bootblock/security/vboot/bootmode.o
+    CC         bootblock/security/vboot/common.o
+    CC         bootblock/security/vboot/secdata_tpm.o
+    CC         bootblock/security/vboot/secdata_tpm2.o
+    CC         bootblock/security/vboot/tpm_common.o
+    CC         bootblock/security/vboot/vbnv.o
+    CC         bootblock/security/vboot/vbnv_cmos.o
+    CC         bootblock/security/vboot/vbnv_flash.o
+    CC         bootblock/security/vboot/vboot_common.o
+    CC         bootblock/security/vboot/vboot_lib.o
+    CC         bootblock/security/vboot/vboot_loader.o
+    CC         bootblock/security/vboot/vboot_logic.o
+    CC         bootblock/soc/intel/alderlake/bootblock/bootblock.o
+    CC         bootblock/soc/intel/alderlake/bootblock/pch.o
+    CC         bootblock/soc/intel/alderlake/bootblock/report_platform.o
+    CC         bootblock/soc/intel/alderlake/espi.o
+    CC         bootblock/soc/intel/alderlake/gpio.o
+    CC         bootblock/soc/intel/alderlake/gspi.o
+    CC         bootblock/soc/intel/alderlake/i2c.o
+    CC         bootblock/soc/intel/alderlake/p2sb.o
+    CC         bootblock/soc/intel/alderlake/pmutil.o
+    CC         bootblock/soc/intel/alderlake/spi.o
+    CC         bootblock/soc/intel/alderlake/uart.o
+    CC         bootblock/soc/intel/common/block/chip/chip.o
+    CC         bootblock/soc/intel/common/block/cpu/car/cache_as_ram.o
+    CC         bootblock/soc/intel/common/block/cpu/car/car_lib.o
+    CC         bootblock/soc/intel/common/block/cpu/cpulib.o
+    CC         bootblock/soc/intel/common/block/fast_spi/fast_spi.o
+    CC         bootblock/soc/intel/common/block/fast_spi/fast_spi_flash.o
+    CC         bootblock/soc/intel/common/block/fast_spi/mmap_boot.o
+    CC         bootblock/soc/intel/common/block/gpio/gpio.o
+    CC         bootblock/soc/intel/common/block/gpmr/gpmr.o
+    CC         bootblock/soc/intel/common/block/gspi/gspi.o
+    CC         bootblock/soc/intel/common/block/i2c/i2c.o
+    CC         bootblock/soc/intel/common/block/itss/itss.o
+    CC         bootblock/soc/intel/common/block/lpc/lpc_lib.o
+    CC         bootblock/soc/intel/common/block/lpss/lpss.o
+    CC         bootblock/soc/intel/common/block/oc_wdt/oc_wdt.o
+    CC         bootblock/soc/intel/common/block/p2sb/p2sb.o
+    CC         bootblock/soc/intel/common/block/p2sb/p2sblib.o
+    CC         bootblock/soc/intel/common/block/pcr/pcr.o
+    CC         bootblock/soc/intel/common/block/pmc/pmc_ipc.o
+    CC         bootblock/soc/intel/common/block/pmc/pmclib.o
+    CC         bootblock/soc/intel/common/block/rtc/rtc.o
+    CC         bootblock/soc/intel/common/block/smbus/smbus_early.o
+    CC         bootblock/soc/intel/common/block/smbus/smbuslib.o
+    CC         bootblock/soc/intel/common/block/smbus/spd_access.o
+    CC         bootblock/soc/intel/common/block/smbus/tco.o
+    CC         bootblock/soc/intel/common/block/smm/smm.o
+    CC         bootblock/soc/intel/common/block/spi/spi.o
+    CC         bootblock/soc/intel/common/block/systemagent/systemagent_early.o
+    CC         bootblock/soc/intel/common/block/uart/uart.o
+    CC         bootblock/soc/intel/common/block/timer/timer.o
+    CC         bootblock/soc/intel/common/reset.o
+    CC         bootblock/soc/intel/common/tpm_tis.o
+    CC         bootblock/vendorcode/google/chromeos/watchdog.o
+    AR         romstage/external/vboot_reference-romstage/vboot_fw.a
+    GCC        romstage/libhwbase/common/hw-config.o
+    CC         romstage/mainboard/google/brya/static.o
+    GCC        romstage/libgfxinit/common/dyncpu/hw-gfx-gma-config.o
+    GCC        romstage/libgfxinit/common/hw-gfx-dp_aux_ch.o
+    GCC        romstage/libgfxinit/common/hw-gfx-dp_defs.o
+    GCC        romstage/libgfxinit/common/hw-gfx-dp_dual_mode.o
+    GCC        romstage/libgfxinit/common/hw-gfx-dp_info.o
+    GCC        romstage/libgfxinit/common/hw-gfx-dp_training.o
+    GCC        romstage/libgfxinit/common/hw-gfx-edid.o
+    GCC        romstage/libgfxinit/common/hw-gfx-framebuffer_filler.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-config_helpers.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-connector_info.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-display_probing.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-dp_aux_ch.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-dp_aux_request.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-dp_dual_mode.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-dp_info.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-i2c.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-panel.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-pch-fdi.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-pch-sideband.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-pch-transcoder.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-pch-vga.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-pch.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-pcode.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-pipe_setup.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-registers.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma-transcoder.o
+    GCC        romstage/libgfxinit/common/hw-gfx-gma.o
+    GCC        romstage/libgfxinit/common/hw-gfx-i2c.o
+    GCC        romstage/libgfxinit/common/hw-gfx.o
+    GCC        romstage/libgfxinit/common/tigerlake/hw-gfx-gma-combo_phy.o
+    GCC        romstage/libgfxinit/common/tigerlake/hw-gfx-gma-connectors-combo_phy.o
+    GCC        romstage/libgfxinit/common/tigerlake/hw-gfx-gma-connectors-tc.o
+    GCC        romstage/libgfxinit/common/tigerlake/hw-gfx-gma-connectors.o
+    GCC        romstage/libgfxinit/common/tigerlake/hw-gfx-gma-plls-combo_phy.o
+    GCC        romstage/libgfxinit/common/tigerlake/hw-gfx-gma-plls-dekel_phy.o
+    GCC        romstage/libgfxinit/common/tigerlake/hw-gfx-gma-plls.o
+    GCC        romstage/libgfxinit/common/tigerlake/hw-gfx-gma-port_detect.o
+    GCC        romstage/libgfxinit/common/tigerlake/hw-gfx-gma-power_and_clocks-tgl.o
+    GCC        romstage/libgfxinit/common/tigerlake/hw-gfx-gma-power_and_clocks-xelpd.o
+    GCC        romstage/libgfxinit/common/tigerlake/hw-gfx-gma-power_and_clocks.o
+    GCC        romstage/libhwbase/ada/static_mmio/hw-mmio_range.o
+    GCC        romstage/libhwbase/common/direct/hw-pci-dev.o
+    GCC        romstage/libhwbase/common/hw-mmio_regs.o
+    GCC        romstage/libhwbase/common/hw-pci-mmconf.o
+    GCC        romstage/libhwbase/common/hw-pci.o
+    GCC        romstage/libhwbase/common/hw-port_io.o
+    GCC        romstage/libhwbase/common/hw-sub_regs.o
+    GCC        romstage/libhwbase/common/hw-time.o
+    GCC        romstage/libhwbase/common/hw.o
+    GCC        romstage/libhwbase/debug/hw-debug.o
+    CC         romstage/acpi/acpi_pm.o
+    CC         romstage/arch/x86/boot.o
+    CC         romstage/arch/x86/breakpoint.o
+    CP         romstage/arch/x86/car.ld
+    CC         romstage/arch/x86/cf9_reset.o
+    CC         romstage/arch/x86/cpu_common.o
+    CC         romstage/arch/x86/exception.o
+    CC         romstage/arch/x86/memcpy.o
+    CP         romstage/arch/x86/memlayout.ld
+    CC         romstage/arch/x86/memmove_32.o
+    CC         romstage/arch/x86/memset.o
+    CC         romstage/arch/x86/null_breakpoint.o
+    CC         romstage/arch/x86/post.o
+    CC         romstage/arch/x86/postcar_loader.o
+    CC         romstage/arch/x86/romstage.o
+    CC         romstage/arch/x86/timestamp.o
+    CC         romstage/commonlib/bsd/cbfs_mcache.o
+    CC         romstage/commonlib/bsd/cbfs_private.o
+    CC         romstage/commonlib/bsd/elog.o
+    CC         romstage/commonlib/bsd/gcd.o
+    CC         romstage/commonlib/bsd/ipchksum.o
+    CC         romstage/commonlib/bsd/lz4_wrapper.o
+    CC         romstage/commonlib/bsd/string.o
+    CC         romstage/commonlib/bsd/xxhash.o
+    CC         romstage/commonlib/bsd/zstd_wrapper.o
+    CC         romstage/commonlib/iobuf.o
+    CC         romstage/commonlib/list.o
+    CC         romstage/commonlib/mem_pool.o
+    CC         romstage/commonlib/rational.o
+    CC         romstage/commonlib/region.o
+    CC         romstage/console/console.o
+    CC         romstage/console/die.o
+    GCC        romstage/console/hw-debug_sink.o
+    CC         romstage/console/init.o
+    CC         romstage/console/post.o
+    CC         romstage/console/printk.o
+    CC         romstage/console/vsprintf.o
+    CC         romstage/console/vtxprintf.o
+    CC         romstage/cpu/intel/car/romstage.o
+    CC         romstage/cpu/intel/common/common_init.o
+    CC         romstage/cpu/intel/microcode/microcode.o
+    CC         romstage/cpu/x86/cache/cache.o
+    CC         romstage/cpu/x86/lapic/boot_cpu.o
+    CC         romstage/cpu/x86/lapic/lapic.o
+    CC         romstage/cpu/x86/mtrr/debug.o
+    CC         romstage/cpu/x86/mtrr/earlymtrr.o
+    CC         romstage/cpu/x86/mtrr/mtrrlib.o
+    CC         romstage/cpu/x86/name/name.o
+    CC         romstage/cpu/x86/pae/pgtbl.o
+    CC         romstage/cpu/x86/smm/tseg_region.o
+    CC         romstage/cpu/x86/tsc/delay_tsc.o
+    CC         romstage/device/device_const.o
+    CC         romstage/device/dram/ddr4.o
+    CC         romstage/device/dram/ddr5.o
+    CC         romstage/device/dram/ddr_common.o
+    CC         romstage/device/dram/rcd.o
+    CC         romstage/device/i2c.o
+    CC         romstage/device/mmio.o
+    CC         romstage/device/pci_early.o
+    CC         romstage/device/pci_ops.o
+    CC         romstage/drivers/elog/boot_count.o
+    CC         romstage/drivers/elog/elog.o
+    CC         romstage/drivers/i2c/designware/dw_i2c.o
+    CC         romstage/drivers/i2c/tpm/cr50.o
+    CC         romstage/drivers/i2c/tpm/tis.o
+    CC         romstage/drivers/intel/fsp2_0/cbmem.o
+    CC         romstage/drivers/intel/fsp2_0/debug.o
+    CC         romstage/drivers/intel/fsp2_0/fsp_debug_event.o
+    CC         romstage/drivers/intel/fsp2_0/hand_off_block.o
+    CC         romstage/drivers/intel/fsp2_0/memory_init.o
+    CC         romstage/drivers/intel/fsp2_0/save_mrc_data.o
+    CC         romstage/drivers/intel/fsp2_0/util.o
+    GCC        romstage/drivers/intel/gma/gma.o
+    GCC        romstage/drivers/intel/gma/text_fb/gma-gfx_init.o
+    CC         romstage/drivers/mrc_cache/mrc_cache.o
+    CC         romstage/drivers/option/cbfs_file_option.o
+    CC         romstage/drivers/pc80/pc/i8254.o
+    CC         romstage/drivers/pc80/rtc/mc146818rtc.o
+    CC         romstage/drivers/pc80/rtc/mc146818rtc_boot.o
+    CC         romstage/drivers/pc80/vga/vga.o
+    CC         romstage/drivers/pc80/vga/vga_font_8x16.o
+    CC         romstage/drivers/pc80/vga/vga_io.o
+    CC         romstage/drivers/pc80/vga/vga_palette.o
+    CC         romstage/drivers/spi/bitbang.o
+    CC         romstage/drivers/spi/boot_device_rw_nommap.o
+    CC         romstage/drivers/spi/spi-generic.o
+    CC         romstage/drivers/spi/spi_flash.o
+    CC         romstage/drivers/tpm/cr50.o
+    CC         romstage/drivers/uart/uart8250mem.o
+    CC         romstage/drivers/uart/util.o
+    CC         romstage/drivers/vpd/vpd.o
+    CC         romstage/drivers/vpd/vpd_decode.o
+    CC         romstage/drivers/wifi/generic/generic.o
+    CC         romstage/ec/google/chromeec/crosec_proto.o
+    CC         romstage/ec/google/chromeec/ec.o
+    CC         romstage/ec/google/chromeec/ec_boardid.o
+    CC         romstage/ec/google/chromeec/ec_lpc.o
+    CC         romstage/ec/google/chromeec/ec_skuid.o
+    CC         romstage/ec/google/chromeec/ec_smbios.o
+    CC         romstage/ec/google/chromeec/switches.o
+    CC         romstage/ec/google/chromeec/vboot_storage.o
+    CC         romstage/ec/google/chromeec/vstore.o
+    CC         romstage/lib/boot_device.o
+    CC         romstage/lib/bootmode.o
+    GCC        romstage/lib/cb.o
+    CC         romstage/lib/cbfs.o
+    CC         romstage/lib/cbmem_common.o
+    CC         romstage/lib/cbmem_console.o
+    CC         romstage/lib/crc_byte.o
+    CC         romstage/lib/delay.o
+    CC         romstage/lib/dimm_info_util.o
+    CC         romstage/lib/fmap.o
+    CC         romstage/lib/fw_config.o
+    CC         romstage/lib/gcc.o
+    CC         romstage/lib/gpio.o
+    CC         romstage/lib/halt.o
+    CC         romstage/lib/hexdump.o
+    GCC        romstage/lib/hw-time-timer.o
+    CC         romstage/lib/imd.o
+    CC         romstage/lib/identity.o
+    CC         romstage/lib/imd_cbmem.o
+    CC         romstage/lib/libgcc.o
+    CC         romstage/lib/lzma.o
+    CC         romstage/lib/memchr.o
+    CC         romstage/lib/lzmadecode.o
+    CC         romstage/lib/memcmp.o
+    CC         romstage/lib/memrange.o
+    CC         romstage/lib/prog_loaders.o
+    CC         romstage/lib/prog_ops.o
+    CC         romstage/lib/ramtest.o
+    CP         romstage/lib/program.ld
+    CC         romstage/lib/region_file.o
+    CC         romstage/lib/reset.o
+    CC         romstage/lib/rmodule.o
+    CC         romstage/lib/romstage_handoff.o
+    CC         romstage/lib/rtc.o
+    CC         romstage/lib/selfboot.o
+    CC         romstage/lib/spd_bin.o
+    CC         romstage/lib/stack.o
+    CC         romstage/lib/string.o
+    CC         romstage/lib/timestamp.o
+    CC         romstage/lib/ux_locales.o
+    CC         romstage/lib/version.o
+    CC         romstage/lib/vga_gfx.o
+    CC         romstage/mainboard/google/brya/chromeos.o
+    CC         romstage/mainboard/google/brya/romstage.o
+    GCC        romstage/mainboard/google/brya/variants/baseboard/nissa/gma-mainboard.o
+    CC         romstage/mainboard/google/brya/variants/baseboard/nissa/gpio.o
+    CC         romstage/mainboard/google/brya/variants/baseboard/nissa/memory.o
+    CC         romstage/mainboard/google/brya/variants/pujjoga/gpio.o
+    CC         romstage/mainboard/google/brya/variants/pujjoga/memory.o
+    CC         romstage/security/intel/txt/txtlib.o
+    CC         romstage/security/memory/memory.o
+    CC         romstage/security/tpm/tspi/tspi.o
+    CC         romstage/security/tpm/tss/tcg-2.0/tss.o
+    CC         romstage/security/tpm/tss/tcg-2.0/tss_marshaling.o
+    CC         romstage/security/tpm/tss/tss.o
+    CC         romstage/security/tpm/tss/vendor/cr50/cr50.o
+    CC         romstage/security/vboot/bootmode.o
+    CC         romstage/security/vboot/common.o
+    CC         romstage/security/vboot/mrc_cache_hash_tpm.o
+    CC         romstage/security/vboot/secdata_tpm.o
+    CC         romstage/security/vboot/secdata_tpm2.o
+    CC         romstage/security/vboot/vbnv.o
+    CC         romstage/security/vboot/vbnv_cmos.o
+    CC         romstage/security/vboot/vbnv_flash.o
+    CC         romstage/security/vboot/vboot_common.o
+    CC         romstage/security/vboot/vboot_lib.o
+    CC         romstage/security/vboot/vboot_loader.o
+    CC         romstage/soc/intel/alderlake/cse_telemetry.o
+    CC         romstage/soc/intel/alderlake/espi.o
+    CC         romstage/soc/intel/alderlake/gpio.o
+    CC         romstage/soc/intel/alderlake/gspi.o
+    CC         romstage/soc/intel/alderlake/i2c.o
+    CC         romstage/soc/intel/alderlake/meminit.o
+    CC         romstage/soc/intel/alderlake/pcie_rp.o
+    CC         romstage/soc/intel/alderlake/pmutil.o
+    CC         romstage/soc/intel/alderlake/reset.o
+    CC         romstage/soc/intel/alderlake/romstage/fsp_params.o
+    CC         romstage/soc/intel/alderlake/romstage/graphics.o
+    CC         romstage/soc/intel/alderlake/romstage/romstage.o
+    CC         romstage/soc/intel/alderlake/romstage/systemagent.o
+    CC         romstage/soc/intel/alderlake/romstage/ux.o
+    CC         romstage/soc/intel/alderlake/spi.o
+    CC         romstage/soc/intel/alderlake/uart.o
+    CC         romstage/soc/intel/common/basecode/debug/debug_feature.o
+    CC         romstage/soc/intel/common/basecode/ramtop/ramtop.o
+    CC         romstage/soc/intel/common/block/chip/chip.o
+    CC         romstage/soc/intel/common/block/cpu/cpulib.o
+    CC         romstage/soc/intel/common/block/cse/cse.o
+    CC         romstage/soc/intel/common/block/cse/cse_lite.o
+    CC         romstage/soc/intel/common/block/cse/cse_lite_cmos.o
+    CC         romstage/soc/intel/common/block/cse/telemetry.o
+    CC         romstage/soc/intel/common/block/fast_spi/fast_spi.o
+    CC         romstage/soc/intel/common/block/fast_spi/fast_spi_flash.o
+    CC         romstage/soc/intel/common/block/fast_spi/mmap_boot.o
+    CC         romstage/soc/intel/common/block/gpio/gpio.o
+    CC         romstage/soc/intel/common/block/gpmr/gpmr.o
+    CC         romstage/soc/intel/common/block/graphics/early_graphics.o
+    CC         romstage/soc/intel/common/block/gspi/gspi.o
+    CC         romstage/soc/intel/common/block/i2c/i2c.o
+    CC         romstage/soc/intel/common/block/itss/itss.o
+    CC         romstage/soc/intel/common/block/lpc/lpc_lib.o
+    CC         romstage/soc/intel/common/block/lpss/lpss.o
+    CC         romstage/soc/intel/common/block/memory/meminit.o
+    CC         romstage/soc/intel/common/block/oc_wdt/oc_wdt.o
+    CC         romstage/soc/intel/common/block/p2sb/p2sb.o
+    CC         romstage/soc/intel/common/block/p2sb/p2sblib.o
+    CC         romstage/soc/intel/common/block/pcie/pcie_helpers.o
+    CC         romstage/soc/intel/common/block/pcr/pcr.o
+    CC         romstage/soc/intel/common/block/pmc/pmclib.o
+    CC         romstage/soc/intel/common/block/power_limit/power_limit.o
+    CC         romstage/soc/intel/common/block/rtc/rtc.o
+    CC         romstage/soc/intel/common/block/smbus/smbus_early.o
+    CC         romstage/soc/intel/common/block/smbus/smbuslib.o
+    CC         romstage/soc/intel/common/block/smbus/spd_access.o
+    CC         romstage/soc/intel/common/block/smbus/tco.o
+    CC         romstage/soc/intel/common/block/smm/smm.o
+    CC         romstage/soc/intel/common/block/spi/spi.o
+    CC         romstage/soc/intel/common/block/systemagent/memmap.o
+    CC         romstage/soc/intel/common/block/systemagent/systemagent_early.o
+    CC         romstage/soc/intel/common/block/thermal/thermal_common.o
+    CC         romstage/soc/intel/common/block/thermal/thermal_pmc.o
+    CC         romstage/soc/intel/common/block/timer/timer.o
+    CC         romstage/soc/intel/common/block/uart/uart.o
+    CC         romstage/soc/intel/common/block/vtd/vtd.o
+    CC         romstage/soc/intel/common/fsp_reset.o
+    CC         romstage/soc/intel/common/reset.o
+    CC         romstage/soc/intel/common/smbios.o
+    CC         romstage/soc/intel/common/tpm_tis.o
+    CC         romstage/southbridge/intel/common/smbus.o
+    CC         romstage/vendorcode/google/chromeos/dram_part_num_override.o
+    CC         romstage/vendorcode/google/chromeos/watchdog.o
+    GCC        romstage/cb-config.o
+    CC         ramstage/vendorcode/google/chromeos/acpi.o
+    CC         ramstage/vendorcode/google/chromeos/cr50_enable_update.o
+    CC         ramstage/vendorcode/google/chromeos/gnvs.o
+    CC         ramstage/vendorcode/google/chromeos/elog.o
+    CC         ramstage/vendorcode/google/chromeos/pvmfw_cbmem.o
+    CC         ramstage/vendorcode/google/chromeos/ramoops.o
+    CC         ramstage/vendorcode/google/chromeos/sar.o
+    CC         ramstage/vendorcode/google/chromeos/tpm2.o
+    CC         ramstage/vendorcode/google/chromeos/tpm_factory_config.o
+    CC         ramstage/vendorcode/google/chromeos/vpd_calibration.o
+    CC         ramstage/vendorcode/google/chromeos/vpd_mac.o
+    CC         ramstage/vendorcode/google/chromeos/vpd_serialno.o
+    CC         ramstage/vendorcode/google/chromeos/watchdog.o
+    CC         ramstage/vendorcode/google/smbios.o
+    CC         ramstage/superio/common/conf_mode.o
+    CC         ramstage/southbridge/intel/common/acpi_pirq_gen.o
+    CC         ramstage/southbridge/intel/common/smbus.o
+    CC         ramstage/southbridge/intel/common/smbus_ops.o
+    CC         ramstage/soc/intel/common/pch/lockdown/lockdown.o
+    CC         ramstage/soc/intel/common/block/xhci/elog.o
+    CC         ramstage/soc/intel/common/block/xhci/xhci.o
+    CC         ramstage/soc/intel/common/block/xdci/xdci.o
+    CC         ramstage/soc/intel/common/block/vtd/vtd.o
+    CC         ramstage/soc/intel/common/block/usb4/pcie.o
+    CC         ramstage/soc/intel/common/block/usb4/usb4.o
+    CC         ramstage/soc/intel/common/block/usb4/xhci.o
+    CC         ramstage/soc/intel/common/block/uart/uart.o
+    CC         ramstage/soc/intel/common/block/timer/timer.o
+    CC         ramstage/soc/intel/common/block/thermal/thermal_common.o
+    CC         ramstage/soc/intel/common/block/tcss/tcss.o
+    CC         ramstage/soc/intel/common/block/systemagent/memmap.o
+    CC         ramstage/soc/intel/common/block/systemagent/systemagent.o
+    CC         ramstage/soc/intel/common/block/systemagent/systemagent_early.o
+    CC         ramstage/soc/intel/common/block/spi/spi.o
+    CC         ramstage/soc/intel/common/block/smm/smm.o
+    CC         ramstage/soc/intel/common/block/smbus/smbus.o
+    CC         ramstage/soc/intel/common/block/smbus/tco.o
+    CC         ramstage/soc/intel/common/block/scs/mmc.o
+    CC         ramstage/soc/intel/common/block/sata/sata.o
+    CC         ramstage/soc/intel/common/block/rtc/rtc.o
+    CC         ramstage/soc/intel/common/block/power_limit/power_limit.o
+    CC         ramstage/soc/intel/common/block/pmc/pmc_ipc.o
+    CC         ramstage/soc/intel/common/block/pmc/pmclib.o
+    CC         ramstage/soc/intel/common/block/pcr/pcr.o
+    CC         ramstage/soc/intel/common/block/pcie/rtd3/rtd3.o
+    CC         ramstage/soc/intel/common/block/pcie/pcie.o
+    CC         ramstage/soc/intel/common/block/pcie/pcie_helpers.o
+    CC         ramstage/soc/intel/common/block/pcie/pcie_rp.o
+    CC         ramstage/soc/intel/common/block/p2sb/p2sb.o
+    CC         ramstage/soc/intel/common/block/p2sb/p2sblib.o
+    CC         ramstage/soc/intel/common/block/oc_wdt/oc_wdt.o
+    CC         ramstage/soc/intel/common/block/lpss/lpss.o
+    CC         ramstage/soc/intel/common/block/lpc/lpc.o
+    CC         ramstage/soc/intel/common/block/lpc/lpc_lib.o
+    CC         ramstage/soc/intel/common/block/itss/itss.o
+    CC         ramstage/soc/intel/common/block/irq/irq.o
+    CC         ramstage/soc/intel/common/block/i2c/i2c.o
+    CC         ramstage/soc/intel/common/block/ipu/ipu.o
+    CC         ramstage/soc/intel/common/block/hda/hda.o
+    CC         ramstage/soc/intel/common/block/gspi/gspi.o
+    CC         ramstage/soc/intel/common/block/graphics/graphics.o
+    CC         ramstage/soc/intel/common/block/gpmr/gpmr.o
+    CC         ramstage/soc/intel/common/block/gpio/gpio.o
+    CC         ramstage/soc/intel/common/block/gpio/gpio_dev.o
+    CC         ramstage/soc/intel/common/block/fast_spi/fast_spi.o
+    CC         ramstage/soc/intel/common/block/fast_spi/fast_spi_flash.o
+    CC         ramstage/soc/intel/common/block/fast_spi/mmap_boot.o
+    CC         ramstage/soc/intel/common/block/dtt/dtt.o
+    CC         ramstage/soc/intel/common/block/dsp/dsp.o
+    CC         ramstage/soc/intel/common/block/cse/cse.o
+    CC         ramstage/soc/intel/common/block/cse/cse_eop.o
+    CC         ramstage/soc/intel/common/block/cse/cse_lite.o
+    CC         ramstage/soc/intel/common/block/cse/cse_lite_cmos.o
+    CC         ramstage/soc/intel/common/block/cse/cse_spec.o
+    CC         ramstage/soc/intel/common/block/cse/disable_heci.o
+    CC         ramstage/soc/intel/common/block/crashlog/crashlog.o
+    CC         ramstage/soc/intel/common/block/cpu/cpulib.o
+    CC         ramstage/soc/intel/common/block/cpu/mp_init.o
+    CC         ramstage/soc/intel/common/block/cpu/pm_timer_emulation.o
+    CC         ramstage/soc/intel/common/block/cpu/smmrelocate.o
+    CC         ramstage/soc/intel/common/block/cnvi/cnvi.o
+    CC         ramstage/soc/intel/common/block/chip/chip.o
+    CC         ramstage/soc/intel/common/block/aspm/aspm.o
+    CC         ramstage/soc/intel/common/block/acpi/acpi.o
+    CC         ramstage/soc/intel/common/block/acpi/acpi_bert.o
+    CC         ramstage/soc/intel/common/block/acpi/acpi_wake_source.o
+    CC         ramstage/soc/intel/common/block/acpi/cpu_hybrid.o
+    CC         ramstage/soc/intel/common/block/acpi/gpio.o
+    CC         ramstage/soc/intel/common/block/acpi/lpit.o
+    CC         ramstage/soc/intel/common/block/acpi/pep.o
+    CC         ramstage/soc/intel/common/basecode/debug/debug_feature.o
+    CC         ramstage/soc/intel/common/fsp_reset.o
+    CC         ramstage/soc/intel/common/hda_verb.o
+    CC         ramstage/soc/intel/common/reset.o
+    CC         ramstage/soc/intel/common/tpm_tis.o
+    CC         ramstage/soc/intel/common/vbt.o
+    CC         ramstage/soc/intel/alderlake/acpi.o
+    CC         ramstage/soc/intel/alderlake/chip.o
+    CC         ramstage/soc/intel/alderlake/cpu.o
+    CC         ramstage/soc/intel/alderlake/crashlog.o
+    CC         ramstage/soc/intel/alderlake/elog.o
+    CC         ramstage/soc/intel/alderlake/espi.o
+    CC         ramstage/soc/intel/alderlake/finalize.o
+    CC         ramstage/soc/intel/alderlake/fsp_params.o
+    CC         ramstage/soc/intel/alderlake/gpio.o
+    CC         ramstage/soc/intel/alderlake/graphics.o
+    CC         ramstage/soc/intel/alderlake/gspi.o
+    CC         ramstage/soc/intel/alderlake/hsphy.o
+    CC         ramstage/soc/intel/alderlake/i2c.o
+    CC         ramstage/soc/intel/alderlake/lockdown.o
+    CC         ramstage/soc/intel/alderlake/p2sb.o
+    CC         ramstage/soc/intel/alderlake/pcie_rp.o
+    CC         ramstage/soc/intel/alderlake/pmc.o
+    CC         ramstage/soc/intel/alderlake/pmutil.o
+    CC         ramstage/soc/intel/alderlake/reset.o
+    CC         ramstage/soc/intel/alderlake/retimer.o
+    CC         ramstage/soc/intel/alderlake/soundwire.o
+    CC         ramstage/soc/intel/alderlake/spi.o
+    CC         ramstage/soc/intel/alderlake/systemagent.o
+    CC         ramstage/soc/intel/alderlake/tcss.o
+    CC         ramstage/soc/intel/alderlake/uart.o
+    CC         ramstage/soc/intel/alderlake/vr_config.o
+    CC         ramstage/security/vboot/bootmode.o
+    CC         ramstage/soc/intel/alderlake/xhci.o
+    CC         ramstage/security/vboot/common.o
+    CC         ramstage/security/vboot/mrc_cache_hash_tpm.o
+    CC         ramstage/security/vboot/secdata_tpm.o
+    CC         ramstage/security/vboot/secdata_tpm2.o
+    CC         ramstage/security/vboot/vbnv.o
+    CC         ramstage/security/vboot/vbnv_cmos.o
+    CC         ramstage/security/vboot/vbnv_flash.o
+    CC         ramstage/security/vboot/vboot_common.o
+    CC         ramstage/security/vboot/vboot_lib.o
+    CC         ramstage/security/vboot/vboot_loader.o
+    CC         ramstage/security/tpm/tss/vendor/cr50/cr50.o
+    CC         ramstage/security/tpm/tss/tcg-2.0/tss.o
+    CC         ramstage/security/tpm/tss/tcg-2.0/tss_marshaling.o
+    CC         ramstage/security/tpm/tss/tss.o
+    CC         ramstage/security/tpm/tspi/tspi.o
+    CC         ramstage/security/memory/memory.o
+    CC         ramstage/security/memory/memory_clear.o
+    CC         ramstage/mainboard/google/brya/variants/pujjoga/fw_config.o
+    CC         ramstage/mainboard/google/brya/variants/pujjoga/gpio.o
+    CC         ramstage/mainboard/google/brya/variants/pujjoga/variant.o
+    CC         ramstage/mainboard/google/brya/variants/baseboard/nissa/gpio.o
+    CC         ramstage/mainboard/google/brya/variants/baseboard/nissa/ramstage.o
+    CC         ramstage/mainboard/google/brya/static.o
+    CC         ramstage/mainboard/google/brya/chromeos.o
+    CC         ramstage/mainboard/google/brya/ec.o
+    CC         ramstage/mainboard/google/brya/mainboard.o
+    CC         ramstage/lib/b64_decode.o
+    CC         ramstage/lib/boot_device.o
+    CC         ramstage/lib/bootmem.o
+    CC         ramstage/lib/bootmode.o
+    CC         ramstage/lib/cbfs.o
+    CC         ramstage/lib/cbmem_common.o
+    CC         ramstage/lib/cbmem_console.o
+    CC         ramstage/lib/coreboot_table.o
+    CC         ramstage/lib/crc_byte.o
+    CC         ramstage/lib/delay.o
+    CC         ramstage/lib/dimm_info_util.o
+    CC         ramstage/lib/dp_aux.o
+    CC         ramstage/lib/edid.o
+    CC         ramstage/lib/fallback_boot.o
+    CC         ramstage/lib/fmap.o
+    CC         ramstage/lib/framebuffer_info.o
+    CC         ramstage/lib/fw_config.o
+    CC         ramstage/lib/gcc.o
+    CC         ramstage/lib/gpio.o
+    CC         ramstage/lib/halt.o
+    CC         ramstage/lib/hardwaremain.o
+    CC         ramstage/lib/hexdump.o
+    CC         ramstage/lib/hexstrtobin.o
+    CC         ramstage/lib/identity.o
+    CC         ramstage/lib/imd.o
+    CC         ramstage/lib/imd_cbmem.o
+    CC         ramstage/lib/lzma.o
+    CC         ramstage/lib/lzmadecode.o
+    CC         ramstage/lib/malloc.o
+    CC         ramstage/lib/memchr.o
+    CC         ramstage/lib/memcmp.o
+    CC         ramstage/lib/memrange.o
+    CC         ramstage/lib/prog_loaders.o
+    CC         ramstage/lib/prog_ops.o
+    CC         ramstage/lib/region_file.o
+    CC         ramstage/lib/reset.o
+    CC         ramstage/lib/rmodule.o
+    CC         ramstage/lib/romstage_handoff.o
+    CC         ramstage/lib/rtc.o
+    CC         ramstage/lib/selfboot.o
+    CC         ramstage/lib/smbios.o
+    CC         ramstage/lib/smbios_defaults.o
+    CC         ramstage/lib/stack.o
+    CC         ramstage/lib/string.o
+    CC         ramstage/lib/timestamp.o
+    CC         ramstage/lib/uuid.o
+    CC         ramstage/lib/version.o
+    AR         ramstage/external/vboot_reference-ramstage/vboot_fw.a
+    CC         ramstage/lib/wrdd.o
+    CC         ramstage/ec/google/chromeec/crosec_proto.o
+    CC         ramstage/ec/google/chromeec/ec.o
+    CC         ramstage/ec/google/chromeec/ec_acpi.o
+    CC         ramstage/ec/google/chromeec/ec_boardid.o
+    CC         ramstage/ec/google/chromeec/ec_dptf_helpers.o
+    CC         ramstage/ec/google/chromeec/ec_lpc.o
+    CC         ramstage/ec/google/chromeec/ec_skuid.o
+    CC         ramstage/ec/google/chromeec/ec_smbios.o
+    CC         ramstage/ec/google/chromeec/switches.o
+    CC         ramstage/ec/google/chromeec/usbc_mux.o
+    CC         ramstage/ec/google/chromeec/vboot_storage.o
+    CC         ramstage/ec/google/chromeec/vstore.o
+    CC         ramstage/drivers/wwan/fm/acpi_fm350gl.o
+    CC         ramstage/drivers/wifi/generic/acpi.o
+    CC         ramstage/drivers/wifi/generic/generic.o
+    CC         ramstage/drivers/wifi/generic/smbios.o
+    CC         ramstage/drivers/vpd/vpd.o
+    CC         ramstage/drivers/vpd/vpd_decode.o
+    CC         ramstage/drivers/vpd/vpd_device_feature.o
+    CC         ramstage/drivers/usb/acpi/intel_bluetooth.o
+    CC         ramstage/drivers/usb/acpi/usb_acpi.o
+    CC         ramstage/drivers/uart/uart8250mem.o
+    CC         ramstage/drivers/uart/util.o
+    CC         ramstage/drivers/tpm/cr50.o
+    CC         ramstage/drivers/tpm/ppi_stub.o
+    CC         ramstage/drivers/spi/acpi/acpi.o
+    CC         ramstage/drivers/spi/bitbang.o
+    CC         ramstage/drivers/spi/boot_device_rw_nommap.o
+    CC         ramstage/drivers/spi/spi-generic.o
+    CC         ramstage/drivers/soundwire/max98373/max98373.o
+    CC         ramstage/drivers/spi/spi_flash.o
+    CC         ramstage/drivers/soundwire/alc5682/alc5682.o
+    CC         ramstage/drivers/sof/sof.o
+    CC         ramstage/drivers/pc80/rtc/mc146818rtc.o
+    CC         ramstage/drivers/pc80/rtc/mc146818rtc_boot.o
+    CC         ramstage/drivers/pc80/pc/i8254.o
+    CC         ramstage/drivers/pc80/pc/i8259.o
+    CC         ramstage/drivers/pc80/pc/isa-dma.o
+    CC         ramstage/drivers/pc80/pc/keyboard.o
+    CC         ramstage/drivers/option/cbfs_file_option.o
+    CC         ramstage/drivers/mrc_cache/mrc_cache.o
+    CC         ramstage/drivers/intel/usb4/retimer/retimer.o
+    CC         ramstage/drivers/intel/soundwire/soundwire.o
+    CC         ramstage/drivers/intel/pmc_mux/conn/conn.o
+    CC         ramstage/drivers/intel/pmc_mux/mux.o
+    CC         ramstage/drivers/intel/ish/ish.o
+    CC         ramstage/drivers/intel/gma/acpi.o
+    CC         ramstage/drivers/intel/gma/opregion.o
+    CC         ramstage/drivers/intel/fsp2_0/ppi/mp_service2.o
+    CC         ramstage/drivers/intel/fsp2_0/ppi/mp_service_ppi.o
+    CC         ramstage/drivers/intel/fsp2_0/debug.o
+    CC         ramstage/drivers/intel/fsp2_0/fsp_debug_event.o
+    CC         ramstage/drivers/intel/fsp2_0/graphics.o
+    CC         ramstage/drivers/intel/fsp2_0/hand_off_block.o
+    CC         ramstage/drivers/intel/fsp2_0/notify.o
+    CC         ramstage/drivers/intel/fsp2_0/silicon_init.o
+    CC         ramstage/drivers/intel/fsp2_0/util.o
+    CC         ramstage/drivers/intel/dptf/dptf.o
+    CC         ramstage/drivers/i2c/tpm/chip.o
+    CC         ramstage/drivers/i2c/tpm/cr50.o
+    CC         ramstage/drivers/i2c/tpm/tis.o
+    CC         ramstage/drivers/i2c/sx9324/sx9324.o
+    CC         ramstage/drivers/i2c/rt5645/rt5645.o
+    CC         ramstage/drivers/i2c/nau8825/nau8825.o
+    CC         ramstage/drivers/i2c/hid/hid.o
+    CC         ramstage/drivers/i2c/generic/generic.o
+    CC         ramstage/drivers/i2c/designware/dw_i2c.o
+    CC         ramstage/drivers/gfx/generic/generic.o
+    CC         ramstage/drivers/generic/max98357a/max98357a.o
+    CC         ramstage/drivers/generic/gpio_keys/gpio_keys.o
+    CC         ramstage/drivers/generic/alc1015/alc1015.o
+    CC         ramstage/drivers/elog/boot_count.o
+    CC         ramstage/drivers/elog/elog.o
+    CC         ramstage/drivers/broadcom/bcm57xx_aspm_disable.o
+    CC         ramstage/device/dram/ddr4.o
+    CC         ramstage/device/dram/ddr5.o
+    CC         ramstage/device/dram/ddr_common.o
+    CC         ramstage/device/dram/spd.o
+    CC         ramstage/device/azalia_device.o
+    CC         ramstage/device/cardbus_device.o
+    CC         ramstage/device/cpu_device.o
+    CC         ramstage/device/device.o
+    CC         ramstage/device/device_const.o
+    CC         ramstage/device/device_util.o
+    CC         ramstage/device/gpio.o
+    CC         ramstage/device/i2c.o
+    CC         ramstage/device/i2c_bus.o
+    CC         ramstage/device/mdio.o
+    CC         ramstage/device/mmio.o
+    CC         ramstage/device/pci_class.o
+    CC         ramstage/device/pci_device.o
+    CC         ramstage/device/pci_ops.o
+    CC         ramstage/device/pciexp_device.o
+    CC         ramstage/device/pcix_device.o
+    CC         ramstage/device/pci_rom.o
+    CC         ramstage/device/pnp_device.o
+    CC         ramstage/device/resource_allocator_common.o
+    CC         ramstage/device/resource_allocator_v4.o
+    CC         ramstage/device/root_device.o
+    CC         ramstage/device/smbus_ops.o
+    CC         ramstage/cpu/x86/tsc/delay_tsc.o
+    CC         smm/mainboard/google/brya/static.o
+    CC         smm/acpi/acpi_pm.o
+    CC         smm/arch/x86/apmc_smi_port.o
+    CC         smm/arch/x86/breakpoint.o
+    CC         smm/arch/x86/exception.o
+    CC         smm/arch/x86/memcpy.o
+    CC         smm/arch/x86/memmove_32.o
+    CC         smm/arch/x86/null_breakpoint.o
+    CC         smm/arch/x86/memset.o
+    CC         smm/commonlib/bsd/cbfs_mcache.o
+    CC         smm/commonlib/bsd/cbfs_private.o
+    CC         smm/commonlib/bsd/elog.o
+    CC         smm/commonlib/bsd/string.o
+    CC         smm/commonlib/iobuf.o
+    CC         smm/commonlib/mem_pool.o
+    CC         smm/commonlib/region.o
+    CC         smm/console/post.o
+    CC         smm/console/die.o
+    CC         smm/cpu/x86/pae/pgtbl.o
+    CC         smm/cpu/x86/smm/save_state.o
+    CC         smm/cpu/x86/smi_trigger.o
+    CC         smm/cpu/x86/smm/smm_module_handler.o
+    CC         smm/cpu/x86/tsc/delay_tsc.o
+    CC         smm/device/device_const.o
+    CC         smm/device/pci_ops.o
+    CC         smm/drivers/elog/elog.o
+    CC         smm/drivers/elog/gsmi.o
+    CC         smm/drivers/pc80/pc/i8254.o
+    CC         smm/drivers/pc80/rtc/mc146818rtc.o
+    CC         smm/drivers/spi/bitbang.o
+    CC         smm/drivers/spi/boot_device_rw_nommap.o
+    CC         smm/drivers/spi/spi-generic.o
+    CC         smm/drivers/spi/spi_flash.o
+    CC         smm/ec/google/chromeec/crosec_proto.o
+    CC         smm/ec/google/chromeec/ec.o
+    CC         smm/ec/google/chromeec/ec_boardid.o
+    CC         smm/ec/google/chromeec/ec_lpc.o
+    CC         smm/ec/google/chromeec/ec_skuid.o
+    CC         smm/ec/google/chromeec/smihandler.o
+    CC         smm/ec/google/chromeec/vboot_storage.o
+    CC         smm/ec/google/chromeec/vstore.o
+    CC         smm/lib/boot_device.o
+    CC         smm/lib/cbfs.o
+    CC         smm/lib/crc_byte.o
+    CC         smm/lib/delay.o
+    CC         smm/lib/fmap.o
+    CC         smm/lib/gcc.o
+    CC         smm/lib/halt.o
+    CC         smm/lib/hexdump.o
+    CC         smm/lib/identity.o
+    CC         smm/lib/memcmp.o
+    CC         smm/lib/reset.o
+    CC         smm/lib/string.o
+    CC         smm/lib/version.o
+    CC         smm/mainboard/google/brya/smihandler.o
+    CC         smm/soc/intel/alderlake/elog.o
+    CC         smm/soc/intel/alderlake/gpio.o
+    CC         smm/soc/intel/alderlake/p2sb.o
+    CC         smm/soc/intel/alderlake/pmutil.o
+    CC         smm/soc/intel/alderlake/smihandler.o
+    CC         smm/soc/intel/alderlake/uart.o
+    CC         smm/soc/intel/alderlake/xhci.o
+    CC         smm/soc/intel/common/block/chip/chip.o
+    CC         smm/soc/intel/common/block/cse/disable_heci.o
+    CC         smm/soc/intel/common/block/fast_spi/fast_spi.o
+    CC         smm/soc/intel/common/block/fast_spi/fast_spi_flash.o
+    CC         smm/soc/intel/common/block/fast_spi/mmap_boot.o
+    CC         smm/soc/intel/common/block/gpio/gpio.o
+    CC         smm/soc/intel/common/block/lpss/lpss.o
+    CC         smm/soc/intel/common/block/oc_wdt/oc_wdt.o
+    CC         smm/soc/intel/common/block/p2sb/p2sb.o
+    CC         smm/soc/intel/common/block/p2sb/p2sblib.o
+    CC         smm/soc/intel/common/block/pcr/pcr.o
+    CC         smm/soc/intel/common/block/pmc/pmclib.o
+    CC         smm/soc/intel/common/block/smbus/tco.o
+    CC         smm/soc/intel/common/block/smm/smihandler.o
+    CC         smm/soc/intel/common/block/smm/smitraphandler.o
+    CC         smm/soc/intel/common/block/spi/spi.o
+    CC         smm/soc/intel/common/block/timer/timer.o
+    CC         smm/soc/intel/common/block/uart/uart.o
+    CC         smm/soc/intel/common/block/xhci/elog.o
+    CC         smm/soc/intel/common/block/xhci/xhci.o
+    CC         ramstage/cpu/x86/smm/smm_module_loader.o
+    CC         ramstage/cpu/x86/smm/tseg_region.o
+    CC         ramstage/cpu/x86/pae/pgtbl.o
+    CC         ramstage/cpu/x86/name/name.o
+    CC         ramstage/cpu/x86/mtrr/debug.o
+    CC         ramstage/cpu/x86/mtrr/mtrr.o
+    CC         ramstage/cpu/x86/mtrr/mtrrlib.o
+    CC         ramstage/cpu/x86/lapic/boot_cpu.o
+    CC         ramstage/cpu/x86/lapic/lapic.o
+    CC         ramstage/cpu/x86/cache/cache.o
+    CC         ramstage/cpu/x86/backup_default_smm.o
+    CC         ramstage/cpu/x86/smi_trigger.o
+    CC         ramstage/cpu/x86/topology.o
+    CC         ramstage/cpu/intel/turbo/turbo.o
+    CC         ramstage/cpu/intel/smm/smm_reloc.o
+    CC         ramstage/cpu/intel/microcode/microcode.o
+    CC         ramstage/cpu/intel/common/common_init.o
+    CC         ramstage/cpu/intel/common/hyperthreading.o
+    CC         ramstage/cpu/intel/common/voltage.o
+    CC         ramstage/console/console.o
+    CC         ramstage/console/die.o
+    CC         ramstage/console/init.o
+    CC         ramstage/console/post.o
+    CC         ramstage/console/printk.o
+    CC         ramstage/console/vsprintf.o
+    CC         ramstage/console/vtxprintf.o
+    CC         ramstage/commonlib/mipi/cmd.o
+    CC         ramstage/commonlib/bsd/cbfs_mcache.o
+    CC         ramstage/commonlib/bsd/cbfs_private.o
+    CC         ramstage/commonlib/bsd/elog.o
+    CC         ramstage/commonlib/bsd/gcd.o
+    CC         ramstage/commonlib/bsd/ipchksum.o
+    CC         ramstage/commonlib/bsd/lz4_wrapper.o
+    CC         ramstage/commonlib/bsd/string.o
+    CC         ramstage/commonlib/bsd/xxhash.o
+    CC         ramstage/commonlib/bsd/zstd_wrapper.o
+    CC         ramstage/commonlib/fsp_relocate.o
+    CC         ramstage/commonlib/iobuf.o
+    CC         ramstage/commonlib/list.o
+    CC         ramstage/commonlib/mem_pool.o
+    CC         ramstage/commonlib/rational.o
+    CC         ramstage/commonlib/region.o
+    CC         ramstage/commonlib/sort.o
+    CC         ramstage/arch/x86/acpi.o
+    CC         ramstage/arch/x86/acpi_bert_storage.o
+    CC         ramstage/arch/x86/acpi_s3.o
+    CC         ramstage/arch/x86/apmc_smi_port.o
+    CC         ramstage/arch/x86/boot.o
+    CC         ramstage/arch/x86/breakpoint.o
+    CC         ramstage/arch/x86/cf9_reset.o
+    CC         ramstage/arch/x86/cpu.o
+    CC         ramstage/arch/x86/cpu_common.o
+    CC         ramstage/arch/x86/dma.o
+    CC         ramstage/arch/x86/ebda.o
+    CC         ramstage/arch/x86/exception.o
+    LINK       cbfs/fallback/postcar.debug
+    HOSTCC     cbfstool/cbfstool (link)
+Chromium OS 21.0_pre574158 clang version 21.0.0git (/mnt/host/source/src/third_party/llvm-project/clang 02d13c3ef0f74d52b58f95f50dbf6c61cefe60c9)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ "/usr/bin/x86_64-pc-linux-gnu-ld.lld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/cbfstool /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/crti.o /usr/lib64/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/lib -L/lib -L/usr/lib /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/cbfstool.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/common.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/cbfs_image.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/cbfs-mkstage.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/cbfs-mkpayload.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/elfheaders.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/rmodule.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/xdr.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/partitioned_file.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/platform_fixups.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/cbfs_private.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/fsp_relocate.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/fmap.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/kv_pair.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/valstr.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/linux_trampoline.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/cbfs-payload-linux.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/compress.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/lz4.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/lz4hc.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/lz4frame.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/xxhash.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/lz4_wrapper.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/lzma.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/LzFind.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/LzmaDec.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/LzmaEnc.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/debug.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/entropy_common.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/error_private.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/fse_decompress.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/zstd_common.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/fse_compress.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/hist.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/huf_compress.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/zstd_compress.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/zstd_compress_literals.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/zstd_compress_sequences.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/zstd_compress_superblock.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/zstd_double_fast.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/zstd_fast.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/zstd_lazy.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/zstd_ldm.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/zstd_preSplit.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/zstd_opt.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/huf_decompress.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/zstd_ddict.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/zstd_decompress_block.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/cbfstool/zstd_decompress.o /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/util/vboot_lib/libvboot_host.a /usr/lib64/clang/21/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lgcc_s --no-as-needed -lc /usr/lib64/clang/21/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lgcc_s --no-as-needed /usr/lib64/clang/21/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/crtn.o
+    LINK       cbfs/fallback/bootblock.debug
+    BIND       romstage/b__romstage.adb
+    CC         ramstage/cpu/x86/mp_init.o
+    GCC        romstage/b__romstage.o
+   IFDTOOL
+    OBJCOPY    cbfs/fallback/bootblock.elf
+    OBJCOPY    ramstage/cpu/x86/smm/smmstub.manual
+    HOSTCC     cbfstool/ifittool.o
+    HOSTCC     cbfstool/fit.o
+    OBJCOPY    ramstage/cpu/x86/sipi_vector.manual
+    HOSTCC     cbfstool/ifwitool.o
+    HOSTCC     cbfstool/cse_fpt.o
+    HOSTCC     cbfstool/cse_helpers.o
+    HOSTCC     cbfstool/fpt_hdr_20.o
+    HOSTCC     cbfstool/fpt_hdr_21.o
+    HOSTCC     cbfstool/cse_serger.o
+    HOSTCC     cbfstool/bpdt_1_6.o
+    HOSTCC     cbfstool/bpdt_1_7.o
+    HOSTCC     cbfstool/subpart_hdr_1.o
+    HOSTCC     cbfstool/subpart_hdr_2.o
+    HOSTCC     cbfstool/subpart_entry_1.o
+    LINK       cbfs/fallback/romstage.debug
+    OBJCOPY    bootblock.raw.elf
+    HOSTCC     cbfstool/ifittool (link)
+    HOSTCC     cbfstool/cse_fpt (link)
+    OBJCOPY    bootblock.raw.bin
+    HOSTCC     cbfstool/cse_serger (link)
+    HOSTCC     cbfstool/ifwitool (link)
+    OBJCOPY    ramstage/cpu/x86/smm/smm.manual
+    LINK       cbfs/fallback/ramstage.debug
+    OBJCOPY    cbfs/fallback/romstage.elf
+E: Selected image region is not a valid CBFS.
+Created CBFS (capacity = 4153316 bytes)
+Created CBFS (capacity = 4042660 bytes)
+Created CBFS (capacity = 524260 bytes)
+Created CBFS (capacity = 4042660 bytes)
+    BOOTBLOCK
+    CBFS       cbfs_master_header
+    CBFS       cpu_microcode_blob.bin
+    CBFS       intel_fit
+    CBFS       fallback/romstage
+Image SIZE 16777216
+    CBFS       fallback/ramstage
+    CBFS       config
+    CBFS       revision
+    CBFS       build_info
+    CBFS       spd.bin
+    CBFS       fallback/dsdt.aml
+    CBFS       fspm.bin
+Image SIZE 16777216
+    CBFS       fsps.bin
+    CBFS       vbt.bin
+    CBFS       fallback/postcar
+    CBFS       cpu_microcode_blob.bin
+    CBFS       fallback/romstage
+Image SIZE 16777216
+    CBFS       fallback/ramstage
+    CBFS       config
+    CBFS       revision
+    CBFS       build_info
+    CBFS       spd.bin
+    CBFS       fallback/dsdt.aml
+    CBFS       fspm.bin
+Image SIZE 16777216
+    CBFS       fsps.bin
+    CBFS       vbt.bin
+    CBFS       fallback/postcar
+    CBFS       me_rw
+    CBFS       me_rw.version
+    CBFS       cpu_microcode_blob.bin
+    CBFS       fallback/romstage
+Image SIZE 16777216
+    CBFS       fallback/ramstage
+    CBFS       config
+    CBFS       revision
+    CBFS       build_info
+    CBFS       spd.bin
+    CBFS       fallback/dsdt.aml
+    CBFS       fspm.bin
+Image SIZE 16777216
+    CBFS       fsps.bin
+    CBFS       vbt.bin
+    CBFS       fallback/postcar
+    CBFS       me_rw
+    CBFS       me_rw.version
+    DD         Adding Intel Firmware Descriptor
+    IFDTOOL    me.bin -> coreboot.pre
+File /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/coreboot.pre is 16777216 bytes
+File /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/me.bin is 3796992 bytes
+Adding /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/me.bin as the Intel ME section of /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/coreboot.pre
+Writing new image to /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/coreboot.pre
+    IFDTOOL    Unlocking Management Engine
+File /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/coreboot.pre is 16777216 bytes
+Writing new image to /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/coreboot.pre
+    UPDATE-FIT set FIT pointer to table
+COREBOOT,FW_MAIN_A,FW_MAIN_B    UPDATE-FIT Microcode
+    CBFS       coreboot.rom
+
+    FIT table:
+    Index  Type                 Addr             Size    
+         0 Microcode            0xffc0a0e0      0x00000000
+
+    CBFSLAYOUT  coreboot.rom
+
+This image contains the following sections that can be manipulated with this tool:
+
+'SI_DESC' (size 4096, offset 0)
+'SI_ME' (size 3796992, offset 4096)
+'VBLOCK_A' (size 8192, offset 3801088)
+'FW_MAIN_A' (CBFS, size 4042688, offset 3809280)
+'RW_FWID_A' (size 64, offset 7851968)
+'RW_LEGACY' (CBFS, size 524288, offset 7852032)
+'RECOVERY_MRC_CACHE' (size 65536, offset 8376320)
+'RW_MRC_CACHE' (size 65536, offset 8441856)
+'RW_ELOG' (preserve, size 4096, offset 8507392)
+'RW_SHARED', 'SHARED_DATA' are aliases for the same region (size 4096, offset 8511488)
+'RW_VPD' (preserve, size 8192, offset 8515584)
+'RW_NVRAM' (preserve, size 8192, offset 8523776)
+'VBLOCK_B' (size 8192, offset 8531968)
+'FW_MAIN_B' (CBFS, size 4042688, offset 8540160)
+'RW_FWID_B' (size 64, offset 12582848)
+'RO_VPD' (preserve, size 16384, offset 12582912)
+'RO_GSCVD' (size 8192, offset 12599296)
+'RO_FRID' (size 64, offset 12609536)
+'GBB' (size 12288, offset 12611584)
+'COREBOOT' (CBFS, size 4153344, offset 12623872)
+
+It is possible to perform either the write action or the CBFS add/remove actions on every section listed above.
+To see the image's read-only sections as well, rerun with the -w option.
+    CBFSPRINT  coreboot.rom
+
+    MAKE       vboot_lib/futility/futility
+vboot SHA256 built with tight loops (slower, smaller code size)
+    CC            futility/futility.o
+    CC            futility/cmd_create.o
+    CC            futility/cmd_dump_fmap.o
+    CC            futility/cmd_gbb_utility.o
+    CC            futility/cmd_dump_kernel_config.o
+    CC            futility/cmd_flash_util.o
+    CC            futility/cmd_gscvd.o
+    CC            futility/cmd_load_fmap.o
+    CC            futility/cmd_pcr.o
+    CC            futility/cmd_read.o
+    CC            futility/cmd_show.o
+    CC            futility/cmd_sign.o
+    CC            futility/cmd_vbutil_firmware.o
+    CC            futility/cmd_vbutil_kernel.o
+    CC            futility/cmd_update.o
+    CC            futility/cmd_vbutil_key.o
+    CC            futility/file_type_bios.o
+    CC            futility/cmd_vbutil_keyblock.o
+    CC            futility/file_type.o
+    CC            futility/file_type_rwsig.o
+    CC            futility/file_type_usbpd1.o
+    CC            futility/flash_helpers.o
+    CC            futility/platform_csme.o
+    CC            futility/gscvd.o
+    CC            futility/misc.o
+    CC            futility/vb1_helper.o
+    CC            futility/vb2_helper.o
+    GEN           gen/futility_cmds.c
+    CC            host/lib/file_keys.o
+    CC            host/lib/host_common.o
+    CC            host/lib/host_key2.o
+    CC            host/lib/host_keyblock.o
+    CC            host/lib/host_signature.o
+    CC            host/lib/host_signature2.o
+    CC            host/lib/signature_digest.o
+    CC            host/lib/util_misc.o
+    CC            host/lib21/host_common.o
+    CC            host/lib21/host_key.o
+    CC            host/lib21/host_signature.o
+    CC            host/lib/host_p11.o
+    CC            firmware/2lib/2api.o
+    CC            firmware/2lib/2auxfw_sync.o
+    CC            firmware/2lib/2ec_sync.o
+    CC            firmware/2lib/2firmware.o
+    CC            firmware/2lib/2gbb.o
+    CC            firmware/2lib/2kernel.o
+    CC            firmware/2lib/2load_kernel.o
+    CC            firmware/2lib/2misc.o
+    CC            firmware/2lib/2packed_key.o
+    CC            firmware/2lib/2secdata_firmware.o
+    CC            firmware/2lib/2secdata_fwmp.o
+    CC            firmware/2lib/2secdata_kernel.o
+    CC            firmware/2lib/2tpm_bootmode.o
+    CC            firmware/lib/cgptlib/cgptlib.o
+    CC            firmware/stub/vboot_api_stub_stream.o
+    CC            gen/futility_cmds.o
+    RM            libvboot_util.a
+    AR            libvboot_util.a
+    LD            futility/futility
+    CREATE GBB (without BMPFV)
+successfully created new GBB to: /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/gbb.stub.tmp
+    SETUP GBB
+ - import root_key from 3rdparty/vboot/tests/devkeys/root_key.vbpubk: success
+ - import recovery_key from 3rdparty/vboot/tests/devkeys/recovery_key.vbpubk: success
+successfully saved new image to: /build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/gbb.region.tmp
+    WRITE GBB
+    WRITE GSCVD
+    FLASHMAP Layout generated for RO, A and B partition.
+FMAP REGION: COREBOOT
+Name                           Offset     Type           Size   Comp
+cbfs_master_header             0x0        cbfs header        32 none
+cpu_microcode_blob.bin         0x80       microcode      139264 none
+intel_fit                      0x22100    intel_fit          80 none
+fallback/romstage              0x22180    stage          178504 none
+fallback/ramstage              0x4db80    stage          172207 LZMA (402988 decompressed)
+config                         0x77cc0    raw              5726 LZMA (21621 decompressed)
+revision                       0x79380    raw               764 none
+build_info                     0x79700    raw               104 none
+spd.bin                        0x797c0    spd              2560 none
+fallback/dsdt.aml              0x7a240    raw             23344 none
+(empty)                        0x7fe00    null              356 none
+fspm.bin                       0x7ff80    fsp            786432 none
+fsps.bin                       0x140000   fsp            224172 LZ4  (253952 decompressed)
+vbt.bin                        0x176c40   raw              1280 LZMA (9216 decompressed)
+fallback/postcar               0x1771c0   stage           33452 none
+(empty)                        0x17f500   null          2464420 none
+bootblock                      0x3d8fc0   bootblock      118784 none
+FMAP REGION: FW_MAIN_A
+Name                           Offset     Type           Size   Comp
+cpu_microcode_blob.bin         0x0        microcode      139264 none
+fallback/romstage              0x22080    stage          178504 none
+fallback/ramstage              0x4da80    stage          172207 LZMA (402988 decompressed)
+config                         0x77bc0    raw              5726 LZMA (21621 decompressed)
+revision                       0x79280    raw               764 none
+build_info                     0x79600    raw               104 none
+spd.bin                        0x796c0    spd              2560 none
+fallback/dsdt.aml              0x7a140    raw             23344 none
+me_rw.version                  0x7fd00    raw                14 none
+(empty)                        0x7fd80    null              484 none
+fspm.bin                       0x7ff80    fsp            786432 none
+fsps.bin                       0x140000   fsp            224172 LZ4  (253952 decompressed)
+vbt.bin                        0x176c40   raw              1280 LZMA (9216 decompressed)
+fallback/postcar               0x1771c0   stage           33452 none
+me_rw                          0x17f500   raw           1166637 LZMA (1957888 decompressed)
+FMAP REGION: FW_MAIN_B
+Name                           Offset     Type           Size   Comp
+cpu_microcode_blob.bin         0x0        microcode      139264 none
+fallback/romstage              0x22080    stage          178504 none
+fallback/ramstage              0x4da80    stage          172207 LZMA (402988 decompressed)
+config                         0x77bc0    raw              5726 LZMA (21621 decompressed)
+revision                       0x79280    raw               764 none
+build_info                     0x79600    raw               104 none
+spd.bin                        0x796c0    spd              2560 none
+fallback/dsdt.aml              0x7a140    raw             23344 none
+me_rw.version                  0x7fd00    raw                14 none
+(empty)                        0x7fd80    null              484 none
+fspm.bin                       0x7ff80    fsp            786432 none
+fsps.bin                       0x140000   fsp            224172 LZ4  (253952 decompressed)
+vbt.bin                        0x176c40   raw              1280 LZMA (9216 decompressed)
+fallback/postcar               0x1771c0   stage           33452 none
+me_rw                          0x17f500   raw           1166637 LZMA (1957888 decompressed)
+
+Built google/brya (Pujjoga)
+
+	** WARNING **
+coreboot has been built without a payload. Writing
+a coreboot image without a payload to your board's
+flash chip will result in a non-booting system. You
+can use cbfstool to add a payload to the image.
+
+make[1]: Leaving directory '/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/coreboot'

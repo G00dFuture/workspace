@@ -1,0 +1,107 @@
+V "GNAT Lib v14"
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A -gnatwa
+A -gnatwe
+A --RTS=/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U gma.mainboard%s	gma-mainboard.ads	a40b0f6e NE OO PK IU
+W gma%s			gma.adb			gma.ali
+W hw%s			hw.ads			hw.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.display_probing%s  hw-gfx-gma-display_probing.adb  hw-gfx-gma-display_probing.ali
+
+D gma.ads		20260129053551 f2d0dc2c gma%s
+D gma-mainboard.ads	20260129053550 94ddc8dd gma.mainboard%s
+D hw.ads		20260129053550 349e873c hw%s
+D hw-config.ads		20260129053605 9c7de24d hw.config%s
+D hw-gfx.ads		20260129053551 0ef3118b hw.gfx%s
+D hw-gfx-edid.ads	20260129053551 99bc6e4c hw.gfx.edid%s
+D hw-gfx-framebuffer_filler.ads  20260129053551 a4b94408 hw.gfx.framebuffer_filler%s
+D hw-gfx-gma.ads	20260129053551 69ad3432 hw.gfx.gma%s
+D hw-gfx-gma-display_probing.ads  20260129053551 abab2fad hw.gfx.gma.display_probing%s
+D hw-pci.ads		20260129053550 d2a0aee8 hw.pci%s
+D hw-port_io.ads	20260129053550 42e65734 hw.port_io%s
+D hw-time.ads		20260129053550 9808c5a0 hw.time%s
+D interfac.ads		20260129053606 069b9bbd interfaces%s
+D i-c.ads		20260129053606 9d949f67 interfaces.c%s
+D system.ads		20260129053606 21923ced system%s
+D s-parame.ads		20260129053606 ab6ddd12 system.parameters%s
+D gnat.adc		20260129053550 00000000
+G a e
+X 1 gma.ads
+7K9*GMA 16e8 2|9r17 15r5
+X 2 gma-mainboard.ads
+9K21*Mainboard 1|7k9 2|15l9 15e18
+10a4*ports{9|21A9}
+X 3 hw.ads
+17K9*HW 2|3r6 4r6 6r5 7r5 3|91e7
+X 5 hw-gfx.ads
+16K12*GFX 2|3r9 4r9 6r8 7r8 5|212e11
+X 8 hw-gfx-gma.ads
+24K16*GMA 2|3w13 4r13 6r12 7r12 8|356e15
+67n7*Disabled{66E9} 2|14r17
+69n7*eDP{66E9} 2|11r7
+73n7*HDMI1{66E9} 2|12r7
+74n7*HDMI2{66E9} 2|13r7
+X 9 hw-gfx-gma-display_probing.ads
+17K20*Display_Probing 2|4w17 7r16 9|44e31
+21A9*Port_List(8|66E9)<20I9> 2|10r21
+

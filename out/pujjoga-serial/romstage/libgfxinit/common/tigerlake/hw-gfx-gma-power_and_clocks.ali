@@ -1,0 +1,561 @@
+V "GNAT Lib v14"
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A -gnatwa
+A -gnatwe
+A --RTS=/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.gfx.gma.power_and_clocks%b  hw-gfx-gma-power_and_clocks.adb  7ec963fd NE OO PK IU
+W gnat%s		gnat.ads		gnat.ali
+W gnat.source_info%s	g-souinf.ads		g-souinf.ali
+W hw%s			hw.ads			hw.ali
+W hw.debug%s		hw-debug.adb		hw-debug.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.combo_phy%s  hw-gfx-gma-combo_phy.adb  hw-gfx-gma-combo_phy.ali
+W hw.gfx.gma.config%s	hw-gfx-gma-config.adb	hw-gfx-gma-config.ali
+W hw.gfx.gma.connectors%s  hw-gfx-gma-connectors.adb  hw-gfx-gma-connectors.ali
+W hw.gfx.gma.connectors.tc%s  hw-gfx-gma-connectors-tc.adb  hw-gfx-gma-connectors-tc.ali
+W hw.gfx.gma.pcode%s	hw-gfx-gma-pcode.adb	hw-gfx-gma-pcode.ali
+W hw.gfx.gma.power_and_clocks%s  hw-gfx-gma-power_and_clocks.adb  hw-gfx-gma-power_and_clocks.ali
+W hw.gfx.gma.power_and_clocks.tgl%s  hw-gfx-gma-power_and_clocks-tgl.adb  hw-gfx-gma-power_and_clocks-tgl.ali
+W hw.gfx.gma.power_and_clocks.xelpd%s  hw-gfx-gma-power_and_clocks-xelpd.adb  hw-gfx-gma-power_and_clocks-xelpd.ali
+W hw.gfx.gma.registers%s  hw-gfx-gma-registers.adb  hw-gfx-gma-registers.ali
+W hw.gfx.gma.transcoder%s  hw-gfx-gma-transcoder.adb  hw-gfx-gma-transcoder.ali
+
+U hw.gfx.gma.power_and_clocks%s  hw-gfx-gma-power_and_clocks.ads  b6afccf5 EE NE OO PK IU
+W hw%s			hw.ads			hw.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.config_helpers%s  hw-gfx-gma-config_helpers.adb  hw-gfx-gma-config_helpers.ali
+
+D gnat.ads		20260129053606 fd2ad2f1 gnat%s
+D g-souinf.ads		20260129053606 7fd67a54 gnat.source_info%s
+D hw.ads		20260129053550 349e873c hw%s
+D hw-config.ads		20260129053605 9c7de24d hw.config%s
+D hw-debug.ads		20260129053550 1328ccd5 hw.debug%s
+D hw-gfx.ads		20260129053551 0ef3118b hw.gfx%s
+D hw-gfx-dp_aux_ch.ads	20260129053551 52048a5d hw.gfx.dp_aux_ch%s
+D hw-gfx-dp_defs.ads	20260129053551 30f739dd hw.gfx.dp_defs%s
+D hw-gfx-dp_info.ads	20260129053551 f9a9ac31 hw.gfx.dp_info%s
+D hw-gfx-framebuffer_filler.ads  20260129053551 a4b94408 hw.gfx.framebuffer_filler%s
+D hw-gfx-gma.ads	20260129053551 69ad3432 hw.gfx.gma%s
+D hw-gfx-gma-combo_phy.ads  20260129053550 3cd9fa08 hw.gfx.gma.combo_phy%s
+D hw-gfx-gma-config.ads	20260129053605 61acc94b hw.gfx.gma.config%s
+D hw-gfx-gma-config_helpers.ads  20260129053551 c7364f0c hw.gfx.gma.config_helpers%s
+D hw-gfx-gma-connectors.ads  20260129053551 08429727 hw.gfx.gma.connectors%s
+D hw-gfx-gma-connectors-tc.ads  20260129053550 b8b47837 hw.gfx.gma.connectors.tc%s
+D hw-gfx-gma-dp_aux_ch.ads  20260129053551 53944791 hw.gfx.gma.dp_aux_ch%s
+D hw-gfx-gma-dp_aux_request.ads  20260129053551 d673ea1e hw.gfx.gma.dp_aux_request%s
+D hw-gfx-gma-dp_info.ads  20260129053551 38def494 hw.gfx.gma.dp_info%s
+D hw-gfx-gma-pcode.ads	20260129053551 8cf8ab14 hw.gfx.gma.pcode%s
+D hw-gfx-gma-power_and_clocks.ads  20260129053550 1834b7cb hw.gfx.gma.power_and_clocks%s
+D hw-gfx-gma-power_and_clocks.adb  20260129053550 2b7ba7aa hw.gfx.gma.power_and_clocks%b
+D hw-gfx-gma-power_and_clocks-tgl.ads  20260129053550 17aa5ffc hw.gfx.gma.power_and_clocks.tgl%s
+D hw-gfx-gma-power_and_clocks-xelpd.ads  20260129053550 d0b512ee hw.gfx.gma.power_and_clocks.xelpd%s
+D hw-gfx-gma-registers.ads  20260129053550 cd56d246 hw.gfx.gma.registers%s
+D hw-gfx-gma-transcoder.ads  20260129053551 4208ba29 hw.gfx.gma.transcoder%s
+D hw-gfx-i2c.ads	20260129053551 e54ab4f7 hw.gfx.i2c%s
+D hw-pci.ads		20260129053550 d2a0aee8 hw.pci%s
+D hw-port_io.ads	20260129053550 42e65734 hw.port_io%s
+D hw-time.ads		20260129053550 9808c5a0 hw.time%s
+D interfac.ads		20260129053606 069b9bbd interfaces%s
+D system.ads		20260129053606 21923ced system%s
+D s-unstyp.ads		20260129053606 bb502f34 system.unsigned_types%s
+D gnat.adc		20260129053550 00000000
+G a e
+G c Z s b [pre_all_off hw__gfx__gma__power_and_clocks 23 14 none]
+G c Z s b [post_all_off hw__gfx__gma__power_and_clocks 24 14 none]
+G c Z s b [initialize hw__gfx__gma__power_and_clocks 26 14 none]
+G c Z s b [limit_dotclocks hw__gfx__gma__power_and_clocks 28 14 none]
+G c Z s b [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none]
+G c Z s b [enable_cdclk hw__gfx__gma__power_and_clocks 37 14 none]
+G c Z s b [power_set_to hw__gfx__gma__power_and_clocks 39 14 none]
+G c Z s b [power_up hw__gfx__gma__power_and_clocks 40 14 none]
+G c Z s b [power_down hw__gfx__gma__power_and_clocks 41 14 none]
+G c Z s b [power_up_aux hw__gfx__gma__power_and_clocks 43 14 none]
+G c Z s b [get_refclk hw__gfx__gma__power_and_clocks 45 14 none]
+G c Z b b [get_rawclk hw__gfx__gma__power_and_clocks 131 14 none]
+G c Z b b [get_max_cdclk hw__gfx__gma__power_and_clocks 147 14 none]
+G c Z b b [normalize_cdclk hw__gfx__gma__power_and_clocks 158 14 none]
+G c Z b b [get_cur_cdclk hw__gfx__gma__power_and_clocks 206 14 none]
+G c Z b b [set_cdclk hw__gfx__gma__power_and_clocks 217 14 none]
+G c Z b b [configure_bandwidth_buddy hw__gfx__gma__power_and_clocks 406 14 none]
+G r c none [pre_all_off hw__gfx__gma__power_and_clocks 23 14 none] [psr_off hw__gfx__gma__transcoder 33 14 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [wait_unset_mask hw__gfx__gma__registers 2371 14 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [has_cdclk_pll_crawl hw__gfx__gma__config 293 13 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [mailbox_request hw__gfx__gma__pcode 40 14 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [romstage_gfx_init hw__gfx__gma__config 365 13 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [wait_set_mask hw__gfx__gma__registers 2353 14 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [put_line hw__debug 19 14 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [div_round_closest hw 84 13 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [mailbox_write hw__gfx__gma__pcode 53 14 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [has_xelpd_power_domains hw__gfx__gma__config 339 13 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [all_off hw__gfx__gma__power_and_clocks__xelpd 24 14 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [all_off hw__gfx__gma__power_and_clocks__tgl 26 14 none]
+G r c none [post_all_off hw__gfx__gma__power_and_clocks 24 14 none] [all_off hw__gfx__gma__combo_phy 18 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [has_xelpd_power_domains hw__gfx__gma__config 339 13 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [aux_off hw__gfx__gma__power_and_clocks__xelpd 27 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [aux_off hw__gfx__gma__power_and_clocks__tgl 29 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [set_mask hw__gfx__gma__registers 2378 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [has_cdclk_pll_crawl hw__gfx__gma__config 293 13 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [initialize hw__gfx__gma__combo_phy 17 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [init_power hw__gfx__gma__power_and_clocks__xelpd 26 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [init_power hw__gfx__gma__power_and_clocks__tgl 28 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [mailbox_request hw__gfx__gma__pcode 40 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [romstage_gfx_init hw__gfx__gma__config 365 13 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [wait_set_mask hw__gfx__gma__registers 2353 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [wait_unset_mask hw__gfx__gma__registers 2371 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [put_line hw__debug 19 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [div_round_closest hw 84 13 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [mailbox_write hw__gfx__gma__pcode 53 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [default_rawclk_freq hw__gfx__gma__config 422 13 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [is_set_mask hw__gfx__gma__registers 2332 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [unset_and_set_mask hw__gfx__gma__registers 2386 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [posting_read hw__gfx__gma__registers 2301 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [wait_set_mask hw__gfx__gma__registers 2359 14 none]
+G r c none [initialize hw__gfx__gma__power_and_clocks 26 14 none] [mailbox_read hw__gfx__gma__pcode 61 14 none]
+G r c none [limit_dotclocks hw__gfx__gma__power_and_clocks 28 14 none] [limit_dotclocks hw__gfx__gma__config_helpers 84 14 none]
+G r c none [limit_dotclocks hw__gfx__gma__power_and_clocks 28 14 none] [highest_dotclock hw__gfx__gma__config_helpers 82 13 none]
+G r c none [limit_dotclocks hw__gfx__gma__power_and_clocks 28 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [limit_dotclocks hw__gfx__gma__power_and_clocks 28 14 none] [has_cdclk_pll_crawl hw__gfx__gma__config 293 13 none]
+G r c none [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none] [highest_dotclock hw__gfx__gma__config_helpers 82 13 none]
+G r c none [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none] [div_round_up hw 81 13 none]
+G r c none [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none] [has_cdclk_pll_crawl hw__gfx__gma__config 293 13 none]
+G r c none [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none] [mailbox_request hw__gfx__gma__pcode 40 14 none]
+G r c none [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none] [romstage_gfx_init hw__gfx__gma__config 365 13 none]
+G r c none [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none] [wait_set_mask hw__gfx__gma__registers 2353 14 none]
+G r c none [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none] [wait_unset_mask hw__gfx__gma__registers 2371 14 none]
+G r c none [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none] [put_line hw__debug 19 14 none]
+G r c none [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none] [div_round_closest hw 84 13 none]
+G r c none [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none] [mailbox_write hw__gfx__gma__pcode 53 14 none]
+G r c none [update_cdclk hw__gfx__gma__power_and_clocks 34 14 none] [limit_dotclocks hw__gfx__gma__config_helpers 84 14 none]
+G r c none [enable_cdclk hw__gfx__gma__power_and_clocks 37 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [enable_cdclk hw__gfx__gma__power_and_clocks 37 14 none] [has_cdclk_pll_crawl hw__gfx__gma__config 293 13 none]
+G r c none [enable_cdclk hw__gfx__gma__power_and_clocks 37 14 none] [mailbox_request hw__gfx__gma__pcode 40 14 none]
+G r c none [enable_cdclk hw__gfx__gma__power_and_clocks 37 14 none] [romstage_gfx_init hw__gfx__gma__config 365 13 none]
+G r c none [enable_cdclk hw__gfx__gma__power_and_clocks 37 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [enable_cdclk hw__gfx__gma__power_and_clocks 37 14 none] [wait_set_mask hw__gfx__gma__registers 2353 14 none]
+G r c none [enable_cdclk hw__gfx__gma__power_and_clocks 37 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [enable_cdclk hw__gfx__gma__power_and_clocks 37 14 none] [wait_unset_mask hw__gfx__gma__registers 2371 14 none]
+G r c none [enable_cdclk hw__gfx__gma__power_and_clocks 37 14 none] [put_line hw__debug 19 14 none]
+G r c none [enable_cdclk hw__gfx__gma__power_and_clocks 37 14 none] [div_round_closest hw 84 13 none]
+G r c none [enable_cdclk hw__gfx__gma__power_and_clocks 37 14 none] [mailbox_write hw__gfx__gma__pcode 53 14 none]
+G r c none [power_set_to hw__gfx__gma__power_and_clocks 39 14 none] [has_xelpd_power_domains hw__gfx__gma__config 339 13 none]
+G r c none [power_set_to hw__gfx__gma__power_and_clocks 39 14 none] [power_set_to hw__gfx__gma__power_and_clocks__xelpd 21 14 none]
+G r c none [power_set_to hw__gfx__gma__power_and_clocks 39 14 none] [power_set_to hw__gfx__gma__power_and_clocks__tgl 23 14 none]
+G r c none [power_up hw__gfx__gma__power_and_clocks 40 14 none] [has_xelpd_power_domains hw__gfx__gma__config 339 13 none]
+G r c none [power_up hw__gfx__gma__power_and_clocks 40 14 none] [power_up hw__gfx__gma__power_and_clocks__xelpd 22 14 none]
+G r c none [power_up hw__gfx__gma__power_and_clocks 40 14 none] [power_up hw__gfx__gma__power_and_clocks__tgl 24 14 none]
+G r c none [power_down hw__gfx__gma__power_and_clocks 41 14 none] [has_xelpd_power_domains hw__gfx__gma__config 339 13 none]
+G r c none [power_down hw__gfx__gma__power_and_clocks 41 14 none] [power_down hw__gfx__gma__power_and_clocks__xelpd 23 14 none]
+G r c none [power_down hw__gfx__gma__power_and_clocks 41 14 none] [power_down hw__gfx__gma__power_and_clocks__tgl 25 14 none]
+G r c none [power_up_aux hw__gfx__gma__power_and_clocks 43 14 none] [has_xelpd_power_domains hw__gfx__gma__config 339 13 none]
+G r c none [power_up_aux hw__gfx__gma__power_and_clocks 43 14 none] [power_up_aux hw__gfx__gma__power_and_clocks__xelpd 28 14 none]
+G r c none [get_refclk hw__gfx__gma__power_and_clocks 45 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [get_rawclk hw__gfx__gma__power_and_clocks 131 14 none] [default_rawclk_freq hw__gfx__gma__config 422 13 none]
+G r c none [get_rawclk hw__gfx__gma__power_and_clocks 131 14 none] [is_set_mask hw__gfx__gma__registers 2332 14 none]
+G r c none [get_max_cdclk hw__gfx__gma__power_and_clocks 147 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [normalize_cdclk hw__gfx__gma__power_and_clocks 158 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [normalize_cdclk hw__gfx__gma__power_and_clocks 158 14 none] [has_cdclk_pll_crawl hw__gfx__gma__config 293 13 none]
+G r c none [get_cur_cdclk hw__gfx__gma__power_and_clocks 206 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [get_cur_cdclk hw__gfx__gma__power_and_clocks 206 14 none] [has_cdclk_pll_crawl hw__gfx__gma__config 293 13 none]
+G r c none [set_cdclk hw__gfx__gma__power_and_clocks 217 14 none] [read hw__gfx__gma__registers 2311 14 none]
+G r c none [set_cdclk hw__gfx__gma__power_and_clocks 217 14 none] [has_cdclk_pll_crawl hw__gfx__gma__config 293 13 none]
+G r c none [set_cdclk hw__gfx__gma__power_and_clocks 217 14 none] [mailbox_request hw__gfx__gma__pcode 40 14 none]
+G r c none [set_cdclk hw__gfx__gma__power_and_clocks 217 14 none] [romstage_gfx_init hw__gfx__gma__config 365 13 none]
+G r c none [set_cdclk hw__gfx__gma__power_and_clocks 217 14 none] [write hw__gfx__gma__registers 2323 14 none]
+G r c none [set_cdclk hw__gfx__gma__power_and_clocks 217 14 none] [wait_set_mask hw__gfx__gma__registers 2353 14 none]
+G r c none [set_cdclk hw__gfx__gma__power_and_clocks 217 14 none] [unset_mask hw__gfx__gma__registers 2382 14 none]
+G r c none [set_cdclk hw__gfx__gma__power_and_clocks 217 14 none] [wait_unset_mask hw__gfx__gma__registers 2371 14 none]
+G r c none [set_cdclk hw__gfx__gma__power_and_clocks 217 14 none] [put_line hw__debug 19 14 none]
+G r c none [set_cdclk hw__gfx__gma__power_and_clocks 217 14 none] [div_round_closest hw 84 13 none]
+G r c none [set_cdclk hw__gfx__gma__power_and_clocks 217 14 none] [mailbox_write hw__gfx__gma__pcode 53 14 none]
+G r c none [configure_bandwidth_buddy hw__gfx__gma__power_and_clocks 406 14 none] [mailbox_read hw__gfx__gma__pcode 61 14 none]
+G r c none [configure_bandwidth_buddy hw__gfx__gma__power_and_clocks 406 14 none] [set_mask hw__gfx__gma__registers 2378 14 none]
+G r c none [configure_bandwidth_buddy hw__gfx__gma__power_and_clocks 406 14 none] [unset_and_set_mask hw__gfx__gma__registers 2386 14 none]
+G r c none [configure_bandwidth_buddy hw__gfx__gma__power_and_clocks 406 14 none] [write hw__gfx__gma__registers 2323 14 none]
+X 1 gnat.ads
+34K9*GNAT 37e9 22|15r6 307r37 495r37 644r37 655r37 667r37 684r37
+X 2 g-souinf.ads
+39K14*Source_Info 92e21 22|15w11 307r42 495r42 644r42 655r42 667r42 684r42
+68V13*Enclosing_Entity{string} 22|307s54 495s54 644s54 655s54 667s54 684s54
+X 3 hw.ads
+17K9*HW 91e7 21|15r6 17r17 47r5 22|16r6 17r6 18r6 19r6 20r6 21r6 22r6 23r6
+. 24r6 26r10 28r14 713r5
+34M12*Word32{31|66M9} 22|69r33 74r36 116r14 210r19 219r34 292r73 297r17 301r14
+. 415r26
+35V13*Shift_Left=36:26{31|66M9} 22|560s16 565s27
+40M12*Word64{31|69M9} 22|26r13 423r16
+43V13*Shift_Right=44:26{31|69M9} 22|449s28
+49I12*Int64{31|52I9} 22|158r42 214r24 297r44
+54I12*Pos64{31|52I9} 21|20r32 22|305r13 382r38
+81V13*Div_Round_Up{54I12} 22|623s11
+84V13*Div_Round_Closest{49I12} 22|297s25 384s17
+X 5 hw-debug.ads
+16K12*Debug 41e13 22|16w9 307r21 319r24 332r24 378r10 434r24 445r27 495r21
+. 644r21 655r21 667r21 684r21
+19U14*Put_Line 22|307s27 319s30 332s30 378s16 434s30 445s33 495s27 644s27
+. 655s27 667s27 684s27
+X 6 hw-gfx.ads
+16K12*GFX 3|17k9 6|212e11 21|15r9 17r20 47r8 22|17r9 18r9 19r9 20r9 21r9
+. 22r9 23r9 24r9 28r17 713r8
+64I12*Frequency_Type{3|54I12} 21|19r28 22|131r39 149r21 158r65 162r21 217r36
+. 220r44 244r44 268r42 292r50 309r24 481r47 483r24 491r28 492r15 493r15 611r15
+. 620r19 631r21 632r21 682r16
+X 11 hw-gfx-gma.ads
+24K16*GMA 6|16k12 11|356e15 21|15r13 17r24 47r12 22|17r13 18r13 19r13 20r13
+. 21r13 22r13 23r13 24r13 28r21 713r12
+122A9*Pipe_Configs(115R9)<121E9> 21|29r34 34r45 39r38 40r51 41r66 22|608r31
+. 618r45 642r38 653r51 664r66
+X 12 hw-gfx-gma-combo_phy.ads
+15K28*Combo_Phy 20e25 22|17w17 527r7 703r7
+17U14*Initialize 22|527s17
+18U14*All_Off 22|703s17
+X 13 hw-gfx-gma-config.ads
+15K28*Config 679e22 22|18w17 136r17 147r41 165r10 206r41 222r13 246r13 270r13
+. 303r15 309r54 331r30 337r10 403r7 497r10 508r10 529r10 536r7 537r22 539r10
+. 544r7 546r10 573r10 581r14 600r10 613r48 615r23 626r48 636r10 646r10 657r10
+. 669r10 697r10 708r10
+88I12*CDClk_Range{6|64I12} 22|147r48 206r48 303r22
+113i4*CDClk{88I12} 22|403m14 536m14 539r17 615r30 626r55 636r17
+114i4*Max_CDClk{88I12} 22|309r61 537r29 613r55
+115i4*Raw_Clock{6|64I12} 22|544m14
+293V13*Has_CDClk_PLL_Crawl{boolean} 22|165s17 222s20 246s20 270s20 337s17
+. 508s17 546s17 573s17 581s21 600s17
+339V13*Has_XELPD_Power_Domains{boolean} 22|497s17 529s17 646s17 657s17 669s17
+. 697s17 708s17
+365V13*Romstage_GFX_Init{boolean} 22|331s37
+422V13*Default_RawClk_Freq{6|64I12} 22|136s24
+X 14 hw-gfx-gma-config_helpers.ads
+17K28*Config_Helpers 90e30 21|15w17 22|613r7 614r24 623r25 626r7
+82V13*Highest_Dotclock{6|64I12} 22|614s39 623s40
+84U14*Limit_Dotclocks 22|613s22 626s22
+X 15 hw-gfx-gma-connectors.ads
+15K28*Connectors 44e26 22|22r17
+X 16 hw-gfx-gma-connectors-tc.ads
+17K31*TC 38e29 22|22w28
+X 20 hw-gfx-gma-pcode.ads
+17K28*PCode 71e21 22|19w17 324r7 396r7 428r7
+40U14*Mailbox_Request 22|324s13
+41m7 MBox{3|34M12} 22|325r10
+42m7 Command{3|40M12} 22|326r10
+43m7 Reply_Mask{3|40M12} 22|327r10
+46b7 Wait_Ready{boolean} 22|328r10
+47b7 Success{boolean} 22|329r10
+53U14*Mailbox_Write 22|396s13
+54m7 MBox{3|34M12} 22|397r10
+55m7 Command{3|40M12} 22|398r10
+56b7 Wait_Ready{boolean} 22|402r10
+61U14*Mailbox_Read 22|428s13
+62m7 MBox{3|34M12} 22|428r26
+64b7 Wait_Ready{boolean} 22|430r26
+65m7 Reply{3|40M12} 22|431r26
+66b7 Success{boolean} 22|432r26
+X 21 hw-gfx-gma-power_and_clocks.ads
+17K28*Power_And_Clocks 11|24k16 21|47l16 47e32 22|23r17 24r17 28b25 713l16
+. 713t32
+19I12*Refclk_Range{6|64I12} 21r14 21r45 45r39 22|114r39 304r21
+20I12*Refclk_Range_KHz{3|54I12}
+23U14*Pre_All_Off 22|676b14 679l8 679t19
+24U14*Post_All_Off 22|681b14 704l8 704t20
+26U14*Initialize 22|480b14 605l8 605t18
+28U14*Limit_Dotclocks 29=7 30<7 22|607b14 616l8 616t23
+29a7 Configs{11|122A9} 22|608b7 613m39 614r57
+30b7 CDClk_Switch{boolean} 22|609b7 615m7
+34U14*Update_CDClk 34=28 22|618b14 627l8 627t20
+34a28 Configs{11|122A9} 22|618b28 623r58 626m39
+37U14*Enable_CDClk 22|629b14 640l8 640t20
+39U14*Power_Set_To 39>28 22|642b14 651l8 651t20
+39a28 Configs{11|122A9} 22|642b28 647r30 649r28
+40U14*Power_Up 40>24 40>37 22|653b14 662l8 662t16
+40a24 Old_Configs{11|122A9} 22|653b24 658r26 660r24
+40a37 New_Configs{11|122A9} 22|653b37 658r39 660r37
+41U14*Power_Down 41>26 41>39 41>52 22|664b14 674l8 674t18
+41a26 Old_Configs{11|122A9} 22|664b26 670r28 672r26
+41a39 Tmp_Configs{11|122A9} 22|664b39 670r41 672r39
+41a52 New_Configs{11|122A9} 22|664b52 670r54 672r52
+43U14*Power_Up_Aux 22|706b14 711l8 711t20
+45U14*Get_Refclk 45<26 22|114b14 129l8 129t18 151s7 164s7 310s7 485s11 634s7
+. 694s7
+45i26 Refclk{19I12} 22|114b26 123m7
+X 22 hw-gfx-gma-power_and_clocks.adb
+30N4 DARBF_GATING_DIS 520r60
+31N4 PCH_DPMGUNIT_CLOCK_GATE_DISABLE 506r22
+32N4 NDE_RSTWRN_OPT_RST_PCH_Handshake_En 525r22
+36N4 DBUF_CTL_DBUF_POWER_REQUEST 569r50 575r48 688r29
+37N4 DBUF_CTL_TRACKER_STATE_SERVICE_MASK 564r27
+38N4 DBUF_CTL_TRACKER_STATE_SERVICE_SHIFT 565r42
+39N4 DBUF_CTL_MIN_TRACKER_STATE_SERVICE_SHIFT 560r31
+40N4 DBUF_CTL_MIN_TRACKER_STATE_SERVICE_MASK 558r27
+41N4 DBUF_CTL_DBUF_POWER_STATE 571r55 577r53 690r29
+43A9 DBUF_Regs_Array(25|2235E12)<integer> 44r25 45r7
+44a4 DBUF_Regs{43A9} 575r33 576r37 577r38 686r24 688r14 690r14
+51N4 MBUS_JOIN 550r27 553r27
+52N4 MBUS_HASHING_MODE_MASK 549r27
+53N4 MBUS_HASHING_MODE_2x2
+54N4 MBUS_HASHING_MODE_1x4 552r27
+55N4 MBUS_JOIN_PIPE_SELECT_MASK 551r27
+56N4 MBUS_JOIN_PIPE_SELECT_NONE 554r27
+60N4 MBUS_ABOX_CTL_BW_CREDITS_MASK 70r7
+61N4 MBUS_ABOX_CTL_B_CREDITS_MASK 71r7
+62N4 MBUS_ABOX_CTL_BT_CREDITS_POOL1_MASK 72r7
+63N4 MBUS_ABOX_CTL_BT_CREDITS_POOL2_MASK 73r7
+64N4 MBUS_ABOX_CTL_BW_CREDITS_SHIFT 75r16
+65N4 MBUS_ABOX_CTL_B_CREDITS_SHIFT 76r16
+66N4 MBUS_ABOX_CTL_BT_CREDITS_POOL1_SHIFT 77r17
+67N4 MBUS_ABOX_CTL_BT_CREDITS_POOL2_SHIFT 78r17
+69N4 MBUS_ABOX_MASK 585r30
+74N4 MBUS_ABOX_CREDITS 586r30
+80A9 MBUSRegs(25|2235E12)<integer> 81r29 81r41
+81a4 MBUS_ABOX_CTL{80A9} 582r19 584r30
+88N4 DCPR_MASK_MAXLATENCY_MEMUP_CLR 595r22
+89N4 DCPR_MASK_LPMODE 596r22
+90N4 DCPR_SEND_RESP_IMM 597r22
+91N4 DCPR_CLEAR_MEMSTAT_DIS 598r22
+93N4 TGL_PCODE_MEM_SUBSYSTEM_INFO 428r34
+94N4 TGL_PCODE_MEM_SS_READ_GLOBAL_INFO 429r34
+95N4 TGL_PCODE_CDCLK_CONTROL 325r24 397r22
+96N4 TGL_CDCLK_PREPARE_FOR_CHANGE 326r24
+97N4 TGL_CDCLK_READY_FOR_CHANGE 327r24
+99N4 CDCLK_PLL_ENABLE_PLL_RATIO_MASK
+100N4 CDCLK_PLL_ENABLE_PLL_ENABLE 341r25 345r25 356r25 360r25 370r38
+101N4 CDCLK_PLL_ENABLE_PLL_LOCK 350r26 363r25 373r25
+102N4 CDCLK_CD2X_DIV_SEL_MASK
+103N4 CDCLK_CD2X_DIV_SEL_1 385r21 389r26
+104N4 CDCLK_CD2X_DIV_SEL_1_5 386r21
+105N4 CDCLK_CD2X_DIV_SEL_2 387r21
+106N4 CDCLK_CD2X_DIV_SEL_4 388r21
+107N4 CDCLK_CD2X_PIPE_NONE 394r22
+108N4 CDCLK_CTL_CD_FREQ_DECIMAL_MASK 213r34
+109N4 CDCLK_PLL_ENABLE_FREQ_REQ_ACK 351r26
+110N4 CDCLK_PLL_ENABLE_FREQ_REQ 346r25
+116m7 DSSM{3|34M12} 122m39 124r15
+117N7 DSSM_REFERENCE_FREQUENCY_MASK 124r24
+118N7 DSSM_REFERENCE_FREQUENCY_24MHZ 125r15
+119N7 DSSM_REFERENCE_FREQUENCY_19_2MHZ 126r15
+120N7 DSSM_REFERENCE_FREQUENCY_38_4MHZ 127r15
+131U14 Get_RawClk 131b14 131<26 145l8 145t18 543s7
+131i26 Rawclk{6|64I12} 136m7 143m10
+133b7 Raw_Frequency_24_MHz{boolean} 140m22 142r14
+134N7 SFUSE_STRAP_RAW_FREQUENCY 139r22
+147U14 Get_Max_CDClk 147b14 147<29 156l8 156t21 537s7
+147i29 CDClk{13|88I12} 152m7
+149i7 Refclk_Freq{6|64I12} 151m19 153r15
+158U14 Normalize_CDClk 158b14 158>31 158<49 204l8 204t23 214s7 309s7 614s7
+. 622s7
+158i31 CDClk{3|49I12} 169r22 170r22 171r22 172r22 175r22 176r22 177r22 178r22
+. 181r22 182r22 183r22 184r22 190r23 191r23 192r23 193r23 194r23 197r23 198r23
+. 199r23 200r23 201r23
+158i49 Normalized{6|64I12} 166m10 187m10
+162i7 Refclk_Freq{6|64I12} 164m19 167r18 188r18
+206U14 Get_Cur_CDClk 206b14 206<29 215l8 215t21 535s7
+206i29 CDClk{13|88I12} 214m65
+210m7 CDCLK_CTL{3|34M12} 212m44 213m7 213r20 214r31
+217U14 Set_CDClk 217b14 217>25 404l8 404t17 540s10 625s7 638s10 695s7
+217i25 CDClk_In{6|64I12} 309r44
+219M15 PLL_Ratio_Range{3|34M12} 220r67 244r67 268r65 302r19
+220V16 Ratio_For_19_2_MHz{219M15} 220b16 220>36 242l11 242t29 312s42
+220i36 CDClk{6|64I12} 223r18 232r18
+244V16 Ratio_For_38_4_MHz{219M15} 244b16 244>36 266l11 266t29 313s42
+244i36 CDClk{6|64I12} 247r18 256r18
+268V16 Ratio_For_24_MHz{219M15} 268b16 268>34 290l11 290t27 314s42
+268i34 CDClk{6|64I12} 271r18 280r18
+292V16 CDCLK_CTL_CD_FREQ_DECIMAL{3|34M12} 292b16 292>43 298l11 298t36 393s22
+292i43 Freq{6|64I12} 297r51
+300b7 Success{boolean} 329m24 331r14 352m25 352r25 374m25 374r25 377r14
+301m7 CD2X{3|34M12} 383m7 394r46
+302m7 PLL_Ratio{219M15} 312m29 313m29 314m29 315m25 318r10 340r25 344r25
+. 355r25 367r25 370r25 382r44
+303i7 CDClk{13|88I12} 309m73 312r62 313r62 314r60 384r41 393r49 398r29 399r29
+. 400r29 403r23
+304i7 Refclk_Freq{21|19I12} 310m19 311r12 382r15
+305i7 VCO{3|54I12} 382m7 384r36
+406U14 Configure_Bandwidth_Buddy 406b14 476l8 476t33 590s7
+408N7 BW_BUDDY_DISABLE 474r49 475r49
+409N7 BW_BUDDY_TLB_REQ_TIMER_MASK 463r30 467r30
+411E12 DRAM_Module_Type 411e60 414r26 424r20
+411n33 DDR4{411E12} 419r14 421r14 440r35
+411n39 DDR5{411E12} 441r35
+411n45 LPDDR4{411E12} 420r14 422r14 443r35
+411n53 LPDDR5{411E12} 442r35
+412R12 Bw_Buddy_Info 416e17 417r67
+413i10 DRAM_Channels{natural} 452r31
+414e10 DRAM_Type{411E12} 451r28
+415m10 BW_BUDDY_MASK{3|34M12} 456r43 459r43
+417A12 Bw_Buddy_Info_Array(412R12)<integer> 418r29
+418a7 Buddy_Info{417A12} 450r16 451r13 452r16 456r28 459r28
+423m7 Result{3|40M12} 431m35 439r13 449r41
+424e7 Module_Type{411E12} 440m20 441m20 442m20 443m20 451r40
+425i7 Channels{natural} 449m7 452r47
+426b7 Success{boolean} 432m37 433r14
+450i11 I{integer} 451r25 452r28 456r40 459r40
+481U17 Get_Default_CDClk 481b17 481<36 490l11 490t28 538s7
+481i36 CDClk{6|64I12} 487m46 488m46
+483i10 Refclk_Freq{6|64I12} 485m23 486r16
+491i7 Default_CDClk_Freq{6|64I12} 538m26 539r26 540r21
+492i7 CDClk{6|64I12} 535m22 536r23
+493i7 RawClk{6|64I12} 543m19 544r27
+574i14 I{integer} 575r44 576r48 577r49
+582i14 I{integer} 584r45
+611i7 CDClk{6|64I12} 614m67 615r39
+620i7 New_CDClk{6|64I12} 624m10 625r18
+631i7 Refclk_Freq{6|64I12} 634m19 636r25 637r25
+632i7 Bypass_Freq{6|64I12} 637m10 638r21
+682i7 Refclk{6|64I12} 694m19 695r18
+686i11 I{integer} 688r25 690r25
+X 23 hw-gfx-gma-power_and_clocks-tgl.ads
+14K45*TGL 22|23w34 500r10 532r10 649r10 660r10 672r10 700r10 23|31e36
+23U14*Power_Set_To 22|649s14
+24U14*Power_Up 22|660s14
+25U14*Power_Down 22|672s14
+26U14*All_Off 22|700s14
+28U14*Init_Power 22|532s14
+29U14*Aux_Off 22|500s14
+X 24 hw-gfx-gma-power_and_clocks-xelpd.ads
+14K45*XELPD 22|24w34 498r10 530r10 647r10 658r10 670r10 698r10 709r10 24|30e38
+21U14*Power_Set_To 22|647s16
+22U14*Power_Up 22|658s16
+23U14*Power_Down 22|670s16
+24U14*All_Off 22|698s16
+26U14*Init_Power 22|530s16
+27U14*Aux_Off 22|498s16
+28U14*Power_Up_Aux 22|709s16
+X 25 hw-gfx-gma-registers.ads
+18K28*Registers 22|20w17 43r60 46r7 47r7 48r7 49r7 80r53 82r7 83r7 84r7 122r7
+. 122r23 137r7 138r22 212r7 212r23 338r10 339r25 342r10 343r25 348r10 349r26
+. 353r10 354r25 358r10 359r25 361r10 362r25 365r10 366r25 368r10 369r25 371r10
+. 372r25 391r7 392r22 454r13 455r28 457r13 458r28 461r13 462r30 465r13 466r30
+. 474r7 474r24 475r7 475r24 504r7 505r22 510r10 511r25 515r10 516r25 520r10
+. 520r30 523r7 524r22 547r10 548r27 556r10 557r27 562r10 563r27 569r7 569r27
+. 570r7 570r31 571r7 571r32 575r13 576r13 577r13 583r13 593r7 594r22 601r10
+. 602r25 687r10 689r10 25|2443e25
+110n7*DISPLAY_ERR_FATAL_MASK{35E9} 22|602r35
+111n7*DBUF_CTL_S2{35E9} 22|48r17
+112n7*DBUF_CTL_S3{35E9} 22|49r17
+113n7*MBUS_CTL{35E9} 22|548r37
+115n7*DBUF_CTL_S1{35E9} 22|47r17
+117n7*DBUF_CTL_S0{35E9} 22|46r17 557r37 563r37 569r37 570r41 571r42
+118n7*MBUS_ABOX_CTL{35E9} 22|82r17
+119n7*MBUS_ABOX1_CTL{35E9} 22|83r17
+120n7*MBUS_ABOX2_CTL{35E9} 22|84r17
+126n7*BW_BUDDY1_CTL{35E9} 22|462r40 474r34
+127n7*BW_BUDDY1_PAGE_MASK{35E9} 22|455r38
+128n7*BW_BUDDY2_CTL{35E9} 22|466r40 475r34
+129n7*BW_BUDDY2_PAGE_MASK{35E9} 22|458r38
+144n7*CDCLK_CTL{35E9} 22|212r33 392r32
+176n7*NDE_RSTWRN_OPT{35E9} 22|524r32
+177n7*GEN8_CHICKEN_DCPR_1{35E9} 22|516r35
+178n7*GEN11_CHICKEN_DCPR_2{35E9} 22|594r32
+179n7*GEN9_CLKGATE_DIS_0{35E9} 22|520r40
+181n7*GEN9_CLKGATE_DIS_5{35E9} 22|511r35
+185n7*DSSM{35E9} 22|122r33
+694n7*SFUSE_STRAP{35E9} 22|138r32
+695n7*PCH_DSPCLK_GATE_D{35E9} 22|505r32
+2235E12*Registers_Index{35E9} 22|43r70 80r63
+2272e4*CDCLK_PLL_ENABLE{2235E12} 22|339r35 343r35 349r36 354r35 359r35 362r35
+. 366r35 369r35 372r35
+2301U14*Posting_Read 22|570s17 576s23
+2311U14*Read 22|122s17 212s17
+2323U14*Write 22|338s20 342s20 353s20 365s20 368s20 391s17 474s17 475s17
+. 601s20
+2324e8 Register{2235E12} 22|339r13 343r13 354r13 366r13 369r13 392r10 602r13
+2325m8 Value{3|34M12} 22|340r13 344r13 355r13 367r13 370r13 393r10 603r13
+2332U14*Is_Set_Mask 22|137s17
+2333e8 Register{2235E12} 22|138r10
+2334m8 Mask{3|34M12} 22|139r10
+2335b8 Result{boolean} 22|140r10
+2353U14*Wait_Set_Mask 22|348s20 371s20
+2354e7 Register{2235E12} 22|349r13 372r13
+2355m7 Mask{3|34M12} 22|350r13 373r13
+2358b7 Success{boolean} 22|352r13 374r13
+2359U14*Wait_Set_Mask 22|571s17 577s23
+2371U14*Wait_Unset_Mask 22|361s20 689s20
+2372e7 Register{2235E12} 22|362r13
+2373m7 Mask{3|34M12} 22|363r13
+2378U14*Set_Mask 22|454s23 457s23 504s17 510s20 520s20 523s17 569s17 575s23
+. 593s17
+2379e8 Register{2235E12} 22|455r16 458r16 505r10 511r13 524r10 594r10
+2380m8 Mask{3|34M12} 22|456r16 459r16 506r10 512r13 525r10 595r10
+2382U14*Unset_Mask 22|358s20 515s20 687s20
+2383e8 Register{2235E12} 22|359r13 516r13
+2384m8 Mask{3|34M12} 22|360r13 517r13
+2386U14*Unset_And_Set_Mask 22|461s23 465s23 547s20 556s20 562s20 583s23
+2387e8 Register{2235E12} 22|462r16 466r16 548r13 557r13 563r13 584r16
+2388m8 Mask_Unset{3|34M12} 22|463r16 467r16 549r13 558r13 564r13 585r16
+2389m8 Mask_Set{3|34M12} 22|464r16 468r16 552r13 559r13 565r13 586r16
+X 26 hw-gfx-gma-transcoder.ads
+18K28*Transcoder 22|21w17 678r7 26|157e26
+33U14*PSR_Off 22|678s18
+X 31 interfac.ads
+52I9*Integer_64<long_long_integer>
+66M9*Unsigned_32
+69M9*Unsigned_64
+

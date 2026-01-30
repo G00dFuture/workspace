@@ -1,0 +1,154 @@
+V "GNAT Lib v14"
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A -gnatwa
+A -gnatwe
+A --RTS=/build/nissa/tmp/portage/sys-boot/coreboot-9999/work/build/out/pujjoga-serial/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.time%b		hw-time.adb		6e2305ae NE OO PK IU
+W hw%s			hw.ads			hw.ali
+W hw.time%s		hw-time.adb		hw-time.ali
+W hw.time.timer%s	hw-time-timer.adb	hw-time-timer.ali
+
+U hw.time%s		hw-time.ads		ac96429c EE NE OO PK IU
+W hw%s			hw.ads			hw.ali
+
+D hw.ads		20260129053550 349e873c hw%s
+D hw-time.ads		20260129053550 9808c5a0 hw.time%s
+D hw-time.adb		20260129053550 506504dc hw.time%b
+D hw-time-timer.ads	20260129053550 a64ec4d2 hw.time.timer%s
+D interfac.ads		20260129053606 069b9bbd interfaces%s
+D system.ads		20260129053606 21923ced system%s
+D gnat.adc		20260129053550 00000000
+G a e
+G c Z s b [now hw__time 23 13 none]
+G c Z s b [us_from_now hw__time 28 13 none]
+G c Z s b [ms_from_now hw__time 33 13 none]
+G c Z s b [now_us hw__time 38 13 none]
+G c Z s b [delay_until hw__time 50 14 none]
+G c Z s b [u_delay hw__time 54 14 none]
+G c Z s b [m_delay hw__time 58 14 none]
+G c Z s b [timed_out hw__time 67 13 none]
+G r c none [now hw__time 23 13 none] [raw_value_min hw__time__timer 25 13 none]
+G r c none [us_from_now hw__time 28 13 none] [hz hw__time__timer 38 13 none]
+G r c none [us_from_now hw__time 28 13 none] [raw_value_max hw__time__timer 32 13 none]
+G r c none [ms_from_now hw__time 33 13 none] [hz hw__time__timer 38 13 none]
+G r c none [ms_from_now hw__time 33 13 none] [raw_value_max hw__time__timer 32 13 none]
+G r c none [now_us hw__time 38 13 none] [hz hw__time__timer 38 13 none]
+G r c none [now_us hw__time 38 13 none] [raw_value_min hw__time__timer 25 13 none]
+G r c none [delay_until hw__time 50 14 none] [raw_value_min hw__time__timer 25 13 none]
+G r c none [u_delay hw__time 54 14 none] [hz hw__time__timer 38 13 none]
+G r c none [u_delay hw__time 54 14 none] [raw_value_max hw__time__timer 32 13 none]
+G r c none [u_delay hw__time 54 14 none] [raw_value_min hw__time__timer 25 13 none]
+G r c none [m_delay hw__time 58 14 none] [hz hw__time__timer 38 13 none]
+G r c none [m_delay hw__time 58 14 none] [raw_value_max hw__time__timer 32 13 none]
+G r c none [m_delay hw__time 58 14 none] [raw_value_min hw__time__timer 25 13 none]
+G r c none [timed_out hw__time 67 13 none] [raw_value_min hw__time__timer 25 13 none]
+X 1 hw.ads
+17K9*HW 91e7 2|15r9 78r5 3|15r6 17r10 19r14 107r5
+40M12*Word64{5|69M9} 2|74r18 3|17r13
+49I12*Int64{5|52I9} 2|38r27 3|52r27 60r14 61r18
+X 2 hw-time.ads
+15K12*Time 1|17k9 2|74E9 78l8 78e12 3|15r9 19b17 107l8 107t12
+16@28*State 26r27 31r27 36r27 41r27 52r27 56r27 60r27 70r27 3|20r27
+19M9*T<5|69M9> 21r23 23r24 28r47 33r47 50r38 67r35 74c9 76r23 76r28 3|23r24
+. 27r26 32r47 36r21 37r26 39r25 42r47 46r21 47r26 49r25 56r21 57r22 58r26
+. 61r41 66r38 70r17 82r27 91r27 98r35 102r26
+21m4*T_First{19M9} 76c4
+23V13*Now{19M9} 3|23b13 30l8 30t11
+28V13*US_From_Now{19M9} 28>26 3|32b13 40l8 40t19 82s32
+28i26 US{natural} 3|32b26 39r28
+33V13*MS_From_Now{19M9} 33>26 3|42b13 50l8 50t19 91s32
+33i26 MS{natural} 3|42b26 49r28
+38V13*Now_US{1|49I12} 3|52b13 62l8 62t14
+50U14*Delay_Until 50>27 3|66b14 76l8 76t19 84s7 93s7
+50m27 Deadline{19M9} 3|66b27 74r31
+54U14*U_Delay 54>23 3|78b14 85l8 85t15
+54i23 US{natural} 3|78b23 82r45
+58U14*M_Delay 58>23 3|87b14 94l8 94t15
+58i23 MS{natural} 3|87b23 91r45
+67V13*Timed_Out{boolean} 67>24 3|98b13 105l8 105t17
+67m24 Deadline{19M9} 3|98b24 104r25
+X 3 hw-time.adb
+27m7 Current{2|19M9} 29r14
+36m7 Hz{2|19M9} 39r34
+37m7 Current{2|19M9} 39r14
+46m7 Hz{2|19M9} 49r34
+47m7 Current{2|19M9} 49r14
+56m7 Hz{2|19M9} 57r27
+57m7 MHz{2|19M9} 61r28 61r52
+58m7 Current{2|19M9} 60r21
+70m7 Current{2|19M9} 73m10 74r20
+82m7 Deadline{2|19M9} 84r20
+91m7 Deadline{2|19M9} 93r20
+102m7 Current{2|19M9} 104r14
+X 4 hw-time-timer.ads
+15K25*Timer 3|15w14 20r37 20r56 25r35 27r31 34r36 34r57 36r26 37r31 44r36
+. 44r57 46r26 47r31 54r36 54r57 56r26 58r31 68r36 73r21 80r36 80r57 89r36
+. 89r57 100r36 102r31 4|42e18
+17@27*Timer_State 3|20r43 34r63 44r63 54r63 80r63 89r63
+19@27*Abstract_Time 3|20r62 25r41 34r42 44r42 54r42 68r42 80r42 89r42 100r42
+25V13*Raw_Value_Min{2|19M9} 3|27s37 58s37 73s27 102s37
+32V13*Raw_Value_Max{2|19M9} 3|37s37 47s37
+38V13*Hz{2|19M9} 3|36s32 46s32 56s32
+X 5 interfac.ads
+52I9*Integer_64<long_long_integer>
+69M9*Unsigned_64
+
