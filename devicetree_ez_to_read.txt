@@ -1,0 +1,108 @@
+graph TD
+    %% =======================
+    %% Level 0: The Universe
+    %% =======================
+    ROOT[dev_root]
+    ROOT_BUS[dev_root_bus]
+    ROOT --> ROOT_BUS
+    
+    %% =======================
+    %% Level 1: System Pillars
+    %% =======================
+    CPU[_dev_0: CPU Cluster 0]
+    DOMAIN[_dev_1: PCI Domain 0]
+    
+    ROOT_BUS --> CPU
+    ROOT_BUS --> DOMAIN
+    
+    %% =======================
+    %% Level 2: PCI Domain 0 Bus
+    %% =======================
+    PCI_BUS[_dev_1_bus]
+    DOMAIN --> PCI_BUS
+    
+    %% =======================
+    %% Level 3: Devices on PCI Bus
+    %% (Linked via .sibling pointers)
+    %% =======================
+    
+    %% 1. System Components
+    GPIO[_dev_pch_gpio: GPIO]
+    SA[_dev_system_agent: 0.0]
+    IGPU[_dev_igpu: 02.0 Graphics]
+        subgraph Graphics
+        IGPU --> IGPU_BUS[_dev_igpu_bus]
+        IGPU_BUS --> IGPU_CHILD[_dev_2: Generic]
+        end
+    
+    DTT[_dev_dtt: 04.0 Thermal]
+        subgraph Thermal
+        DTT --> DTT_BUS[_dev_dtt_bus]
+        DTT_BUS --> DTT_CHILD[_dev_3: Generic]
+        end
+    
+    GNA[_dev_gna: 08.0 GNA]
+    CRASH[_dev_crashlog: 0a.0 CrashLog]
+    
+    %% 2. USB / Connectivity
+    XHCI[_dev_xhci: 14.0 USB3 Controller]
+        subgraph USB
+        XHCI --> XHCI_BUS[_dev_xhci_bus]
+        XHCI_BUS --> XHCI_ROOT[_dev_xhci_root_hub]
+        end
+        
+    SRAM[_dev_shared_sram: 14.2]
+    
+    %% 3. CNVi (The Hero)
+    CNVI[_dev_cnvi_wifi: 14.3 WiFi]
+        subgraph CNVi_WiFi
+        CNVI --> CNVI_BUS[_dev_cnvi_wifi_bus]
+        CNVI_BUS --> CNVI_GEN[_dev_8: Generic Driver]
+        end
+
+    %% 4. I2C Controllers
+    I2C0[_dev_i2c0: 15.0]
+        subgraph I2C_0
+        I2C0 --> I2C0_BUS[_dev_i2c0_bus]
+        I2C0_BUS --> I2C0_GEN[_dev_9: Generic]
+        end
+        
+    I2C1[_dev_i2c1: 15.1]
+    I2C2[_dev_i2c2: 15.2]
+    I2C3[_dev_i2c3: 15.3]
+    I2C5[_dev_i2c5: 19.1]
+        subgraph I2C_5
+        I2C5 --> I2C5_BUS[_dev_i2c5_bus]
+        I2C5_BUS --> I2C5_GEN[_dev_15: Generic]
+        end
+    
+    %% 5. Management & Storage
+    HECI1[_dev_heci1: 16.0 ME]
+    EMMC[_dev_emmc: 1a.0 Storage]
+    
+    %% 6. PCIe Root Ports (Expansion Slots)
+    RP4[_dev_pcie_rp4: 1c.3]
+    
+    %% 7. Legacy / SuperIO
+    UART0[_dev_uart0: 1e.0]
+    LPC[_dev_lpc: 1f.0 ISA Bridge]
+        subgraph LPC_Bus
+        LPC --> LPC_BUS[_dev_lpc_bus]
+        LPC_BUS --> EC[ChromeOS EC]
+        end
+
+    %% Wiring Level 3
+    PCI_BUS --> GPIO
+    GPIO -.-> SA
+    SA -.-> IGPU
+    IGPU -.-> DTT
+    DTT -.-> GNA
+    GNA -.-> CRASH
+    CRASH -.-> XHCI
+    XHCI -.-> SRAM
+    SRAM -.-> CNVI
+    CNVI -.-> I2C0
+    I2C0 -.-> I2C1 -.-> ... -.-> I2C5
+    I2C5 -.-> UART0
+    UART0 -.-> ... -.-> LPC
+
