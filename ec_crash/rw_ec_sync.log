@@ -1,0 +1,628 @@
+26-02-10 06:44:49.469 
+26-02-10 06:44:49.469 ec:> 
+26-02-10 06:44:49.646 ec:> 
+26-02-10 06:44:49.814 ec:> 
+26-02-10 06:44:49.984 ec:> reboot
+26-02-10 06:44:54.375 Rebooting!
+26-02-10 06:44:54.375 
+26-02-10 06:44:54.375 
+26-02-10 06:44:54.716 
+26-02-10 06:44:54.716 ec:> *** Booting Zephyr OS build 3.7.99 ***
+26-02-10 06:44:54.721 I: Pwrseq Init
+26-02-10 06:44:54.727 
+26-02-10 06:44:54.727 ec:> 
+26-02-10 06:44:54.727 --- UART initialized after reboot ---
+26-02-10 06:44:54.730 ec:> [Image: RO, pujjogatwin-15217.882.0 STATIC_VERSION_DATE reproducible@build]
+26-02-10 06:44:54.738 ec:> [Reset cause: ec:> softec:> ]
+26-02-10 06:44:54.743 ec:> [0.026600 KB Custom=0 Keypad=0 Vivaldi=1]
+26-02-10 06:44:54.749 ec:> [0.030600 KB WARN: Debounce durations not equal]
+26-02-10 06:44:54.755 ec:> [0.037600 init buttons]
+26-02-10 06:44:54.758 ec:> [0.038800 boot buttons: 0x0]
+26-02-10 06:44:54.760 ec:> [0.042800 VB Main]
+26-02-10 06:44:54.762 ec:> [0.045600 VB Ping Cr50]
+26-02-10 06:44:54.768 ec:> [0.051100 hash start 0x00040000 0x00040000]
+26-02-10 06:44:54.771 ec:> [0.450100 hash done c7b1151642f6dc32cb18d39b41930ca1b49e51290beca1f69fc66b2e4a5918eb]
+26-02-10 06:44:55.162 ec:> [0.450300 VB Verifying hash]
+26-02-10 06:44:55.167 ec:> 
+26-02-10 06:44:55.178 ec:> [0.471800 VB Received 0xec00]
+26-02-10 06:44:55.179 ec:> [0.473700 Jumping to image RW (0x00100020)]
+26-02-10 06:44:55.184 ec:> 
+26-02-10 06:44:55.229 ec:> *** Booting Zephyr OS build 3.7.99 ***
+26-02-10 06:44:55.238 I: Pwrseq Init
+26-02-10 06:44:55.250 
+26-02-10 06:44:55.250 ec:> [0.018900 UART initialized after sysjump]
+26-02-10 06:44:55.251 ec:> [Image: RW, pujjogatwin-15217.1111.0 STATIC_VERSION_DATE reproducible@build]
+26-02-10 06:44:55.256 ec:> [Reset cause: ec:> softec:>  ec:> sysjumpec:>  ec:> efsec:> ]
+26-02-10 06:44:55.267 ec:> [0.096900 KB Custom=0 Keypad=0 Vivaldi=1]
+26-02-10 06:44:55.327 ec:> [0.097900 KB WARN: Debounce durations not equal]
+26-02-10 06:44:55.332 ec:> [0.100300 init buttons]
+26-02-10 06:44:55.335 ec:> [0.101000 boot buttons: 0x0]
+26-02-10 06:44:55.340 ec:> [0.103400 VB Main]
+26-02-10 06:44:55.343 ec:> [0.105100 VB Already in RWI: SB: HDMI, USB type A
+26-02-10 06:44:55.349 ]
+26-02-10 06:44:55.349 ec:> [0.109200 VB show_power_shortage]
+26-02-10 06:44:55.357 ec:> [0.113400 CBI Reading board info]
+26-02-10 06:44:55.358 ec:> [0.126200 BCFG Battery says COSMX,L24X3PG2]
+26-02-10 06:44:55.362 ec:> [0.127100 BCFG Found config_fw[2]]
+26-02-10 06:44:55.364 ec:> [0.155500 SW 0x05]
+26-02-10 06:44:55.382 ec:> [0.156300 hash start 0x00040000 0x00040000]
+26-02-10 06:44:55.387 ec:> [0.178400 Sustainer disabled]
+26-02-10 06:44:55.407 ec:> [0.178600 Motion pre-shutdown; loops 0; last 178 ms ago; a=0x7, s=0x0]
+26-02-10 06:44:55.413 ec:> I: power state 1 = G3, in 0x0078
+26-02-10 06:44:55.418 [0.178800 PB init-on]
+26-02-10 06:44:55.421 ec:> [0.181300 mkbp switches: 1]
+26-02-10 06:44:55.423 ec:> [0.184300 Inits done]
+26-02-10 06:44:55.426 ec:> [0.188200 pd_shared_alert_task: port mask 0x03]
+26-02-10 06:44:55.432 ec:> [0.188300 C1: PD comm policy enabled]
+26-02-10 06:44:55.437 ec:> [0.188300 C0: PD comm policy enabled]
+26-02-10 06:44:55.440 ec:> [0.203700 C1: TCPC init ready]
+26-02-10 06:44:55.445 ec:> [0.206700 C0: NO_DEBUG_ACC_CONTROL]
+26-02-10 06:44:55.448 ec:> [0.211400 ppc p1 init'd.]
+26-02-10 06:44:55.450 ec:> [0.213900 C0: TCPC init ready]
+26-02-10 06:44:55.457 ec:> [0.188400 KB init state:ec:> [0.223000 ppc p0 init'd.]
+26-02-10 06:44:55.464 ec:>  --ec:> [0.188400 PB task 8 = init-on]
+26-02-10 06:44:55.467 ec:>  --ec:> [0.213600 Battery presence changed: -1->1 0x0->0x2]
+26-02-10 06:44:55.475 ec:>  --ec:> [0.234100 PB task 8 = init-on, wait 54300]
+26-02-10 06:44:55.481 ec:>  --ec:> [0.238800 Battery now present]
+26-02-10 06:44:55.486 ec:>  --ec:>  --ec:>  --ec:>  --ec:>  --ec:> [0.256000 BCFG Battery says COSMX,L24X3PG2]
+26-02-10 06:44:55.497 ec:>  --ec:> [0.262100 BCFG Found config_fw[2]]
+26-02-10 06:44:55.502 ec:>  --ec:>  --ec:>  --ec:> ]
+26-02-10 06:44:55.508 ec:> [0.300100 PB task 8 = init-on]
+26-02-10 06:44:55.528 ec:> [0.302300 PB task 8 = init-on, wait 97800]
+26-02-10 06:44:55.532 ec:> [0.400400 PB task 8 = init-on]
+26-02-10 06:44:55.628 ec:> [0.402600 PB task 8 = init-on, wait 97800]
+26-02-10 06:44:55.632 ec:> [0.500700 PB task 8 = init-on]
+26-02-10 06:44:55.728 ec:I: Request start from G3
+26-02-10 06:44:55.730 I: Starting from G3, delay 0 ms
+26-02-10 06:44:55.733 > [0.5016I: power state 7 = G3S5, in 0x0078
+26-02-10 06:44:55.736 00 C1: TCPC Enter Low Power Mode]
+26-02-10 06:44:55.738 ec:> [0.507300 PB PCH pwrbtn=LOW]
+26-02-10 06:44:55.744 ec:> [0.507400 PB task 9 = recovery, wait 200000]
+26-02-10 06:44:55.748 ec:> E: Unhandled HDMI power event 1
+26-02-10 06:44:55.849 I: power state 2 = S5, in 0x100ab
+26-02-10 06:44:55.860 I: power state 2 = S5, in 0x300a7
+26-02-10 06:44:55.862 I: power state 2 = S5, in 0x360a7
+26-02-10 06:44:55.865 [0.640100 C0: Debug accessory detected]
+26-02-10 06:44:55.868 ec:> [0.641500 New charge port: C0]
+26-02-10 06:44:55.873 ec:> [0.648700 CL: p0 s2 i500 v5000]
+26-02-10 06:44:55.880 ec:> [0.650700 C1: TCPC Enter Low Power Mode]
+26-02-10 06:44:55.880 ec:> [0.678500 hash done c7b1151642f6dc32cb18d39b41930ca1b49e51290beca1f69fc66b2e4a5918eb]
+26-02-10 06:44:55.907 ec:> [0.714100 PB task 9 = recovery]
+26-02-10 06:44:55.940 ec:> [0.715700 PB PCH pwrbtn=HIGH]
+26-02-10 06:44:55.943 ec:> [0.716400 PB task 0 = idle, wait -1]
+26-02-10 06:44:55.947 ec:> C0: Req [3] 15000mV 3000mAec:> 
+26-02-10 06:44:55.980 ec:> [0.756800 New charge port: C0]
+26-02-10 06:44:55.990 ec:> [0.766700 CL: p0 s0 i3000 v15000]
+26-02-10 06:44:55.993 ec:> [0.770100 charge_manager_leave_safe_mode()]
+26-02-10 06:44:55.998 ec:> [0.771600 C1: TCPC Enter Low Power Mode]
+26-02-10 06:44:56.002 ec:> [0.782700 CL: p0 s0 i500 v15000]
+26-02-10 06:44:56.009 ec:> I: power state 2 = S5, in 0x300a7
+26-02-10 06:44:56.026 I: Clearing request to exit G3
+26-02-10 06:44:56.029 I: power state 8 = S5S4, in 0x30087
+26-02-10 06:44:56.031 I: power state 3 = S4, in 0x38087
+26-02-10 06:44:56.034 I: power state 9 = S4S3, in 0x38087
+26-02-10 06:44:56.037 [0.814800 PD:I: host sleep event = 0
+26-02-10 06:44:56.040 I: power state 4 = S3, in 0x38087
+26-02-10 06:44:56.042 I: power state 10 = S3S0, in 0x38087
+26-02-10 06:44:56.048 S5->S3]
+26-02-10 06:44:56.048 ec:> [0.824000 Motion pre-resume; loops 2; last 197 ms ago; a=0x7, s=0x0]
+26-02-10 06:44:56.053 ec:> [0.83000I: power state 6 = S0, in 0x38087
+26-02-10 06:44:56.059 I: Reaching S0
+26-02-10 06:44:56.062 0 Battery 97% (Display 99.7 %) / 928h:25 to empty, not accepting current]
+26-02-10 06:44:56.067 ec:> [0.832500 PD:S3->S0]
+26-02-10 06:44:56.070 ec:> [0.838200 charge_request(13200mV, 0mA)]
+26-02-10 06:44:56.075 ec:> : Turning on PWR_EC_PCH_SYS_PWROK
+26-02-10 06:44:56.078 I: power state 6 = S0, in 0x38d87
+26-02-10 06:44:56.081 J[0.847400 lid-accel: MS Done Init type:0x0 range:2]
+26-02-10 06:44:56.089 ec:> [0.849300 SENSOR accelgyro_lsm6dsm WHO_AM_I value: 0x6a]
+26-02-10 06:44:56.092 ec:> [0.864100 base-accel: MS Done Init type:0x0 range:4]
+26-02-10 06:44:56.097 ec:> [0.866600 SENSOR accelgyro_lsm6dsm WHO_AM_I value: 0x6a]
+26-02-10 06:44:56.105 ec:> [0.872300 base-gyro: MS Done Init type:0x1 range:1146]
+26-02-10 06:44:56.112 ec:> [0.880700 lid-accel ODR: 10000  - roundup 1 from config 1 [AP 0]: 0]
+26-02-10 06:44:56.116 ec:> [0.887200 base-accel ODR: 10000  - roundup 1 from config 1 [AP 0]: 0]
+26-02-10 06:44:56.125 ec:> [0.893900 base-gyro ODR: 0  - roundup 0 from config 0 [AP 0]: 0]
+26-02-10 06:44:56.130 ec:> [0.915100 C1: Exit Low Power Mode]
+26-02-10 06:44:56.140 ec:> [0.924800 C1: TCPC init ready]
+26-02-10 06:44:56.149 ec:> [0.942200 C1: TCPC Enter Low Power Mode]
+26-02-10 06:44:56.167 ec:> [1.017100 C1: TCPC init ready]
+26-02-10 06:44:56.241 ec:> [1.118500 C1: Exit Low Power Mode]
+26-02-10 06:44:56.342 ec:> [1.184200 MKBP not cleared within threshold, toggling.]
+26-02-10 06:44:56.409 ec:> [1.265300 C0 Hard Reset sent]
+26-02-10 06:44:56.488 ec:> [1.265000 CL: p0 s0 i3000 v15000]
+26-02-10 06:44:56.496 ec:> [1.273200 C0: NO_DEBUG_ACC_CONTROL]
+26-02-10 06:44:56.498 ec:> [1.277300 C0: TCPC init ready]
+26-02-10 06:44:56.502 ec:> [1.303000 Disabling all charger ports]
+26-02-10 06:44:56.526 ec:> [1.348400 CL: p-1 s-1 i512 v0]
+26-02-10 06:44:56.571 ec:> [1.415600 Battery 97% (Display 99.7 %) / 928h:25 to empty, not accepting current]
+26-02-10 06:44:56.642 ec:> [2.154300 New charge port: C0]
+26-02-10 06:44:57.374 ec:> [2.156800 CL: p0 s2 i500 v5000]
+26-02-10 06:44:57.379 ec:> [2.186600 MKBP: The AP is failing to respond despite being powered on.]
+26-02-10 06:44:57.410 ec:> C0: Req [3] 15000mV 3000mAec:> 
+26-02-10 06:44:57.461 ec:> [2.252200 New charge port: C0]
+26-02-10 06:44:57.473 ec:> [2.256200 CL: p0 s0 i500 v15000]
+26-02-10 06:44:57.475 ec:> [2.278400 Battery 97% (Display 99.7 %) / 9h:0 to empty, not accepting current]
+26-02-10 06:44:57.501 ec:> [2.282000 charge_request(13200mV, 0mA)]
+26-02-10 06:44:57.505 ec:> [2.735000 CL: p0 s0 i3000 v15000]
+26-02-10 06:44:57.951 ec:> C0: Req [3] 15000mV 3000mAec:> 
+26-02-10 06:44:58.256 ec:> [3.046100 CL: p0 s0 i166 v15000 (forced)]
+26-02-10 06:44:58.262 ec:> [3.226200 CL: p0 s0 i3000 v15000]
+26-02-10 06:44:58.448 ec:> Unhandled DPM Request 0 received
+26-02-10 06:44:58.451 ec:> [3.274500 C0: VCONN Swap counter exhausted]
+26-02-10 06:44:58.489 ec:> C0: Req [3] 15000mV 3000mAec:> 
+26-02-10 06:44:58.964 ec:> [3.761400 CL: p0 s0 i166 v15000 (forced)]
+26-02-10 06:44:58.974 ec:> [3.940200 CL: p0 s0 i3000 v15000]
+26-02-10 06:44:59.152 ec:> 
+26-02-10 06:45:17.332 ec:> 
+26-02-10 06:45:17.500 ec:> 
+26-02-10 06:45:17.656 ec:> I: power state 6 = S0, in 0x36da7
+26-02-10 06:45:18.976 I: power state 15 = S0S3, in 0x360a7
+26-02-10 06:45:18.979 [23.862300 Motion pre-suspend; loops 583; last 7I: host sleep event = 0
+26-02-10 06:45:18.993 I: power state 4 = S3, in 0x360a7
+26-02-10 06:45:18.993 I: power state 14 = S3S4, in 0x360a7
+26-02-10 06:45:18.994 I: power state 3 = S4, in 0x360a7
+26-02-10 06:45:18.995 I: power state 13 = S4S5, in 0x360a7
+26-02-10 06:45:18.998  ms ago; a=0x7, s=0x333]
+26-02-10 06:45:19.001 ec:> [23.866500 PD:S0->S3]
+26-02-10 06:45:19.004 ec:> [23.889000 Motion pre-shutdown; loops 583; last 34 ms ago; a=0x7, s=0x333]
+26-02-10 06:45:19.012 ec:> [23.891700 PD:S3I: power state 2 = S5, in 0x360a7
+26-02-10 06:45:19.025 ->S5]
+26-02-10 06:45:19.025 ec:> [23.950300 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:19.070 ec:> I: power state 2 = S5, in 0x300a7
+26-02-10 06:45:23.105 I: Clearing request to exit G3
+26-02-10 06:45:23.108 I: power state 8 = S5S4, in 0x30087
+26-02-10 06:45:23.110 I: power state 3 = S4, in 0x38087
+26-02-10 06:45:23.113 I: power state 9 = S4S3, in 0x38087
+26-02-10 06:45:23.116 [28.01830I: host sleep event = 0
+26-02-10 06:45:23.119 I: power state 4 = S3, in 0x38087
+26-02-10 06:45:23.127 I: power state 10 = S3S0, in 0x38087
+26-02-10 06:45:23.128 0 PD:S5->S3]
+26-02-10 06:45:23.128 ec:> [28.027300 Motion prI: power state 6 = S0, in 0x38087
+26-02-10 06:45:23.132 I: Reaching S0
+26-02-10 06:45:23.135 e-resume; loops 586; last 4057 ms ago; a=0x7, s=0x0]
+26-02-10 06:45:23.137 ec:> [28.031600 PD:S3->S0]
+26-02-10 06:45:23.140 ec:> [28.045500 lid-accel: MS Done Init type:0x0 range:2]
+26-02-10 06:45:23.147 ec:I: Turning on PWR_EC_PCH_SYS_PWROK
+26-02-10 06:45:23.152 I: power state 6 = S0, in 0x38d87
+26-02-10 06:45:23.154 > [28.047500 SENSOR accelgyro_lsm6dsm WHO_AM_I value: 0x6a]
+26-02-10 06:45:23.160 ec:> [28.058900 base-accel: MS Done Init type:0x0 range:4]
+26-02-10 06:45:23.165 ec:> [28.060500 SENSOR accelgyro_lsm6dsm WHO_AM_I value: 0x6a]
+26-02-10 06:45:23.171 ec:> [28.065300 base-gyro: MS Done Init type:0x1 range:1146]
+26-02-10 06:45:23.176 ec:> [28.070100 C0: VCONN Swap counter exhausted]
+26-02-10 06:45:23.182 ec:> [28.073400 lid-accel ODR: 10000  - roundup 1 from config 1 [AP 0]: 0]
+26-02-10 06:45:23.190 ec:> [28.085300 base-accel ODR: 10000  - roundup 1 from config 1 [AP 0]: 0]
+26-02-10 06:45:23.198 ec:> [28.091800 base-gyro ODR: 0  - roundup 0 from config 0 [AP 0]: 0]
+26-02-10 06:45:23.203 ec:> [28.118400 C1: Exit Low Power Mode]
+26-02-10 06:45:23.218 ec:> [28.127800 C1: TCPC init ready]
+26-02-10 06:45:23.227 ec:> [28.145400 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:23.245 ec:> [28.219200 C1: TCPC init ready]
+26-02-10 06:45:23.318 ec:> [28.320600 C1: Exit Low Power Mode]
+26-02-10 06:45:23.419 ec:> I: power state 6 = S0, in 0x36da7
+26-02-10 06:45:28.097 I: power state 15 = S0S3, in 0x360a7
+26-02-10 06:45:28.100 [33.022700 Motion pre-suspend; loops 714; last 7 I: host sleep event = 0
+26-02-10 06:45:28.104 I: power state 4 = S3, in 0x360a7
+26-02-10 06:45:28.107 I: power state 14 = S3S4, in 0x360a7
+26-02-10 06:45:28.112 I: power state 3 = S4, in 0x360a7
+26-02-10 06:45:28.115 I: power state 13 = S4S5, in 0x360a7
+26-02-10 06:45:28.118 ms ago; a=0x7, s=0x333]
+26-02-10 06:45:28.121 ec:> [33.027600 PD:S0->S3]
+26-02-10 06:45:28.122 ec:> [33.049300 Motion pre-shutdown; loops 714; last 33 ms ago; a=0x7, s=0x333]
+26-02-10 06:45:28.131 ec:> [33.052200 PD:S3->S5]
+26-02-10 06:45:28.141 ec:> : Failed to map thread to task: thread_id=DReboot at sh0x200c1utdown: 4
+26-02-10 06:45:28.149 e080, c:> name=pwrseq_task
+26-02-10 06:45:28.157 E: Failed to map thread to task: thread_id=0x200c1080, name=pwrseq_task
+26-02-10 06:45:28.169 [33.092400 Disabling all charger ports]
+26-02-10 06:45:28.171 ec:> [33.106800 CL: p-1 s-1 i512 v0]
+26-02-10 06:45:28.185 ec:> [33.110300 can't read any temp sensors!]
+26-02-10 06:45:28.188 ec:> 
+26-02-10 06:45:28.437 ec:> *** Booting Zephyr OS build 3.7.99 ***
+26-02-10 06:45:28.446 I: Pwrseq Init
+26-02-10 06:45:28.452 
+26-02-10 06:45:28.452 ec:> 
+26-02-10 06:45:28.452 --- UART initialized after reboot ---
+26-02-10 06:45:28.455 ec:> [Image: RO, pujjogatwin-15217.882.0 STATIC_VERSION_DATE reproducible@build]
+26-02-10 06:45:28.463 ec:> [Reset cause: ec:> hardec:> ]
+26-02-10 06:45:28.468 ec:> [0.026700 KB Custom=0 Keypad=0 Vivaldi=1]
+26-02-10 06:45:28.474 ec:> [0.030600 KB WARN: Debounce durations not equal]
+26-02-10 06:45:28.479 ec:> [0.037700 init buttons]
+26-02-10 06:45:28.482 ec:> [0.038800 boot buttons: 0x0]
+26-02-10 06:45:28.485 ec:> [0.042800 VB Main]
+26-02-10 06:45:28.488 ec:> [0.045600 VB Ping Cr50]
+26-02-10 06:45:28.493 ec:> [0.051100 hash start 0x00040000 0x00040000]
+26-02-10 06:45:28.496 ec:> [0.450000 hash done c7b1151642f6dc32cb18d39b41930ca1b49e51290beca1f69fc66b2e4a5918eb]
+26-02-10 06:45:28.888 ec:> [0.450300 VB Verifying hash]
+26-02-10 06:45:28.893 ec:> 
+26-02-10 06:45:28.904 ec:> [0.473300 VB Received 0xec07]
+26-02-10 06:45:28.907 ec:> [0.473900 VB Hash mismatch]
+26-02-10 06:45:28.910 ec:> [0.474600 I: SB: HDMI, USB type A
+26-02-10 06:45:28.916 VB Enable USB-PD]
+26-02-10 06:45:28.916 ec:> [0.475200 VB Exit]
+26-02-10 06:45:28.918 ec:> [0.475800 CBI Reading board info]
+26-02-10 06:45:28.924 ec:> [0.490000 BCFG Battery says COSMX,L24X3PG2]
+26-02-10 06:45:28.930 ec:> [0.490900 BCFG Found config_fw[2]]
+26-02-10 06:45:28.933 ec:> [0.518800 SW 0x05]
+26-02-10 06:45:28.951 ec:> [0.545200 Sustainer disabled]
+26-02-10 06:45:28.980 ec:> [0.546100 Motion pre-shutdown; loops 0; last 546 ms ago; a=0x7, s=0x0]
+26-02-10 06:45:28.985 ec:> [0.I: power state 1 = G3, in 0x0078
+26-02-10 06:45:28.990 547200 PB init-on]
+26-02-10 06:45:28.993 ec:> [0.548100 mkbp switches: 1]
+26-02-10 06:45:28.996 ec:> [0.553200 Inits done]
+26-02-10 06:45:28.998 ec:> [0.554800 pd_shared_alert_task: port mask 0x03]
+26-02-10 06:45:29.004 ec:> [0.555600 C1: PD comm policy enabled]
+26-02-10 06:45:29.009 ec:> [0.556200 C0: PD comm policy enabled]
+26-02-10 06:45:29.012 ec:> [0.556400 KB init state:ec:> [0.576600 C1: TCPC init ready]
+26-02-10 06:45:29.020 ec:> [0.556500 PB task 8 = init-on]
+26-02-10 06:45:29.023 ec:> [0.589700 ppc p1 init'd.]
+26-02-10 06:45:29.025 ec:>  --ec:> [0.594700 C0: NO_DEBUG_ACC_CONTROL]
+26-02-10 06:45:29.031 ec:>  --ec:> [0.598000 C0: TCPC init ready]
+26-02-10 06:45:29.036 ec:>  --ec:>  --ec:>  --ec:> [0.607800 ppc p0 init'd.]
+26-02-10 06:45:29.044 ec:> I: Request start from G3
+26-02-10 06:45:29.047 I: Starting from G3, delay 0 ms
+26-02-10 06:45:29.050  --ec:>  --ec:>  --ec:> I: power state 7 = G3S5, in 0x0078
+26-02-10 06:45:29.058  --ec:>  --ec:>  --ec:>  --ec:>  --ec:> ]
+26-02-10 06:45:29.066 ec:> [0.621800 PB PCH pwrbtn=LOW]
+26-02-10 06:45:29.069 ec:> [0.628900 PB task 9 = recovery, wait 200000]
+26-02-10 06:45:29.074 ec:> [0.642000 Battery presence changed: -1->1 0x0->0x2]
+26-02-10 06:45:29.080 ec:> [0.643400 Battery now present]
+26-02-10 06:45:29.082 ec:> [0.650600 BCFG Battery says COSMX,L24X3PG2]
+26-02-10 06:45:29.088 ec:> [0.651400 BCFG Found config_fw[2]]
+26-02-10 06:45:29.092 ec:> E: Unhandled HDMI power evenE: Bus error occurred on i2c port00!
+26-02-10 06:45:29.173 t 1
+26-02-10 06:45:29.173 I: power state 2 = S5, in 0x100af
+26-02-10 06:45:29.185 I: power state 2 = S5, in 0x300a7
+26-02-10 06:45:29.189 I: power state 2 = S5, in 0x360a7
+26-02-10 06:45:29.265 [0.834500 PB task 9 = recovery]
+26-02-10 06:45:29.267 ec:> [0.835300 PB PCH pwrbtn=HIGH]
+26-02-10 06:45:29.270 ec:> [0.835900 PB task 0 = idle, wait -1]
+26-02-10 06:45:29.274 ec:> [0.882200 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:29.314 ec:> I: power state 2 = S5, in 0x300a7
+26-02-10 06:45:29.351 I: Clearing request to exit G3
+26-02-10 06:45:29.353 I: power state 8 = S5S4, in 0x30087
+26-02-10 06:45:29.356 I: power state 3 = S4, in 0x38087
+26-02-10 06:45:29.359 I: power state 9 = S4S3, in 0x38087
+26-02-10 06:45:29.362 [0.933200 PD:SI: host sleep event = 0
+26-02-10 06:45:29.365 I: power state 4 = S3, in 0x38087
+26-02-10 06:45:29.370 I: power state 10 = S3S0, in 0x38087
+26-02-10 06:45:29.373 5->S3]
+26-02-10 06:45:29.373 ec:> [0.942500 Motion pre-resume; loops 2; last 197 ms ago; a=0xI: power state 6 = S0, in 0x38087
+26-02-10 06:45:29.381 I: Reaching S0
+26-02-10 06:45:29.384 7, s=0x0]
+26-02-10 06:45:29.384 ec:> [0.949200 PD:S3->S0]
+26-02-10 06:45:29.386 ec:> [0.960700 lid-accel: MS Done Init type:0x0 range:2]
+26-02-10 06:45:29.393 ec:> [0.962900 SENSOR accelgyro_lsmI: Turning on PWR_EC_PCH_SYS_PWROK
+26-02-10 06:45:29.401 I: power state 6 = S0, in 0x38d87
+26-02-10 06:45:29.404 6dsm WHO_AM_I value: 0x6a]
+26-02-10 06:45:29.407 ec:> [0.966800 base-accel: MS Done Init type:0x0 range:4]
+26-02-10 06:45:29.412 ec:> [0.974700 SENSOR accelgyro_lsm6dsm WHO_AM_I value: 0x6a]
+26-02-10 06:45:29.417 ec:> [0.980300 base-gyro: MS Done Init type:0x1 range:1146]
+26-02-10 06:45:29.423 ec:> [0.989200 lid-accel ODR: 10000  - roundup 1 from config 1 [AP 0]: 0]
+26-02-10 06:45:29.431 ec:> [0.994600 base-accel ODR: 10000  - roundup 1 from config 1 [AP 0]: 0]
+26-02-10 06:45:29.439 ec:> [1.001000 base-gyro ODR: 0  - roundup 0 from config 0 [AP 0]: 0]
+26-02-10 06:45:29.447 ec:> [1.026800 C0: Debug accessory detected]
+26-02-10 06:45:29.460 ec:> [1.033000 C1: Exit Low Power Mode]
+26-02-10 06:45:29.464 ec:> [1.042200 C1: TCPC init ready]
+26-02-10 06:45:29.473 ec:> [1.035100 New charge port: C0]
+26-02-10 06:45:29.477 ec:> [1.051200 CL: p0 s2 i500 v5000]
+26-02-10 06:45:29.482 ec:> [1.098300 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:29.530 ec:> C0: Req [3] 15000mV 3000mAec:> 
+26-02-10 06:45:29.572 ec:> [1.153500 New charge port: C0]
+26-02-10 06:45:29.587 ec:> [1.154900 charge_manager_leave_safe_mode()]
+26-02-10 06:45:29.590 ec:> [1.160200 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:29.595 ec:> [1.176000 C1: TCPC init ready]
+26-02-10 06:45:29.607 ec:> [1.181900 CL: p0 s0 i166 v15000]
+26-02-10 06:45:29.612 ec:> [1.196600 Battery 97% (Display 99.7 %) / 928h:25 to empty, not accepting current]
+26-02-10 06:45:29.632 ec:> [1.234300 Battery 97% (Display 99.7 %) / 928h:25 to empty, not accepting current]
+26-02-10 06:45:29.669 ec:> [1.239100 charge_request(13200mV, 0mA)]
+26-02-10 06:45:29.674 ec:> [1.277600 C1: Exit Low Power Mode]
+26-02-10 06:45:29.708 ec:> [1.552200 MKBP not cleared within threshold, toggling.]
+26-02-10 06:45:29.983 ec:> [1.635100 CL: p0 s0 i3000 v15000]
+26-02-10 06:45:30.064 ec:> C0: Req [3] 15000mV 3000mAec:> 
+26-02-10 06:45:30.231 ec:> [1.813500 CL: p0 s0 i166 v15000 (forced)]
+26-02-10 06:45:30.242 ec:> [1.993700 CL: p0 s0 i3000 v15000]
+26-02-10 06:45:30.431 ec:> Unhandled DPM Request 0 received
+26-02-10 06:45:30.433 ec:> I: power state 6 = S0, in 0x36da7
+26-02-10 06:45:30.455 I: power state 15 = S0S3, in 0x360a7
+26-02-10 06:45:30.474 [2.049300 C0: VCONN Swap counter exhausted]
+26-02-10 06:45:30.477 ec:> [2.041600 Motion pre-suspend; loops 29; last 39 ms ago; a=0x7, s=0x333]
+26-02-10 06:45:30.484 ec:> [2.064900 PD:S0-I: host sleep event = 0
+26-02-10 06:45:30.501 I: power state 4 = S3, in 0x360a7
+26-02-10 06:45:30.504 I: power state 14 = S3S4, in 0x360a7
+26-02-10 06:45:30.506 I: power state 3 = S4, in 0x360a7
+26-02-10 06:45:30.511 I: power state 13 = S4S5, in 0x360a7
+26-02-10 06:45:30.512 >S3]
+26-02-10 06:45:30.513 ec:> [2.091400 Motion pre-shutdown; loops 30; last 29 ms ago; a=0x7, s=0x333]
+26-02-10 06:45:30.524 ec:> [2.093300 PD:S3-I: power state 2 = S5, in 0x360a7
+26-02-10 06:45:30.535 >S5]
+26-02-10 06:45:30.535 ec:> [2.143800 charge problem: chg params, 0x0 -> 0x2 after 2.143800s]
+26-02-10 06:45:30.574 ec:> [2.155200 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:30.582 ec:> C0: Req [3] 15000mV 3000mAec:> 
+26-02-10 06:45:30.906 ec:> [2.491000 CL: p0 s0 i166 v15000 (forced)]
+26-02-10 06:45:30.917 ec:> [2.499800 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:30.926 ec:> [2.553500 MKBP: The AP is failing to respond because it is sleeping or off]
+26-02-10 06:45:30.982 ec:> [2.669800 CL: p0 s0 i3000 v15000]
+26-02-10 06:45:31.094 ec:> [2.677800 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:31.102 ec:> [3.238700 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:31.661 ec:> I: power state 2 = S5, in 0x300a7
+26-02-10 06:45:34.573 I: Clearing request to exit G3
+26-02-10 06:45:34.576 I: power state 8 = S5S4, in 0x30087
+26-02-10 06:45:34.579 I: power state 3 = S4, in 0x38087
+26-02-10 06:45:34.581 I: power state 9 = S4S3, in 0x38087
+26-02-10 06:45:34.584 [6.178900 PD:I: host sleep event = 0
+26-02-10 06:45:34.587 I: power state 4 = S3, in 0x38087
+26-02-10 06:45:34.591 I: power state 10 = S3S0, in 0x38087
+26-02-10 06:45:34.595 S5->S3]
+26-02-10 06:45:34.595 ec:> [6.188000 Motion pre-resume; loops 32; last 4063 ms ago; aI: power state 6 = S0, in 0x38087
+26-02-10 06:45:34.602 I: Reaching S0
+26-02-10 06:45:34.605 =0x7, s=0x0]
+26-02-10 06:45:34.605 ec:> [6.194300 PD:S3->S0]
+26-02-10 06:45:34.608 ec:> [6.208400 lid-accel: MS Done Init type:0x0 range:2]
+26-02-10 06:45:34.617 ec:> : Turning on PWR_EC_PCH_SYS_PWROK
+26-02-10 06:45:34.623 I: power state 6 = S0, in 0x38d87
+26-02-10 06:45:34.634 [J[6.210100 SENSOR accelgyro_lsm6dsm WHO_AM_I value: 0x6a]
+26-02-10 06:45:34.635 ec:> [6.221700 base-accel: MS Done Init type:0x0 range:4]
+26-02-10 06:45:34.636 ec:> [6.223500 SENSOR accelgyro_lsm6dsm WHO_AM_I value: 0x6a]
+26-02-10 06:45:34.642 ec:> [6.228400 base-gyro: MS Done Init type:0x1 range:1146]
+26-02-10 06:45:34.647 ec:> [6.229800 C0: VCONN Swap counter exhausted]
+26-02-10 06:45:34.652 ec:> [6.235800 lid-accel ODR: 10000  - roundup 1 from config 1 [AP 0]: 0]
+26-02-10 06:45:34.660 ec:> [6.250100 base-accel ODR: 10000  - roundup 1 from config 1 [AP 0]: 0]
+26-02-10 06:45:34.666 ec:> [6.254300 base-gyro ODR: 0  - roundup 0 from config 0 [AP 0]: 0]
+26-02-10 06:45:34.673 ec:> [6.278700 C1: Exit Low Power Mode]
+26-02-10 06:45:34.686 ec:> [6.288500 C1: TCPC init ready]
+26-02-10 06:45:34.695 ec:> [6.344800 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:34.753 ec:> [6.420600 C1: TCPC init ready]
+26-02-10 06:45:34.827 ec:> [6.522000 C1: Exit Low Power Mode]
+26-02-10 06:45:34.929 ec:> [11.007200 hash invalidated 0x00040000 0x00040000]
+26-02-10 06:45:39.394 ec:> [11.008300 hash abort]
+26-02-10 06:45:39.398 ec:> 
+26-02-10 06:45:41.930 ec:> 
+26-02-10 06:45:42.076 ec:> 
+26-02-10 06:45:42.210 ec:> 
+26-02-10 06:45:42.352 ec:> 
+26-02-10 06:45:42.488 ec:> 
+26-02-10 06:45:42.630 ec:> ec sync
+26-02-10 06:45:46.327 ec: command not found
+26-02-10 06:45:46.327 ec:> [18.321000 hash start 0x00040000 0x00040000]
+26-02-10 06:45:46.676 ec:> 
+26-02-10 06:45:47.131 ec:> [18.809100 hash done 51f39c500a56d87f079f95a9bccfd97a55bc1dc5c32cdb0fa9b031164dfeeda6]
+26-02-10 06:45:47.165 ec:> 
+26-02-10 06:45:47.301 ec:> I: power state 6 = S0, in 0x36da7
+26-02-10 06:45:47.400 I: power state 15 = S0S3, in 0x360a7
+26-02-10 06:45:47.404 [19.054900 Motion pre-suspend; loops 344; last 20 ms ago; a=0x7,I: host sleep event = 0
+26-02-10 06:45:47.413 I: power state 4 = S3, in 0x360a7
+26-02-10 06:45:47.415 I: power state 14 = S3S4, in 0x360a7
+26-02-10 06:45:47.418 I: power state 3 = S4, in 0x360a7
+26-02-10 06:45:47.421 I: power state 13 = S4S5, in 0x360a7
+26-02-10 06:45:47.423  s=0x333]
+26-02-10 06:45:47.423 ec:> [19.059200 PD:S0->S3]
+26-02-10 06:45:47.427 ec:> [19.080800 Motion pre-shutdown; loops 344; last 46 ms ago; a=0x7, s=0x333]
+26-02-10 06:45:47.435 ec:> [19.082800 PD:S3->S5]
+26-02-10 06:45:47.446 ec:> Reboot at shutdown: 4
+26-02-10 06:45:47.449 ec:> 
+26-02-10 06:45:47.461 ec:> [19.117200 Disabling all charger ports]
+26-02-10 06:45:47.468 ec:> [19.146000 CL: p-1 s-1 i512 v0]
+26-02-10 06:45:47.503 ec:> 
+26-02-10 06:45:47.926 ec:> *** Booting Zephyr OS build 3.7.99 ***
+26-02-10 06:45:47.940 I: Pwrseq Init
+26-02-10 06:45:47.940 
+26-02-10 06:45:47.940 ec:> 
+26-02-10 06:45:47.940 --- UART initialized after reboot ---
+26-02-10 06:45:47.944 ec:> [Image: RO, pujjogatwin-15217.882.0 STATIC_VERSION_DATE reproducible@build]
+26-02-10 06:45:47.952 ec:> [Reset cause: ec:> hardec:> ]
+26-02-10 06:45:47.957 ec:> [0.026700 KB Custom=0 Keypad=0 Vivaldi=1]
+26-02-10 06:45:47.962 ec:> [0.030600 KB WARN: Debounce durations not equal]
+26-02-10 06:45:47.968 ec:> [0.037700 init buttons]
+26-02-10 06:45:47.970 ec:> [0.038800 boot buttons: 0x0]
+26-02-10 06:45:47.973 ec:> [0.042800 VB Main]
+26-02-10 06:45:47.976 ec:> [0.045600 VB Ping Cr50]
+26-02-10 06:45:47.981 ec:> [0.051100 hash start 0x00040000 0x00040000]
+26-02-10 06:45:47.984 ec:> [0.450000 hash done 51f39c500a56d87f079f95a9bccfd97a55bc1dc5c32cdb0fa9b031164dfeeda6]
+26-02-10 06:45:48.377 ec:> [0.450300 VB Verifying hash]
+26-02-10 06:45:48.382 ec:> 
+26-02-10 06:45:48.502 ec:> *** Booting Zephyr OS build 3.7.99 ***
+26-02-10 06:45:48.511 I: Pwrseq Init
+26-02-10 06:45:48.517 
+26-02-10 06:45:48.517 ec:> 
+26-02-10 06:45:48.517 --- UART initialized after reboot ---
+26-02-10 06:45:48.520 ec:> [Image: RO, pujjogatwin-15217.882.0 STATIC_VERSION_DATE reproducible@build]
+26-02-10 06:45:48.529 ec:> [Reset cause: ec:> reset-pinec:> ]
+26-02-10 06:45:48.533 ec:> [0.027700 KB Custom=0 Keypad=0 Vivaldi=1]
+26-02-10 06:45:48.539 ec:> [0.030600 KB WARN: Debounce durations not equal]
+26-02-10 06:45:48.545 ec:> [0.037700 KB boot keys: 0x0]
+26-02-10 06:45:48.548 ec:> [0.040100 init buttons]
+26-02-10 06:45:48.554 ec:> [0.042900 boot buttons: 0x0]
+26-02-10 06:45:48.555 ec:> [0.046900 VB Main]
+26-02-10 06:45:48.558 ec:> [0.049600 VB Ping Cr50]
+26-02-10 06:45:48.561 ec:> [0.055200 hash start 0x00040000 0x00040000]
+26-02-10 06:45:48.566 ec:> [0.454100 hash done 51f39c500a56d87f079f95a9bccfd97a55bc1dc5c32cdb0fa9b031164dfeeda6]
+26-02-10 06:45:48.957 ec:> [0.454300 VB Verifying hash]
+26-02-10 06:45:48.962 ec:> 
+26-02-10 06:45:48.974 ec:> [0.477300 VB Received 0xec00]
+26-02-10 06:45:48.976 ec:> [0.479200 Jumping to image RW (0x00100002)]
+26-02-10 06:45:48.981 ec:> 
+26-02-10 06:45:49.024 ec:> *** Booting Zephyr OS build 3.7.99 ***
+26-02-10 06:45:49.033 I: Pwrseq Init
+26-02-10 06:45:49.042 
+26-02-10 06:45:49.042 ec:> [0.017900 UART initialized after sysjump]
+26-02-10 06:45:49.045 ec:> [Image: RW, pujjogatwin-15217.1160.0 STATIC_VERSION_DATE reproducible@build]
+26-02-10 06:45:49.051 ec:> [Reset cause: ec:> reset-pinec:>  ec:> sysjumpec:>  ec:> efsec:> ]
+26-02-10 06:45:49.061 ec:> [0.096400 KB Custom=0 Keypad=0 Vivaldi=1]
+26-02-10 06:45:49.121 ec:> [0.097300 KB WARN: Debounce durations not equal]
+26-02-10 06:45:49.127 ec:> [0.099800 KB boot keys: 0x0]
+26-02-10 06:45:49.129 ec:> [0.100400 init buttons]
+26-02-10 06:45:49.135 ec:> [0.103000 boot buttons: 0x0]
+26-02-10 06:45:49.138 ec:> [0.105500 VB Main]
+26-02-10 06:45:49.140 ec:> [0.108200 VB Already in RWI: SB: HDMI, USB type A
+26-02-10 06:45:49.146 ]
+26-02-10 06:45:49.146 ec:> [0.112300 VB show_power_shortage]
+26-02-10 06:45:49.151 ec:> [0.116500 CBI Reading board info]
+26-02-10 06:45:49.154 ec:> [0.129300 BCFG Battery says COSMX,L24X3PG2]
+26-02-10 06:45:49.159 ec:> [0.130100 BCFG Found config_fw[2]]
+26-02-10 06:45:49.162 ec:> [0.158500 SW 0x05]
+26-02-10 06:45:49.180 ec:> [0.159400 hash start 0x00040000 0x00040000]
+26-02-10 06:45:49.186 ec:> [0.182200 Sustainer disabled]
+26-02-10 06:45:49.206 ec:> [0.182300 Motion pre-shutdown; loops 0; last 182 ms ago; a=0x7, s=0x0]
+26-02-10 06:45:49.212 ec:> I: power state 1 = G3, in 0x0078
+26-02-10 06:45:49.217 [0.182500 PB init-on]
+26-02-10 06:45:49.221 ec:> [0.185300 mkbp switches: 1]
+26-02-10 06:45:49.223 ec:> [0.188200 Inits done]
+26-02-10 06:45:49.225 ec:> [0.191800 pd_shared_alert_task: port mask 0x03]
+26-02-10 06:45:49.231 ec:> [0.192000 C1: PD comm policy enabled]
+26-02-10 06:45:49.237 ec:> [0.192100 C0: PD comm policy enabled]
+26-02-10 06:45:49.239 ec:> [0.207300 C1: TCPC init ready]
+26-02-10 06:45:49.246 ec:> [0.210800 C0: NO_DEBUG_ACC_CONTROL]
+26-02-10 06:45:49.247 ec:> [0.214800 ppc p1 init'd.]
+26-02-10 06:45:49.250 ec:> [0.217600 C0: TCPC init ready]
+26-02-10 06:45:49.255 ec:> [0.192100 KB init state:ec:>I: Request start from G3
+26-02-10 06:45:49.261 I: Starting from G3, delay 0 ms
+26-02-10 06:45:49.263  [0.22560I: power state 7 = G3S5, in 0x0078
+26-02-10 06:45:49.269 0 ppc p0 init'd.]
+26-02-10 06:45:49.269 ec:>  --ec:> [0.192100 PB task 8 = init-on]
+26-02-10 06:45:49.275 ec:>  --ec:> [0.220700 Battery presence changed: -1->1 0x0->0x2]
+26-02-10 06:45:49.283 ec:>  --ec:> [0.241300 PB PCH pwrbtn=LOW]
+26-02-10 06:45:49.285 ec:>  --ec:> [0.256100 PB task 9 = recovery, wait 200000]
+26-02-10 06:45:49.294 ec:>  --ec:> [0.250700 Battery now present]
+26-02-10 06:45:49.303 ec:>  --ec:>  --ec:>  --ec:>  --ec:>  --ec:> [0.273100 BCFG Battery says COSMX,L24X3PG2]
+26-02-10 06:45:49.310 ec:>  --ec:> [0.279300 BCFG Found config_fw[2]]
+26-02-10 06:45:49.315 ec:>  --ec:>  --ec:> ]
+26-02-10 06:45:49.319 ec:> E: Unhandled HDMI power event 1
+26-02-10 06:45:49.380 I: power state 2 = S5, in 0x100ab
+26-02-10 06:45:49.391 I: power state 2 = S5, in 0x300a7
+26-02-10 06:45:49.394 I: power state 2 = S5, in 0x360a7
+26-02-10 06:45:49.483 [0.461800 PB task 9 = recovery]
+26-02-10 06:45:49.485 ec:> [0.462000 PB PCH pwrbtn=HIGH]
+26-02-10 06:45:49.488 ec:> [0.462100 PB task 0 = idle, wait -1]
+26-02-10 06:45:49.492 ec:> [0.505300 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:49.528 ec:> I: power state 2 = S5, in 0x320a7
+26-02-10 06:45:49.556 I: Clearing request to exit G3
+26-02-10 06:45:49.559 I: power state 8 = S5S4, in 0x30087
+26-02-10 06:45:49.561 I: power state 3 = S4, in 0x38087
+26-02-10 06:45:49.564 I: power state 9 = S4S3, in 0x38087
+26-02-10 06:45:49.567 I: host sleep event = 0
+26-02-10 06:45:49.569 I: power state 4 = S3, in 0x38087
+26-02-10 06:45:49.572 I: power state 10 = S3S0, in 0x38087
+26-02-10 06:45:49.575 [0.546900 PD:S5->S3]
+26-02-10 06:45:49.578 ec:> [0.555I: power state 6 = S0, in 0x38087
+26-02-10 06:45:49.583 I: Reaching S0
+26-02-10 06:45:49.583 100 Motion pre-resume; loops 2; last 195 ms ago; a=0x7, s=0x0]
+26-02-10 06:45:49.589 ec:> [0.559500 PD:S3->S0]
+26-02-10 06:45:49.591 ec:> [0.565300 lid-accel: MS Done Init type:0x0 range:2]
+26-02-10 06:45:49.596 eI: Turning on PWR_EC_PCH_SYS_PWROK
+26-02-10 06:45:49.599 I: power state 6 = S0, in 0x38d87
+26-02-10 06:45:49.605 c:> [0.568400 SENSOR accelgyro_lsm6dsm WHO_AM_I value: 0x6a]
+26-02-10 06:45:49.610 ec:> [0.574900 base-accel: MS Done Init type:0x0 range:4]
+26-02-10 06:45:49.616 ec:> [0.585300 SENSOR accelgyro_lsm6dsm WHO_AM_I value: 0x6a]
+26-02-10 06:45:49.621 ec:> [0.592300 base-gyro: MS Done Init type:0x1 range:1146]
+26-02-10 06:45:49.627 ec:> [0.598600 lid-accel ODR: 10000  - roundup 1 from config 1 [AP 0]: 0]
+26-02-10 06:45:49.635 ec:> [0.605000 base-accel ODR: 10000  - roundup 1 from config 1 [AP 0]: 0]
+26-02-10 06:45:49.640 ec:> [0.613100 base-gyro ODR: 0  - roundup 0 from config 0 [AP 0]: 0]
+26-02-10 06:45:49.647 ec:> [0.641900 C0: Debug accessory detected]
+26-02-10 06:45:49.664 ec:> [0.644000 New charge port: C0]
+26-02-10 06:45:49.667 ec:> [0.645100 CL: p0 s2 i500 v5000]
+26-02-10 06:45:49.672 ec:> [0.646900 C1: Exit Low Power Mode]
+26-02-10 06:45:49.675 ec:> [0.650100 C1: TCPC init ready]
+26-02-10 06:45:49.679 ec:> [0.663500 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:49.685 ec:> [0.732300 C1: TCPC init ready]
+26-02-10 06:45:49.753 ec:> [0.743300 hash done 51f39c500a56d87f079f95a9bccfd97a55bc1dc5c32cdb0fa9b031164dfeeda6]
+26-02-10 06:45:49.768 ec:> C0: Req [3] 15000mV 3000mAec:> 
+26-02-10 06:45:49.779 ec:> [0.767900 New charge port: C0]
+26-02-10 06:45:49.790 ec:> [0.771400 CL: p0 s0 i3000 v15000]
+26-02-10 06:45:49.793 ec:> [0.787000 charge_manager_leave_safe_mode()]
+26-02-10 06:45:49.808 ec:> [0.792700 CL: p0 s0 i500 v15000]
+26-02-10 06:45:49.813 ec:> [0.812600 Battery 97% (Display 99.7 %) / 928h:25 to empty, not accepting current]
+26-02-10 06:45:49.838 ec:> [0.832800 C1: Exit Low Power Mode]
+26-02-10 06:45:49.854 ec:> [0.846900 Battery 97% (Display 99.7 %) / 928h:25 to empty, not accepting current]
+26-02-10 06:45:49.874 ec:> [0.852200 charge_request(13200mV, 0mA)]
+26-02-10 06:45:49.878 ec:> [1.188700 MKBP not cleared within threshold, toggling.]
+26-02-10 06:45:50.210 ec:> [1.253900 CL: p0 s0 i3000 v15000]
+26-02-10 06:45:50.273 ec:> I: power state 6 = S0, in 0x36da7
+26-02-10 06:45:50.396 I: power state 15 = S0S3, in 0x360a7
+26-02-10 06:45:50.400 [1.381900 Motion pre-suspend; loops 23; I: host sleep event = 0
+26-02-10 06:45:50.404 I: power state 4 = S3, in 0x360a7
+26-02-10 06:45:50.407 I: power state 14 = S3S4, in 0x360a7
+26-02-10 06:45:50.409 I: power state 3 = S4, in 0x360a7
+26-02-10 06:45:50.412 I: power state 13 = S4S5, in 0x360a7
+26-02-10 06:45:50.417 last 6 ms ago; a=0x7, s=0x333]
+26-02-10 06:45:50.420 ec:> [1.384800 PD:S0->S3]
+26-02-10 06:45:50.421 ec:> [1.407800 Motion pre-shutdown; loops 23; last 32 ms ago; a=0x7, s=0x333]
+26-02-10 06:45:50.432 ec:> [1.410600 PD:S3-I: power state 2 = S5, in 0x360a7
+26-02-10 06:45:50.443 >S5]
+26-02-10 06:45:50.443 ec:> [1.468900 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:50.494 ec:> C0: Req [3] 15000mV 3000mAec:> 
+26-02-10 06:45:50.526 ec:> [1.508400 C0: pe_send_request_msg: Duplicate Request 15000 mV, 3000 mA]
+26-02-10 06:45:50.534 ec:> Unhandled DPM Request 0 received
+26-02-10 06:45:50.537 ec:> [1.527000 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:50.547 ec:> [1.552600 C0: VCONN Swap counter exhausted]
+26-02-10 06:45:50.571 ec:> [1.582900 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:50.601 ec:> C0: Req [3] 15000mV 3000mAec:> 
+26-02-10 06:45:50.819 ec:> [1.809500 CL: p0 s0 i166 v15000 (forced)]
+26-02-10 06:45:50.827 ec:> [1.819300 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:50.837 ec:> [1.989700 CL: p0 s0 i3000 v15000]
+26-02-10 06:45:51.006 ec:> [1.997900 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:51.014 ec:> [2.190400 MKBP: The AP is failing to respond because it is sleeping or off]
+26-02-10 06:45:51.211 ec:> [2.558200 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:51.572 ec:> I: power state 2 = S5, in 0x300a7
+26-02-10 06:45:54.525 I: Clearing request to exit G3
+26-02-10 06:45:54.529 I: power state 8 = S5S4, in 0x30087
+26-02-10 06:45:54.533 I: power state 3 = S4, in 0x38087
+26-02-10 06:45:54.533 I: power state 9 = S4S3, in 0x38087
+26-02-10 06:45:54.535 [5.543600I: host sleep event = 0
+26-02-10 06:45:54.538 I: power state 4 = S3, in 0x38087
+26-02-10 06:45:54.541 I: power state 10 = S3S0, in 0x38087
+26-02-10 06:45:54.547  PD:S5->S3]
+26-02-10 06:45:54.547 ec:> [5.552600 Motion pre-rI: power state 6 = S0, in 0x38087
+26-02-10 06:45:54.552 I: Reaching S0
+26-02-10 06:45:54.554 esume; loops 26; last 4061 ms ago; a=0x7, s=0x0]
+26-02-10 06:45:54.557 ec:> [5.556700 PD:S3->S0]
+26-02-10 06:45:54.560 ec:> [5.570200 lid-accel: MS Done Init type:0x0 range:2]
+26-02-10 06:45:54.566 ec:> : Turning on PWR_EC_PCH_SYS_PWROK
+26-02-10 06:45:54.571 I: power state 6 = S0, in 0x38d87
+26-02-10 06:45:54.574 [J[5.572000 SENSOR accelgyro_lsm6dsm WHO_AM_I value: 0x6a]
+26-02-10 06:45:54.579 ec:> [5.583000 base-accel: MS Done Init type:0x0 range:4]
+26-02-10 06:45:54.584 ec:> [5.584700 SENSOR accelgyro_lsm6dsm WHO_AM_I value: 0x6a]
+26-02-10 06:45:54.590 ec:> [5.589600 base-gyro: MS Done Init type:0x1 range:1146]
+26-02-10 06:45:54.595 ec:> [5.595500 C0: VCONN Swap counter exhausted]
+26-02-10 06:45:54.601 ec:> [5.597900 lid-accel ODR: 10000  - roundup 1 from config 1 [AP 0]: 0]
+26-02-10 06:45:54.609 ec:> [5.609800 base-accel ODR: 10000  - roundup 1 from config 1 [AP 0]: 0]
+26-02-10 06:45:54.614 ec:> [5.615200 base-gyro ODR: 0  - roundup 0 from config 0 [AP 0]: 0]
+26-02-10 06:45:54.621 ec:> [5.643700 C1: Exit Low Power Mode]
+26-02-10 06:45:54.637 ec:> [5.652800 C1: TCPC init ready]
+26-02-10 06:45:54.646 ec:> [5.669900 C1: TCPC Enter Low Power Mode]
+26-02-10 06:45:54.664 ec:> [5.743800 C1: TCPC init ready]
+26-02-10 06:45:54.737 ec:> [5.845200 C1: Exit Low Power Mode]
+26-02-10 06:45:54.841 ec:> [11.032600 Executing host reboot command 5]
+26-02-10 06:45:59.995 ec:> [11.033500 System is unlocked. Skip MPU configuration]
+26-02-10 06:46:00.001 ec:> [11.038200 System unlocked, TCPC I2C tunnels may be unprotected]
+26-02-10 06:46:00.007 ec:> [11.087600 KB Clear Buffer]
+26-02-10 06:46:00.050 ec:> [11.088900 KB enable]
+26-02-10 06:46:00.053 ec:> [11.089500 KS enable]
+26-02-10 06:46:00.056 ec:> [11.090000 KB Clear Buffer]
+26-02-10 06:46:00.058 ec:> [11.091900 KS disable]
+26-02-10 06:46:00.060 ec:> [11.092500 KB Clear Buffer]
+26-02-10 06:46:00.069 ec:> [11.098200 KB Clear Buffer]
+26-02-10 06:46:00.069 ec:> [11.101500 KB scancode set to 2]
+26-02-10 06:46:00.071 ec:> [11.122600 KB Clear Buffer]
+26-02-10 06:46:00.083 ec:> [11.141000 KS enable]
+26-02-10 06:46:00.100 ec:> [11.141700 KB Clear Buffer]
+26-02-10 06:46:00.104 ec:> [13.168300 KS disable]
+26-02-10 06:46:02.120 ec:> [13.170200 KB Clear Buffer]
+26-02-10 06:46:02.121 ec:> [13.171400 KB scancode set to 2]
+26-02-10 06:46:02.123 ec:> [13.172400 KB Clear Buffer]
+26-02-10 06:46:02.132 ec:> [13.173500 KB disable]
+26-02-10 06:46:02.132 ec:> [13.174700 KB Clear Buffer]
+26-02-10 06:46:02.134 ec:> [14.890200 KB Clear Buffer]
+26-02-10 06:46:03.830 ec:> [14.891300 KB Clear Buffer]
+26-02-10 06:46:03.833 ec:> [14.892400 KB IRQ enable]
+26-02-10 06:46:03.836 ec:> [14.893100 KB enable]
+26-02-10 06:46:03.838 ec:> [14.893700 KB Clear Buffer]
+26-02-10 06:46:03.844 ec:> [14.897700 KS I: host sleep event = 0
+26-02-10 06:46:03.846 enable]
+26-02-10 06:46:03.849 ec:> [14.898700 KB Clear Buffer]
+26-02-10 06:46:03.851 ec:> [16.599900 base-accel ODR: 10000  - roundup 1 from config 1 [AP 0]: 0]
+26-02-10 06:46:05.536 ec:> [16.608900 lid-accel ODR: 10000  - roundup 1 from config 1 [AP 0]: 0]
+26-02-10 06:46:05.543 ec:> [16.622900 base-gyro ODR: 0  - roundup 1 from config 0 [AP 0]: 0]
+26-02-10 06:46:05.557 ec:> [23.077400 base-gyro ODR: 0  - roundup 1 from config 0 [AP 0]: 0]
+26-02-10 06:46:11.984 ec:> 
+26-02-10 06:46:58.147 ec:> 
+26-02-10 06:46:58.392 ec:> 
+26-02-10 06:46:58.665 ec:> 
+26-02-10 06:46:58.819 ec:> 
+26-02-10 06:46:59.112 ec:> rw ec sync
